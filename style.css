@@ -1,0 +1,248 @@
+@font-face { font-family: bsc; src: url('statements/fonts/bsc.ttf'); }
+/*@import url(http://fonts.googleapis.com/css?family=Lato:400,900);*/
+
+/* TYPOGRAPHY */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1em;
+  color: #333;
+}
+
+p {
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
+}
+
+p.narrow {
+  max-width: 860px;
+  margin-left: 1.8em;
+  padding-left: 0;
+}
+
+h2 {
+  font-size: 1.25em;
+  line-height: 1em; /* 1.8 / 1.5 */
+  margin-bottom: 1.25em; /* TODO check this */
+}
+
+h3, h4 {
+  font-size: 1em;
+  line-height: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+ul, ol {
+  margin-bottom: 1.25em;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
+}
+
+/* LAYOUT */
+
+body {
+  /*max-width: 45em;*/
+  max-width: 930px;
+  margin: 2em auto;
+}
+
+#header {
+  padding: 1.25em;
+  text-align: center;
+  padding-bottom: 3.5em;
+}
+
+#main {
+  padding: 3em;
+  padding-top: 2.5em;
+  margin-top: -1.25em;
+}
+
+#nav a {
+  margin: 0 .5em;
+}
+
+/* STYLES */
+
+body {
+  font-family: 'Calibri', 'Arial', sans-serif;
+}
+
+#main {
+  background: #fff;
+  /*box-shadow: 0 0 .2em #aaa;*/
+}
+
+h1, h2, h3, h4 {
+  font-family: bsc, 'Calibri', sans-serif;
+}
+
+h1 {
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+#header {
+  border-top-left-radius: .67em;
+  border-top-right-radius: .67em;
+  /*box-shadow: 0 0 .2em #aaa;*/
+}
+
+#main {
+  /*border-radius: .333em;*/
+  border-radius: .67em;
+}
+
+.para_list {
+  padding-left: 0;
+  list-style-type: none;
+  text-align: justify;
+}
+
+.para_list .para_head {
+  font-weight: bold;
+}
+
+span.para_head {
+  font-weight: bold;
+  margin-right: .3em;
+}
+
+ol, ul {
+  padding-left: 1.8em;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 1.8em;
+}
+
+.mug {
+  margin: .333em 0 1.666em 3em;
+  outline: .1em solid #333;
+  overflow: hidden;
+}
+
+.title_link {
+  font-weight: bold;
+}
+
+
+a {
+  color: #245ab3;
+}
+
+ul.collapsed li {
+  margin-bottom: .75em;
+}
+
+ul.bulletless {
+  padding-left: 0;
+}
+
+ul.bulletless li {
+  list-style-type: none;
+}
+
+#nav a {
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  border-color: #bbb;
+}
+
+td {
+  padding: .2em;
+}
+
+/* NAV OPTIONS */
+
+#nav1 {
+  display: none;
+}
+
+#nav {
+  text-align: center;
+  background: #ddd;
+  display: block;
+  padding-bottom: 2.667em;
+  border-top-left-radius: .67em;
+  border-top-right-radius: .67em;
+  margin-top: -1em;
+  padding-top: 1.333em;
+  /*box-shadow: 0 0 .2em #999;*/
+}
+
+/* PUBS PAGE */
+
+.yearlinks {
+  display: table;
+  width: 100%;
+}
+
+.yearlinks h3 {
+  display: table-cell;
+}
+
+.yearlinks h3.earlier {
+  width: 7em;
+  text-align: right;
+}
+
+.yearheader {
+  float: left;
+}
+
+.paperlist {
+  margin-left: 4em;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.papertitle {
+  display: block;
+}
+
+.booktitle::before, .journal::before, .year::before {
+  content: ", ";
+}
+
+.paperlinks {
+  display: block;
+}
+
+.paperlinks a {
+  text-decoration: none;
+}
+
+.bibtex {
+  margin-top: 1em;
+  background: #eee;
+  font-size: .9em;
+  line-height: 1.2em;
+  overflow: auto;
+  border: 2px solid #ccc;
+  padding: .5em;
+}
+
+.bibtex pre {
+  margin-bottom: 1em;
+}

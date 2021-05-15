@@ -1,0 +1,38 @@
+%______________________________________________________________________________________________________________________
+\documentclass[11pt,resmargin,line]{resume}
+\newcommand{\pos}[3] {
+    \textbf{#1} \hfill #2 \hfill #3 \vspace{2mm} \\
+}
+\newcommand{\mailto}[1]{
+  \href{mailto:#1}{#1}
+}
+\newcommand{\pro}[2] {
+    \textsl{#1} \hfill #2\\
+}
+%\newsectionwidth{1.15in}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=false,
+  allbordercolors=[rgb]{1.0,1.0,1.0},
+}
+\usepackage{verbatim}
+\usepackage{tabularx}
+\usepackage{palatino}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{etaremune}
+%\usepackage[top=0.5in,bottom=0.5in,left=0.5in,right=1.75in]{geometry}
+\usepackage[top=0.7in,bottom=0.7in,left=0.7in,right=1.95in]{geometry}
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Daniel Fried}
+\begin{resume}
+
+\input{publication_list.tex}
+
+
+\end{resume}
+\end{document}
