@@ -93,22 +93,22 @@ p.narrow {
 h2 {
   font-size: 1.25em;
   line-height: 1em; 
-  margin-bottom: 1.25em; 
+  margin-bottom: .75em; 
 }
 
 h3, h4 {
   font-size: 1em;
   line-height: 1.25em;
-  margin-bottom: 1.25em;
+  margin-bottom: .5em;
 }
 
 ul, ol {
-  margin-bottom: 1.25em;
+  margin-bottom: 1em;
   list-style: none;
 }
 
 li {
-  margin-bottom: 1.25em;
+  margin-bottom: 1em;
   line-height: 1.25em;
 }
 
@@ -193,7 +193,7 @@ ol, ul {
 }
 
 li {
-  margin-bottom: 1.8em;
+  margin-bottom: 1.25em;
 }
 
 .mug {
