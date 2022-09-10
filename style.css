@@ -84,7 +84,7 @@ p {
   line-height: 1.25em;
 }
 
-p.narrow {
+.narrow {
   max-width: 860px;
   margin-left: 1.8em;
   padding-left: 0;
@@ -196,6 +196,7 @@ li {
   margin-bottom: 1.25em;
 }
 
+
 .mug {
   margin: .333em 0 1.666em 3em;
   outline: .1em solid #333;
@@ -213,7 +214,7 @@ a {
 }
 
 ul.collapsed li {
-  margin-bottom: .75em;
+  margin-bottom: .25em;
 }
 
 ul.bulletless {
@@ -241,6 +242,13 @@ table {
 
 td {
   padding: .2em;
+}
+
+table.news tr td:first-child {
+  width: 1%;
+  white-space: nowrap;
+  padding-right: 1em;
+  text-align: right;
 }
 
 /* NAV OPTIONS */
