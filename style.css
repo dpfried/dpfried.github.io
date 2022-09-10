@@ -80,8 +80,8 @@ body {
 }
 
 p {
-  margin-bottom: 1.25em;
-  line-height: 1.25em;
+  margin-bottom: .5em;
+  line-height: 1.2em;
 }
 
 .narrow {
@@ -148,17 +148,13 @@ body {
   /*box-shadow: 0 0 .2em #aaa;*/
 }
 
-/*
-h1, h2, h3, h4 {
-  font-family: bsc, 'Calibri', sans-serif;
+h2, h3, h4 {
+margin-top: .5em;
 }
-*/
 
 h1 {
-  line-height: 1em;
   margin-top: 0;
-  margin-bottom: 0;
-  font-weight: normal;
+  margin-bottom: .75em;
 }
 
 #header {
@@ -193,7 +189,7 @@ ol, ul {
 }
 
 li {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.05em;
 }
 
 
@@ -235,7 +231,7 @@ ul.bulletless li {
 }
 
 table {
-  margin: 1em 0;
+  margin: 0em 0;
   border-collapse: collapse;
   border-color: #bbb;
 }
