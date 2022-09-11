@@ -80,7 +80,7 @@ body {
 }
 
 p {
-  margin-bottom: .5em;
+  margin-bottom: 1em;
   line-height: 1.2em;
 }
 
@@ -191,7 +191,6 @@ ol, ul {
 li {
   margin-bottom: 1.05em;
 }
-
 
 .mug {
   margin: .333em 0 1.666em 3em;
