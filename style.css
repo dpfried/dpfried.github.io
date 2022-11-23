@@ -121,9 +121,14 @@ body {
 }
 
 #header {
-  padding: 1.25em;
+
+  padding-top: .25em;
+  padding-bottom: .25em;
+  /* 
+  border: 2px lightgray;
+  border-style: solid none;
   text-align: center;
-  padding-bottom: 3.5em;
+  */
 }
 
 #main {
@@ -154,12 +159,14 @@ margin-top: .5em;
 
 h1 {
   margin-top: 0;
-  margin-bottom: .75em;
+  margin-bottom: 0.5em;
 }
 
 #header {
+  /*
   border-top-left-radius: .67em;
   border-top-right-radius: .67em;
+  */
   /*box-shadow: 0 0 .2em #aaa;*/
 }
 
