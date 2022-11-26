@@ -199,8 +199,13 @@ li {
   margin-bottom: 1.05em;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mug {
-  margin: .333em 0 1.666em 3em;
   outline: .1em solid #333;
   overflow: hidden;
 }
@@ -213,6 +218,10 @@ li {
 a {
   color: #245ab3;
   text-decoration: none;
+}
+
+.selected {
+  text-decoration: underline;
 }
 
 ul.collapsed li {
