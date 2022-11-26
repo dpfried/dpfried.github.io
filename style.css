@@ -206,8 +206,10 @@ li {
 }
 
 .mug {
-  outline: .1em solid #333;
+  /* outline: .1em solid #333; */
   overflow: hidden;
+  border-radius: 8px;
+
 }
 
 .title_link {
