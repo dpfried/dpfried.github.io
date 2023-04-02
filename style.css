@@ -112,11 +112,34 @@ li {
   line-height: 1.25em;
 }
 
+/* research highlights */
+.highlights {
+  border-style: solid;
+  border-color: lightgrey; 
+  border-radius: 10px; /* 10px rounded corners */
+  padding: 10px; /* adds some padding inside the div */
+  margin-bottom: 1em;
+}
+
+.highlights p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.highlights ul {
+  margin-bottom: 0.5em;
+}
+
+.highlights ul li {
+  margin: 0em;
+}
+
+
 /* LAYOUT */
 
 body {
   /*max-width: 45em;*/
-  max-width: 930px;
+  max-width: 850px;
   margin: 2em auto;
 }
 
