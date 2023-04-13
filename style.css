@@ -134,6 +134,11 @@ li {
   margin: 0em;
 }
 
+.side-image {
+  width: 100%;
+  max-width: 500px;
+}
+
 
 /* LAYOUT */
 
