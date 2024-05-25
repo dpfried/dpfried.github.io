@@ -2,7 +2,8 @@ journal-papers:
   - title: "StarCoder: May the Source Be With You!"
     url: https://arxiv.org/abs/2305.06161
     authors: "Raymond Li et al. (68 authors from the BigCode Project)"
-    venue: Transactions on Machine Learning Research (TMLR), 
+    authors-long: "Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou, Marc Marone, Christopher Akiki, Jia Li, Jenny Chim, Qian Liu, Evgenii Zheltonozhskii, Terry Yue Zhuo, Thomas Wang, Olivier Dehaene, Mishig Davaadorj, Joel Lamy-Poirier, João Monteiro, Oleh Shliazhko, Nicolas Gontier, Nicholas Meade, Armel Zebaze, Ming-Ho Yee, Logesh Kumar Umapathi, Jian Zhu, Benjamin Lipkin, Muhtasham Oblokulov, Zhiruo Wang, Rudra Murthy, Jason Stillerman, Siva Sankalp Patel, Dmitry Abulkhanov, Marco Zocca, Manan Dey, Zhihan Zhang, Nour Fahmy, Urvashi Bhattacharyya, Wenhao Yu, Swayam Singh, Sasha Luccioni, Paulo Villegas, Maxim Kunakov, Fedor Zhdanov, Manuel Romero, Tony Lee, Nadav Timor, Jennifer Ding, Claire Schlesinger, Hailey Schoelkopf, Jan Ebert, Tri Dao, Mayank Mishra, Alex Gu, Jennifer Robinson, Carolyn Jane Anderson, Brendan Dolan-Gavitt, Danish Contractor, Siva Reddy, Daniel Fried, Dzmitry Bahdanau, Yacine Jernite, Carlos Muñoz Ferrandis, Sean Hughes, Thomas Wolf, Arjun Guha, Leandro von Werra, Harm de Vries"
+    venue: "Transactions on Machine Learning Research (TMLR)"
     year: 2023
 
   - title: "Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning"
@@ -14,7 +15,7 @@ journal-papers:
   - title: "Syntactic Structure Distillation Pretraining for Bidirectional Encoders"
     url: https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00345
     authors: "Adhiguna Kuncoro*, Lingpeng Kong*, Daniel Fried*, Dani Yogatama, Laura Rimell, Chris Dyer, and Phil Blunsom"
-    venue: Transactions of the Association for Computational Linguistics (TACL)
+    venue: "Transactions of the Association for Computational Linguistics (TACL)"
     year: 2020
 
   - title: "Higher-Order Lexical Semantic Models for Non-Factoid Answer Reranking"
