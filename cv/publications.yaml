@@ -1,12 +1,12 @@
 journal-papers:
-  - title: "StarCoder: May the Source Be With You!"
+  - title: "{StarCoder}: May the Source Be With You!"
     url: https://arxiv.org/abs/2305.06161
     authors: "Raymond Li et al. (68 authors from the BigCode Project)"
     authors-long: "Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou, Marc Marone, Christopher Akiki, Jia Li, Jenny Chim, Qian Liu, Evgenii Zheltonozhskii, Terry Yue Zhuo, Thomas Wang, Olivier Dehaene, Mishig Davaadorj, Joel Lamy-Poirier, João Monteiro, Oleh Shliazhko, Nicolas Gontier, Nicholas Meade, Armel Zebaze, Ming-Ho Yee, Logesh Kumar Umapathi, Jian Zhu, Benjamin Lipkin, Muhtasham Oblokulov, Zhiruo Wang, Rudra Murthy, Jason Stillerman, Siva Sankalp Patel, Dmitry Abulkhanov, Marco Zocca, Manan Dey, Zhihan Zhang, Nour Fahmy, Urvashi Bhattacharyya, Wenhao Yu, Swayam Singh, Sasha Luccioni, Paulo Villegas, Maxim Kunakov, Fedor Zhdanov, Manuel Romero, Tony Lee, Nadav Timor, Jennifer Ding, Claire Schlesinger, Hailey Schoelkopf, Jan Ebert, Tri Dao, Mayank Mishra, Alex Gu, Jennifer Robinson, Carolyn Jane Anderson, Brendan Dolan-Gavitt, Danish Contractor, Siva Reddy, Daniel Fried, Dzmitry Bahdanau, Yacine Jernite, Carlos Muñoz Ferrandis, Sean Hughes, Thomas Wolf, Arjun Guha, Leandro von Werra, Harm de Vries"
     venue: "Transactions on Machine Learning Research (TMLR)"
     year: 2023
 
-  - title: "Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning"
+  - title: "Human-Level Play in the Game of {Diplomacy} by Combining Language Models with Strategic Reasoning"
     url: https://www.science.org/doi/10.1126/science.ade9097
     authors: "FAIR Diplomacy Team"
     venue: Science
@@ -26,28 +26,30 @@ journal-papers:
 
 conference-papers:
   - title: "Human-Agent Cooperation in Games under Incomplete Information through Natual Language Communication "
+    url: "https://arxiv.org/abs/2405.14173"
     authors: "Shenghui Chen, Daniel Fried, and Ufuk Topcu"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
     year: 2024
 
   - title: "Evaluating Large Language Model Biases in Person-Steered Generation"
+    url: "https://arxiv.org/pdf/2405.20253"
     authors: "Andy Liu, Mona T. Diab, and Daniel Fried"
     venue: Findings of ACL
     year: 2024
 
-  - title: "Is the Pope Catholic? Yes, the Pope is Catholic. Generative Evaluation of Intent Resolution in LLMs"
+  - title: "Is the Pope {Catholic}? Yes, the Pope is {Catholic}. Generative Evaluation of Intent Resolution in LLMs"
     url: "https://arxiv.org/abs/2405.08760"
     authors: "Akhila Yerukola, Saujas Vaduguru, Daniel Fried, and Maarten Sap"
     venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
     year: 2024
 
-  - title: "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
+  - title: "{VisualWebArena}: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
     url: "https://arxiv.org/abs/2401.13649"
     authors: "Jing Yu Koh, Robert Lo*, Lawrence Jang*, Vikram Duvvur*, Ming Chong Lim*, Po-Yu Huang*, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, and Daniel Fried"
     venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
     year: 2024
 
-  - title: "TroVE: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks"
+  - title: "{TroVE}: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks"
     url: "https://arxiv.org/abs/2401.12869"
     authors: "Zhiruo Wang, Graham Neubig, and Daniel Fried"
     venue: "International Conference on Machine Learning (ICML)"
@@ -77,13 +79,13 @@ conference-papers:
     venue: "International Conference on Learning Representations (ICLR)"
     year: 2024
 
-  - title: "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+  - title: "{WebArena}: A Realistic Web Environment for Building Autonomous Agents"
     url: "https://arxiv.org/abs/2307.13854"
     authors: "Shuyan Zhou*, Frank Xu*, Hao Zhu**, Xuhui Zhou**, Robert Lo**, Abishek Sridhar**, Xianyi Cheng, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham Neubig"
     venue: "International Conference on Learning Representations (ICLR)"
     year: 2024
 
-  - title: "API-Assisted Code Generation for Question Answering on Varied Table Structures"
+  - title: "{API}-Assisted Code Generation for Question Answering on Varied Table Structures"
     url: "https://arxiv.org/abs/2310.14687"
     authors: "Yihan Cao*, Shuyi Chen*, Ryan Liu*, Zhiruo Wang, and Daniel Fried"
     venue: "Empirical Methods in Natural Language Processing (EMNLP)"
@@ -113,7 +115,7 @@ conference-papers:
     venue: "Findings of EMNLP"
     year: 2023
 
-  - title: "AutoReply: Detecting Nonsense in Dialogue Introspectively with Discriminative Replies"
+  - title: "{AutoReply}: Detecting Nonsense in Dialogue Introspectively with Discriminative Replies"
     url: "https://arxiv.org/abs/2211.12615"
     authors: "Weiyan Shi, Emily Dinan, Adi Renduchintala, Daniel Fried, Athul Paul Jacob, Zhou Yu, and Mike Lewis"
     venue: "Findings of EMNLP"
@@ -125,7 +127,7 @@ conference-papers:
     venue: "Neural Information Processing Systems (NeurIPS)"
     year: 2023
 
-  - title: "Pragmatic Inference with a CLIP Listener for Contrastive Captioning"
+  - title: "Pragmatic Inference with a {CLIP} Listener for Contrastive Captioning"
     url: "https://arxiv.org/abs/2306.08818"
     authors: "Jiefu Ou, Benno Krojer, and Daniel Fried"
     venue: "Findings of ACL"
@@ -149,13 +151,13 @@ conference-papers:
     venue: "International Conference on Machine Learning (ICML)"
     year: 2023
 
-  - title: "DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation"
+  - title: "{DS-1000}: A Natural and Reliable Benchmark for Data Science Code Generation"
     url: "https://arxiv.org/abs/2211.11501"
     authors: "Yuhang Lai*, Chengxi Li*, Yiming Wang*, Tianyi Zhang*, Ruiqi Zhong*, Luke Zettlemoyer, Scott Wen-tau Yih, Daniel Fried, Sida I. Wang, and Tao Yu"
     venue: "International Conference on Machine Learning (ICML)"
     year: 2023
 
-  - title: "InCoder: A Generative Model for Code Infilling and Synthesis"
+  - title: "{InCoder}: A Generative Model for Code Infilling and Synthesis"
     url: "https://arxiv.org/abs/2204.05999"
     authors: "Daniel Fried*, Armen Aghajanyan*, Jessy Lin, Sida I. Wang, Eric Wallace, Freda Shi, Ruiqi Zhong, Wen-tau Yih, Luke Zettlemoyer, and Mike Lewis"
     venue: "International Conference on Learning Representations (ICLR)"
@@ -294,9 +296,10 @@ conference-papers:
     year:  2012
 
 workshop-papers:
-  - title: "SantaCoder: Don't Reach for the Stars"
-    url: "SantaCoder: Don't Reach for the Stars"
+  - title: "{SantaCoder}: Don't Reach for the Stars"
+    url: "https://arxiv.org/abs/2301.03988"
     authors: "Loubna Ben Allal*, Raymond Li*, Denis Kocetkov*, et al. (41 authors from the BigCode Project)"
+    authors-long: "Loubna Ben Allal*, Raymond Li*, Denis Kocetkov*, Chenghao Mou, Christopher Akiki, Carlos Munoz Ferrandis, Niklas Muennighoff, Mayank Mishra, Alex Gu, Manan Dey, Logesh Kumar Umapathi, Carolyn Jane Anderson, Yangtian Zi, Joel Lamy Poirier, Hailey Schoelkopf, Sergey Troshin, Dmitry Abulkhanov, Manuel Romero, Michael Lappert, Francesco De Toni, Bernardo García del Río, Qian Liu, Shamik Bose, Urvashi Bhattacharyya, Terry Yue Zhuo, Ian Yu, Paulo Villegas, Marco Zocca, Sourab Mangrulkar, David Lansky, Huu Nguyen, Danish Contractor, Luis Villa, Jia Li, Dzmitry Bahdanau, Yacine Jernite, Sean Hughes, Daniel Fried, Arjun Guha, Harm de Vries, Leandro von Werra"
     venue: "Deep Learning for Code Workshop"
     year:  2023
     awards: "Best Paper Award"
@@ -314,7 +317,7 @@ workshop-papers:
     year:  2021
 
   - title: "Challenges for Using Social Media for Early Detection of Type II Diabetes Mellitus"
-    authors: "Dane Bell, Daniel Fried, Luwen Huangfu, Mihai Surdeanu, and Stephen"
+    authors: "Dane Bell, Daniel Fried, Luwen Huangfu, Mihai Surdeanu, and Stephen Kobourov"
     venue: "International Workshop on Social Media World Sensors"
     year:  2016
 
@@ -330,7 +333,7 @@ workshop-papers:
     year:  2015
 
 preprints:
-  - title: "CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks"
+  - title: "{CodeBenchGen}: Creating Scalable Execution-based Code Generation Benchmarks"
     url: "https://arxiv.org/abs/2404.00566"
     authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, and Carolyn Rose"
     venue: arXiv
@@ -353,3 +356,13 @@ preprints:
     authors: "Alex Wilf, Alex Tianyi Xu, Paul Pu Liang, Alexander Obolenskiy, Daniel Fried, and Louis-Philippe Morency"
     venue: arXiv
     year: 2023
+
+  - title: "{BigCodeBench}: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions"
+    authors: "Terry Yue Zhuo, Vu Minh Chien, Han Hu, Jenny Chim, Wenhao Yu, Ratnadira Widyasari, Imam Nur Bani Yusuf, Haolan Zhan, Junda He, Indraneil Paul, Simon Brunner, Chen GONG, James Hoang, Armel Randy Zebaze, Xiaoheng Hong, Wen-Ding Li, Jean Kaddour, Ming Xu, Zhihan Zhang, Prateek Yadav, Naman Jain, Alex Gu, Zhoujun Cheng, Loubna Ben allal, Qian Liu, Zijian Wang, David Lo, Binyuan Hui, Niklas Muennighoff, Daniel Fried, Xiaoning Du, Harm de Vries, Leandro Von Werra"
+    venue: in preparation
+    year: 2024
+
+  - title: "{CodeRAG-Bench}: Can Retrieval Augment Code Generation?"
+    authors: "Zhiruo Wang, Akari Asai, Xinyan Velocity Yu, Frank F. Xu, Yiqing Xie, Daniel Fried, Graham Neubig"
+    venue: in preparation
+    year: 2024

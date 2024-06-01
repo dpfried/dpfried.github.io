@@ -20,6 +20,8 @@ for key, header in keys_and_headers.items():
         authors = paper['authors']
         if MY_NAME in authors:
             authors = authors.replace(MY_NAME, f"\\underline{{{MY_NAME}}}")
+        title = paper['title']
+        title = title.replace("{", "").replace("}", "")
         if 'url' in paper:
             item = f"\\item \\href{{{paper['url']}}}{{\\textbf{{{paper['title']}}}}} \\\\"
         else:
