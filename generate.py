@@ -136,20 +136,34 @@ def generate_html(publications_data, template_file='paper-template.html', group_
 	# written by ChatGPT
     from jinja2 import Environment, FileSystemLoader
 
+    def process_paper(paper):
+        # shorten the venue
+        short_venue = re.search('\((.*)\)', paper['venue'])
+        if short_venue is not None:
+            paper['venue'] = short_venue.group(1)
+
+        # remove {} from the title
+        paper['title'] = paper['title'].replace('{', '').replace('}', '')
+        return paper
+
+    for key in publications_data.keys():
+        publications_data[key] = [
+            process_paper(paper) for paper in publications_data[key]
+        ]
+
 	# Organize papers by year
     papers_by_year = {'Preprints': publications_data['preprints']}
     data = []
     for key in non_preprints_to_include:
         data += publications_data[key]
+
     for paper in sorted(data, key=lambda paper: paper['year'], reverse=True):
         year = paper['year']
         if year <= group_previous_year:
             year = f'{group_previous_year} and before'
         if year not in papers_by_year:
             papers_by_year[year] = []
-        short_venue = re.search('\((.*)\)', paper['venue'])
-        if short_venue is not None:
-            paper['venue'] = short_venue.group(1)
+
         papers_by_year[year].append(paper)
 
     # Set up the Jinja2 environment and load the template
