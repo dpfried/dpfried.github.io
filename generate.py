@@ -131,8 +131,34 @@ def generate_r_and_p(publications_data):
     latex_output = "\n\n".join(latex_items)
     return latex_output
 
-def generate_html():
-    return ''
+def generate_html(publications_data, template_file='paper_template.html', group_previous_year=2014, non_preprints_to_include=['conference-papers', 'journal-papers', 'theses', 'workshop-papers']):
+    data = publications_data
+	# written by ChatGPT
+    from jinja2 import Environment, FileSystemLoader
+
+	# Organize papers by year
+    papers_by_year = {'Preprints': publications_data['preprints']}
+    data = []
+    for key in non_preprints_to_include:
+        data += publications_data[key]
+    for paper in sorted(data, key=lambda paper: paper['year'], reverse=True):
+        year = paper['year']
+        if year <= group_previous_year:
+            year = f'{group_previous_year} and before'
+        if year not in papers_by_year:
+            papers_by_year[year] = []
+        short_venue = re.search('\((.*)\)', paper['venue'])
+        if short_venue is not None:
+            paper['venue'] = short_venue.group(1)
+        papers_by_year[year].append(paper)
+
+    # Set up the Jinja2 environment and load the template
+    env = Environment(loader=FileSystemLoader('.'))
+    template = env.get_template('paper_template.html')
+
+    # Render the template with the data
+    html_output = template.render(papers_by_year=papers_by_year)
+    return html_output
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
