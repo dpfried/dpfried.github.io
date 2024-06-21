@@ -429,6 +429,12 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "Comparative Knowledge Distillation"
+    url: "https://arxiv.org/abs/2311.02253"
+    authors: "Alex Wilf, Alex Tianyi Xu, Paul Pu Liang, Alexander Obolenskiy, Daniel Fried, and Louis-Philippe Morency"
+    venue: arXiv
+    year: 2023
+
   - title: "CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks"
     url: "https://arxiv.org/abs/2404.00566"
     authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, and Carolyn Rose"
@@ -447,11 +453,40 @@ preprints:
     venue: arXiv
     year: 2024
 
-  - title: "Comparative Knowledge Distillation"
-    url: "https://arxiv.org/abs/2311.02253"
-    authors: "Alex Wilf, Alex Tianyi Xu, Paul Pu Liang, Alexander Obolenskiy, Daniel Fried, and Louis-Philippe Morency"
+  - title: "{BigCodeBench}: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions"
+    url: "https://github.com/bigcode-bench/bigcode-bench.github.io/blob/main/paper.pdf"
+    authors-long: "Terry Yue Zhuo, Vu Minh Chien, Han Hu, Jenny Chim, Wenhao Yu, Ratnadira Widyasari, Imam Nur Bani Yusuf, Haolan Zhan, Junda He, Indraneil Paul, Simon Brunner, Chen Gong, James Hoang, Armel Randy Zebaze, Xiaoheng Hong, Wen-Ding Li, Jean Kaddour, Ming Xu, Zhihan Zhang, Prateek Yadav, Naman Jain, Alex Gu, Zhoujun Cheng, Loubna Ben Allal, Qian Liu, Zijian Wang, David Lo, Binyuan Hui, Niklas Muennighoff, Daniel Fried, Xiaoning Du, Harm de Vries, and Leandro Von Werra"
+    authors: "Terry Yue Zhuo et al. (33 authors from the BigCode project)"
     venue: arXiv
-    year: 2023
+    year: 2024
+    resources:
+      - "project page": "https://bigcode-bench.github.io/"
+      - "code": "https://github.com/bigcode-project/bigcodebench"
+
+  - title: "{CodeRAG-Bench}: Can Retrieval Augment Code Generation?"
+    url: "https://arxiv.org/abs/2406.14497"
+    authors: "Zora Zhiruo Wang, Akari Asai, Xinyan Velocity Yu, Frank F. Xu, Yiqing Xie, Graham Neubig, and Daniel Fried"
+    venue: arXiv
+    year: 2024
+    resources:
+      - "project page": "https://code-rag-bench.github.io/"
+      - "code": "https://github.com/code-rag-bench/code-rag-bench"
+
+  - title: "Adversarial Attacks on Multimodal Agents"
+    url: "https://arxiv.org/abs/2406.12814"
+    authors: "Chen Henry Wu, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, and Aditi Raghunathan"
+    venue: arXiv
+    year: 2024
+    resources:
+      - "project page": "https://chenwu.io/attack-agent/"
+
+  - title: "Tree Search for Language Model Agents"
+    url: "https://jykoh.com/search-agents/paper.pdf"
+    authors: "Jing Yu Koh, Stephen McAleer, Daniel Fried, and Ruslan Salakhutdinov"
+    venue: arXiv
+    year: 2024
+    resources:
+      - "project page": "https://jykoh.com/search-agents"
 
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
