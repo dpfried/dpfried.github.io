@@ -39,11 +39,13 @@ journal-papers:
 
 conference-papers:
   - title: "Human-Agent Cooperation in Games under Incomplete Information through Natual Language Communication "
+    url: "https://arxiv.org/abs/2405.14173"
     authors: "Shenghui Chen, Daniel Fried, and Ufuk Topcu"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
     year: 2024
 
   - title: "Evaluating Large Language Model Biases in Person-Steered Generation"
+    url: "https://arxiv.org/abs/2405.20253"
     authors: "Andy Liu, Mona T. Diab, and Daniel Fried"
     venue: Findings of ACL
     year: 2024
@@ -454,7 +456,7 @@ preprints:
     year: 2024
 
   - title: "{BigCodeBench}: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions"
-    url: "https://github.com/bigcode-bench/bigcode-bench.github.io/blob/main/paper.pdf"
+    url: "https://arxiv.org/abs/2406.15877"
     authors-long: "Terry Yue Zhuo, Vu Minh Chien, Han Hu, Jenny Chim, Wenhao Yu, Ratnadira Widyasari, Imam Nur Bani Yusuf, Haolan Zhan, Junda He, Indraneil Paul, Simon Brunner, Chen Gong, James Hoang, Armel Randy Zebaze, Xiaoheng Hong, Wen-Ding Li, Jean Kaddour, Ming Xu, Zhihan Zhang, Prateek Yadav, Naman Jain, Alex Gu, Zhoujun Cheng, Loubna Ben Allal, Qian Liu, Zijian Wang, David Lo, Binyuan Hui, Niklas Muennighoff, Daniel Fried, Xiaoning Du, Harm de Vries, and Leandro Von Werra"
     authors: "Terry Yue Zhuo et al. (33 authors from the BigCode project)"
     venue: arXiv
