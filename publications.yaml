@@ -483,7 +483,7 @@ preprints:
       - "project page": "https://chenwu.io/attack-agent/"
 
   - title: "Tree Search for Language Model Agents"
-    url: "https://jykoh.com/search-agents/paper.pdf"
+    url: "https://arxiv.org/abs/2407.01476"
     authors: "Jing Yu Koh, Stephen McAleer, Daniel Fried, and Ruslan Salakhutdinov"
     venue: arXiv
     year: 2024
