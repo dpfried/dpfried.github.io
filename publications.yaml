@@ -38,6 +38,12 @@ journal-papers:
       - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
 
 conference-papers:
+  - title: "What Are Tools Anyway? A Survey from the Language Model Perspective"
+    url: "http://arxiv.org/abs/2403.15452"
+    authors: "Zora Zhiruo Wang, Zhoujun Cheng, Hao Zhu, Daniel Fried, and Graham Neubig"
+    venue: "Conference on Language Modeling (COLM)"
+    year: 2024
+
   - title: "Human-Agent Cooperation in Games under Incomplete Information through Natual Language Communication "
     url: "https://arxiv.org/abs/2405.14173"
     authors: "Shenghui Chen, Daniel Fried, and Ufuk Topcu"
@@ -440,12 +446,6 @@ preprints:
   - title: "CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks"
     url: "https://arxiv.org/abs/2404.00566"
     authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, and Carolyn Rose"
-    venue: arXiv
-    year: 2024
-
-  - title: "What Are Tools Anyway? A Survey from the Language Model Perspective"
-    url: "http://arxiv.org/abs/2403.15452"
-    authors: "Zora Zhiruo Wang, Zhoujun Cheng, Hao Zhu, Daniel Fried, and Graham Neubig"
     venue: arXiv
     year: 2024
 
