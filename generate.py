@@ -41,6 +41,12 @@ def generate_cv(publications_data):
     latex_output = "\n\n".join(latex_items)
     return latex_output
 
+def get_author_list(authors: str) -> list[str]:
+    authors = authors.replace("*", "")
+    authors = authors.replace(", and ", ", ").replace(" and ", ", ").split(",")
+    authors = [author.strip() for author in authors]
+    return authors
+
 def generate_bib(publications_data):
     is_journal = {
         'journal-papers': True,
@@ -174,6 +180,13 @@ def generate_html(publications_data, template_file='paper-template.html', group_
     html_output = template.render(papers_by_year=papers_by_year)
     return html_output
 
+def generate_collaborators(publications_data):
+    collaborators = set()
+    for key in publications_data.keys():
+        for paper in publications_data[key]:
+            collaborators.update(get_author_list(paper.get('authors-long', paper['authors'])))
+    return '\n'.join(sorted(collaborators))
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     functions = {
@@ -181,6 +194,7 @@ if __name__ == "__main__":
         'bib': generate_bib,
         'html': generate_html,
         'r_and_p': generate_r_and_p,
+        'collaborators': generate_collaborators,
     }
     parser.add_argument("output_type", choices=functions.keys())
     parser.add_argument("--yaml_file", default="publications.yaml")
