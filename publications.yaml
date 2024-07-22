@@ -77,7 +77,7 @@ conference-papers:
       - "code": "https://github.com/zorazrw/trove"
 
   - title: "Amortizing Pragmatic Program Synthesis with Rankings"
-    url: "https://arxiv.org/abs/2309.03225"
+    url: "https://arxiv.org/abs/2407.02499"
     authors: "Yewen Pu, Saujas Vaduguru, Priyan Vaithilingam, Elena Glassman, and Daniel Fried"
     venue: "International Conference on Machine Learning (ICML)"
     year: 2024 
@@ -489,6 +489,14 @@ preprints:
     year: 2024
     resources:
       - "project page": "https://jykoh.com/search-agents"
+
+  - title: "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?"
+    url: "http://arxiv.org/abs/2407.14044"
+    authors: "Siddhant Waghjale*, Vishruth Veerendranath*, Zora Zhiruo Wang, and Daniel Fried"
+    venue: arXiv
+    year: 2024
+    resources:
+      - "code": "https://github.com/CodeEff/ECCO"
 
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
