@@ -467,7 +467,7 @@ preprints:
 
   - title: "{CodeRAG-Bench}: Can Retrieval Augment Code Generation?"
     url: "https://arxiv.org/abs/2406.14497"
-    authors: "Zora Zhiruo Wang, Akari Asai, Xinyan Velocity Yu, Frank F. Xu, Yiqing Xie, Graham Neubig, and Daniel Fried"
+    authors: "Zora Zhiruo Wang*, Akari Asai*, Xinyan Velocity Yu, Frank F. Xu, Yiqing Xie, Graham Neubig, and Daniel Fried"
     venue: arXiv
     year: 2024
     resources:
