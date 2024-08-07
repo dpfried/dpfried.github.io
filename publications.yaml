@@ -488,6 +488,7 @@ preprints:
     venue: arXiv
     year: 2024
     resources:
+      - "code": "https://github.com/kohjingyu/search-agents"
       - "project page": "https://jykoh.com/search-agents"
 
   - title: "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?"
@@ -497,6 +498,7 @@ preprints:
     year: 2024
     resources:
       - "code": "https://github.com/CodeEff/ECCO"
+      - "project page": "https://ecco-code-eff.github.io/"
 
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
