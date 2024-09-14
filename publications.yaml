@@ -437,6 +437,7 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+
   - title: "Comparative Knowledge Distillation"
     url: "https://arxiv.org/abs/2311.02253"
     authors: "Alex Wilf, Alex Tianyi Xu, Paul Pu Liang, Alexander Obolenskiy, Daniel Fried, and Louis-Philippe Morency"
@@ -499,6 +500,14 @@ preprints:
     resources:
       - "code": "https://github.com/CodeEff/ECCO"
       - "project page": "https://ecco-code-eff.github.io/"
+
+  - title: "Agent Workflow Memory"
+    url: "https://arxiv.org/abs/2409.07429"
+    authors: "Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, and Graham Neubig"
+    venue: arXiv
+    year: 2024
+    resources:
+      - "code": "https://github.com/zorazrw/agent-workflow-memory"
 
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
