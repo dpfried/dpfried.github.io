@@ -38,6 +38,15 @@ journal-papers:
       - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
 
 conference-papers:
+  - title: "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?"
+    url: "http://arxiv.org/abs/2407.14044"
+    authors: "Siddhant Waghjale*, Vishruth Veerendranath*, Zora Zhiruo Wang, and Daniel Fried"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2024
+    resources:
+      - "code": "https://github.com/CodeEff/ECCO"
+      - "project page": "https://ecco-code-eff.github.io/"
+
   - title: "What Are Tools Anyway? A Survey from the Language Model Perspective"
     url: "http://arxiv.org/abs/2403.15452"
     authors: "Zora Zhiruo Wang, Zhoujun Cheng, Hao Zhu, Daniel Fried, and Graham Neubig"
@@ -491,15 +500,6 @@ preprints:
     resources:
       - "code": "https://github.com/kohjingyu/search-agents"
       - "project page": "https://jykoh.com/search-agents"
-
-  - title: "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?"
-    url: "http://arxiv.org/abs/2407.14044"
-    authors: "Siddhant Waghjale*, Vishruth Veerendranath*, Zora Zhiruo Wang, and Daniel Fried"
-    venue: arXiv
-    year: 2024
-    resources:
-      - "code": "https://github.com/CodeEff/ECCO"
-      - "project page": "https://ecco-code-eff.github.io/"
 
   - title: "Agent Workflow Memory"
     url: "https://arxiv.org/abs/2409.07429"
