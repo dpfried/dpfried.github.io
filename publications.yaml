@@ -509,6 +509,20 @@ preprints:
     resources:
       - "code": "https://github.com/zorazrw/agent-workflow-memory"
 
+  - title: "Human-Aligned Chess with a Bit of Search"
+    url: https://arxiv.org/abs/2410.03893
+    authors: "Yiming Zhang, Athul Paul Jacob, Vivian Lai, Daniel Fried, and Daphne Ippolito"
+    venue: arXiv
+    year: 2024
+    resources:
+      - "code and models": "https://github.com/y0mingzhang/allie"
+
+  - title: "CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells"
+    url: https://arxiv.org/abs/2409.19801
+    authors: "Atharva Naik, Marcus Alenius, Daniel Fried, Carolyn Rose"
+    venue: arXiv
+    year: 2024
+
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
     authors: "Daniel Fried"
