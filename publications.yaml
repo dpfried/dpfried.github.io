@@ -523,6 +523,12 @@ preprints:
     venue: arXiv
     year: 2024
 
+  - title: "Improving Model Factuality with Fine-grained Critique-based Evaluator"
+    url: https://arxiv.org/abs/2410.18359"
+    authors: "Yiqing Xie, Wenxuan Zhou, Pradyot Prakash, Di Jin, Yuning Mao, Quintin Fettes, Arya Talebzadeh, Sinong Wang, Han Fang, Carolyn Rose, Daniel Fried, Hejia Zhang"
+    venue: arXiv
+    year: 2024
+
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
     authors: "Daniel Fried"
