@@ -38,6 +38,12 @@ journal-papers:
       - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
 
 conference-papers:
+  - title: "Comparative Knowledge Distillation"
+    url: "https://arxiv.org/abs/2311.02253"
+    authors: "Alex Tianyi Xu*, Alex Wilf*, Paul Pu Liang, Alexander Obolenskiy, Daniel Fried, and Louis-Philippe Morency"
+    venue: "Winter Conference on Applications of Computer Vision (WACV)"
+    year: 2024
+
   - title: "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?"
     url: "http://arxiv.org/abs/2407.14044"
     authors: "Siddhant Waghjale*, Vishruth Veerendranath*, Zora Zhiruo Wang, and Daniel Fried"
@@ -446,12 +452,6 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
-
-  - title: "Comparative Knowledge Distillation"
-    url: "https://arxiv.org/abs/2311.02253"
-    authors: "Alex Wilf, Alex Tianyi Xu, Paul Pu Liang, Alexander Obolenskiy, Daniel Fried, and Louis-Philippe Morency"
-    venue: arXiv
-    year: 2023
 
   - title: "CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks"
     url: "https://arxiv.org/abs/2404.00566"
