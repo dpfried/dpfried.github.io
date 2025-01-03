@@ -519,15 +519,23 @@ preprints:
 
   - title: "CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells"
     url: https://arxiv.org/abs/2409.19801
-    authors: "Atharva Naik, Marcus Alenius, Daniel Fried, Carolyn Rose"
+    authors: "Atharva Naik, Marcus Alenius, Daniel Fried, and Carolyn Rose"
     venue: arXiv
     year: 2024
 
   - title: "Improving Model Factuality with Fine-grained Critique-based Evaluator"
     url: https://arxiv.org/abs/2410.18359"
-    authors: "Yiqing Xie, Wenxuan Zhou, Pradyot Prakash, Di Jin, Yuning Mao, Quintin Fettes, Arya Talebzadeh, Sinong Wang, Han Fang, Carolyn Rose, Daniel Fried, Hejia Zhang"
+    authors: "Yiqing Xie, Wenxuan Zhou, Pradyot Prakash, Di Jin, Yuning Mao, Quintin Fettes, Arya Talebzadeh, Sinong Wang, Han Fang, Carolyn Rose, Daniel Fried, and Hejia Zhang"
     venue: arXiv
     year: 2024
+
+  - title: "AutoPresent: Designing Structured Visuals from Scratch"
+    url: https://arxiv.org/abs/2501.00912
+    authors: "Jiaxin Ge*, Zora Zhiruo Wang*, Xuhui Zhou, Yi-Hao Peng, Sanjay Subramanian, Qinyue Tan, Maarten Sap, Alane Suhr**, Daniel Fried**, Graham Neubig**, and Trevor Darrell**"
+    venue: arXiv
+    year: 2025
+    resources:
+      - "code": "https://github.com/para-lost/AutoPresent"
 
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
