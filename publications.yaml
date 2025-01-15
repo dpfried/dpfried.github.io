@@ -484,9 +484,9 @@ preprints:
       - "project page": "https://code-rag-bench.github.io/"
       - "code": "https://github.com/code-rag-bench/code-rag-bench"
 
-  - title: "Adversarial Attacks on Multimodal Agents"
+  - title: "Dissecting Adversarial Robusntess of Multimodal LM Agents"
     url: "https://arxiv.org/abs/2406.12814"
-    authors: "Chen Henry Wu, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, and Aditi Raghunathan"
+    authors: "Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, and Aditi Raghunathan"
     venue: arXiv
     year: 2024
     resources:
