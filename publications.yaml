@@ -39,6 +39,21 @@ journal-papers:
 
 conference-papers:
 
+  - title: "CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells"
+    url: https://arxiv.org/abs/2409.19801
+    authors: "Atharva Naik, Marcus Alenius, Daniel Fried, and Carolyn Rose"
+    venue: "North American Chapter of the Association for Computational Linguistics (NAACL)"
+    year: 2025
+
+  - title: "{CodeRAG-Bench}: Can Retrieval Augment Code Generation?"
+    url: "https://arxiv.org/abs/2406.14497"
+    authors: "Zora Zhiruo Wang*, Akari Asai*, Xinyan Velocity Yu, Frank F. Xu, Yiqing Xie, Graham Neubig, and Daniel Fried"
+    venue: "Findings of NAACL"
+    year: 2025
+    resources:
+      - "project page": "https://code-rag-bench.github.io/"
+      - "code": "https://github.com/code-rag-bench/code-rag-bench"
+
   - title: "{BigCodeBench}: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions"
     url: "https://arxiv.org/abs/2406.15877"
     authors-long: "Terry Yue Zhuo, Vu Minh Chien, Han Hu, Jenny Chim, Wenhao Yu, Ratnadira Widyasari, Imam Nur Bani Yusuf, Haolan Zhan, Junda He, Indraneil Paul, Simon Brunner, Chen Gong, James Hoang, Armel Randy Zebaze, Xiaoheng Hong, Wen-Ding Li, Jean Kaddour, Ming Xu, Zhihan Zhang, Prateek Yadav, Naman Jain, Alex Gu, Zhoujun Cheng, Loubna Ben Allal, Qian Liu, Zijian Wang, David Lo, Binyuan Hui, Niklas Muennighoff, Daniel Fried, Xiaoning Du, Harm de Vries, and Leandro Von Werra"
@@ -63,7 +78,7 @@ conference-papers:
     venue: "International Conference on Learning Representations (ICLR)"
     year: 2025
 
-  - title: "Dissecting Adversarial Robusntess of Multimodal LM Agents"
+  - title: "Dissecting Adversarial Robustness of Multimodal LM Agents"
     url: "https://arxiv.org/abs/2406.12814"
     authors: "Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, and Aditi Raghunathan"
     venue: "International Conference on Learning Representations (ICLR)"
@@ -492,15 +507,6 @@ preprints:
     venue: arXiv
     year: 2024
 
-  - title: "{CodeRAG-Bench}: Can Retrieval Augment Code Generation?"
-    url: "https://arxiv.org/abs/2406.14497"
-    authors: "Zora Zhiruo Wang*, Akari Asai*, Xinyan Velocity Yu, Frank F. Xu, Yiqing Xie, Graham Neubig, and Daniel Fried"
-    venue: arXiv
-    year: 2024
-    resources:
-      - "project page": "https://code-rag-bench.github.io/"
-      - "code": "https://github.com/code-rag-bench/code-rag-bench"
-
   - title: "Tree Search for Language Model Agents"
     url: "https://arxiv.org/abs/2407.01476"
     authors: "Jing Yu Koh, Stephen McAleer, Daniel Fried, and Ruslan Salakhutdinov"
@@ -517,12 +523,6 @@ preprints:
     year: 2024
     resources:
       - "code": "https://github.com/zorazrw/agent-workflow-memory"
-
-  - title: "CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells"
-    url: https://arxiv.org/abs/2409.19801
-    authors: "Atharva Naik, Marcus Alenius, Daniel Fried, and Carolyn Rose"
-    venue: arXiv
-    year: 2024
 
   - title: "Improving Model Factuality with Fine-grained Critique-based Evaluator"
     url: https://arxiv.org/abs/2410.18359"
