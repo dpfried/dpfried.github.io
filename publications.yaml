@@ -39,6 +39,20 @@ journal-papers:
 
 conference-papers:
 
+  - title: "Dynamic Coalition Structure Detection in Natural Language-based Interactions"
+    url: https://arxiv.org/abs/2502.16339
+    authors: "Abhishek N. Kulkarni*, Andy Liu*, Jean-Raphael Gaglione, Daniel Fried, and Ufuk Topcu"
+    venue: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+    year: 2025
+
+  - title: "AutoPresent: Designing Structured Visuals from Scratch"
+    url: https://arxiv.org/abs/2501.00912
+    authors: "Jiaxin Ge*, Zora Zhiruo Wang*, Xuhui Zhou, Yi-Hao Peng, Sanjay Subramanian, Qinyue Tan, Maarten Sap, Alane Suhr**, Daniel Fried**, Graham Neubig**, and Trevor Darrell**"
+    venue: "Conference on Computer Vision and Pattern Recognition (CVPR)"
+    year: 2025
+    resources:
+      - "code": "https://github.com/para-lost/AutoPresent"
+
   - title: "CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells"
     url: https://arxiv.org/abs/2409.19801
     authors: "Atharva Naik, Marcus Alenius, Daniel Fried, and Carolyn Rose"
@@ -501,6 +515,14 @@ workshop-papers:
 
 preprints:
 
+  - title: "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution"
+    url: https://arxiv.org/abs/2502.18449
+    authors: "Yuxiang Wei, Olivier Duchenne, Jade Copet, Quentin Carbonneaux, Lingming Zhang, Daniel Fried, Gabriel Synnaeve, Rishabh Singh, and Sida I. Wang"
+    venue: arXiv
+    year: 2025
+    resources:
+      - "code": "https://github.com/facebookresearch/swe-rl"
+
   - title: "CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks"
     url: "https://arxiv.org/abs/2404.00566"
     authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, and Carolyn Rose"
@@ -529,14 +551,6 @@ preprints:
     authors: "Yiqing Xie, Wenxuan Zhou, Pradyot Prakash, Di Jin, Yuning Mao, Quintin Fettes, Arya Talebzadeh, Sinong Wang, Han Fang, Carolyn Rose, Daniel Fried, and Hejia Zhang"
     venue: arXiv
     year: 2024
-
-  - title: "AutoPresent: Designing Structured Visuals from Scratch"
-    url: https://arxiv.org/abs/2501.00912
-    authors: "Jiaxin Ge*, Zora Zhiruo Wang*, Xuhui Zhou, Yi-Hao Peng, Sanjay Subramanian, Qinyue Tan, Maarten Sap, Alane Suhr**, Daniel Fried**, Graham Neubig**, and Trevor Darrell**"
-    venue: arXiv
-    year: 2025
-    resources:
-      - "code": "https://github.com/para-lost/AutoPresent"
 
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
