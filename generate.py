@@ -158,7 +158,7 @@ def generate_html(publications_data, template_file='paper-template.html', group_
         ]
 
 	# Organize papers by year
-    papers_by_year = {'Preprints': reversed(publications_data['preprints'])}
+    papers_by_year = {'Preprints': publications_data['preprints']}
     data = []
     for key in non_preprints_to_include:
         data += publications_data[key]

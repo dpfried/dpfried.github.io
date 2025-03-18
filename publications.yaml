@@ -515,6 +515,14 @@ workshop-papers:
 
 preprints:
 
+  - title: "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing"
+    url: https://arxiv.org/abs/2503.07358
+    authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, Carolyn Rose"
+    venue: arXiv
+    year: 2025
+    resources:
+      - "code": "https://github.com/yiqingxyq/RepoST"
+
   - title: "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution"
     url: https://arxiv.org/abs/2502.18449
     authors: "Yuxiang Wei, Olivier Duchenne, Jade Copet, Quentin Carbonneaux, Lingming Zhang, Daniel Fried, Gabriel Synnaeve, Rishabh Singh, and Sida I. Wang"
