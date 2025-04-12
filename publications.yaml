@@ -514,6 +514,13 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "Inducing Programmatic Skills for Agentic Tasks"
+    url: https://arxiv.org/abs/2504.06821
+    authors: "Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried"
+    venue: arXiv
+    year: 2025
+    resources:
+      - "code": "https://github.com/zorazrw/agent-skill-induction"
 
   - title: "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing"
     url: https://arxiv.org/abs/2503.07358
