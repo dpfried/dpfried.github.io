@@ -39,6 +39,14 @@ journal-papers:
 
 conference-papers:
 
+  - title: "Agent Workflow Memory"
+    url: "https://arxiv.org/abs/2409.07429"
+    authors: "Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, and Graham Neubig"
+    venue: ICML
+    year: 2025
+    resources:
+      - "code": "https://github.com/zorazrw/agent-workflow-memory"
+
   - title: "Dynamic Coalition Structure Detection in Natural Language-based Interactions"
     url: https://arxiv.org/abs/2502.16339
     authors: "Abhishek N. Kulkarni*, Andy Liu*, Jean-Raphael Gaglione, Daniel Fried, and Ufuk Topcu"
@@ -514,6 +522,14 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "mrCAD: Multimodal Refinement of Computer-aided Designs"
+    url: https://arxiv.org/abs/2504.20294
+    authors: "William P. McCarthy, Saujas Vaduguru, Karl D. D. Willis, Justin Matejka, Judith E. Fan, Daniel Fried, and Yewen Pu"
+    venue: arXiv
+    year: 2025
+    resources:
+      - "dataset": "https://github.com/AutodeskAILab/mrCAD"
+
   - title: "Inducing Programmatic Skills for Agentic Tasks"
     url: https://arxiv.org/abs/2504.06821
     authors: "Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried"
@@ -552,14 +568,6 @@ preprints:
     resources:
       - "code": "https://github.com/kohjingyu/search-agents"
       - "project page": "https://jykoh.com/search-agents"
-
-  - title: "Agent Workflow Memory"
-    url: "https://arxiv.org/abs/2409.07429"
-    authors: "Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, and Graham Neubig"
-    venue: arXiv
-    year: 2024
-    resources:
-      - "code": "https://github.com/zorazrw/agent-workflow-memory"
 
   - title: "Improving Model Factuality with Fine-grained Critique-based Evaluator"
     url: https://arxiv.org/abs/2410.18359"
