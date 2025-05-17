@@ -39,6 +39,12 @@ journal-papers:
 
 conference-papers:
 
+  - title: "Improving Model Factuality with Fine-grained Critique-based Evaluator"
+    url: https://arxiv.org/abs/2410.18359
+    authors: "Yiqing Xie, Wenxuan Zhou, Pradyot Prakash, Di Jin, Yuning Mao, Quintin Fettes, Arya Talebzadeh, Sinong Wang, Han Fang, Carolyn Rose, Daniel Fried, and Hejia Zhang"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2025
+
   - title: "Agent Workflow Memory"
     url: "https://arxiv.org/abs/2409.07429"
     authors: "Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, and Graham Neubig"
@@ -568,12 +574,6 @@ preprints:
     resources:
       - "code": "https://github.com/kohjingyu/search-agents"
       - "project page": "https://jykoh.com/search-agents"
-
-  - title: "Improving Model Factuality with Fine-grained Critique-based Evaluator"
-    url: https://arxiv.org/abs/2410.18359"
-    authors: "Yiqing Xie, Wenxuan Zhou, Pradyot Prakash, Di Jin, Yuning Mao, Quintin Fettes, Arya Talebzadeh, Sinong Wang, Han Fang, Carolyn Rose, Daniel Fried, and Hejia Zhang"
-    venue: arXiv
-    year: 2024
 
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
