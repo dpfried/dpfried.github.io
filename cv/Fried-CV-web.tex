@@ -1,0 +1,71 @@
+%______________________________________________________________________________________________________________________
+\documentclass[10.5pt,resmargin,line]{resume}
+\newcommand{\poss}[3] {
+    \textbf{#1}, #2 \hfill #3 \\
+}
+\newcommand{\pos}[2] {
+    \textbf{#1} \hfill #2 \\
+}
+\newcommand{\award}[2] {
+    #1 \hfill #2 \\
+}
+\newcommand{\mailto}[1]{
+  \href{mailto:#1}{#1}
+}
+\newcommand{\pro}[2] {
+    \textsl{#1} \hfill #2\\
+}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=false,
+  allbordercolors=[rgb]{1.0,1.0,1.0},
+}
+\usepackage{verbatim}
+\usepackage{tabularx}
+\usepackage{palatino}
+%\usepackage[bitstream-charter]{mathdesign}
+% https://tex.stackexchange.com/questions/548595/font-shape-declaration-has-incorrect-series-value-mc-bitstream-charter
+%\usepackage{XCharter}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{etaremune}
+%\usepackage[top=0.5in,bottom=0.5in,left=0.5in,right=1.75in]{geometry}
+\usepackage[top=0.7in,bottom=0.7in,left=0.6in,right=1.95in]{geometry}
+\usepackage{longtable}
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Daniel Fried}
+\begin{resume}
+
+%__________________________________________________________________________________________________________________
+% Contact Information
+\section{Contact\\Information}
+\mailto{dfried@cs.cmu.edu} \\
+{\small \url{dpfried.github.io}}
+
+\input{content.tex}
+
+% \section{References}
+% \textbf{Dan Klein} \\
+% Professor, Computer Science \\
+% UC Berkeley \\
+% \mailto{klein@cs.berkeley.edu}
+
+% \textbf{Trevor Darrell} \\
+% Professor, Computer Science \\
+% UC Berkeley \\
+% \mailto{trevor@eecs.berkeley.edu}
+
+% \textbf{Christopher Potts} \\
+% Professor and Chair, Department of Linguistics; Professor, by Courtesy, of Computer Science \\
+% Stanford University \\
+% \mailto{cgpotts@stanford.edu}
+
+% \textbf{Stephen Clark} \\
+% Research Scientist, DeepMind; Honorary Professor, Queen Mary University of London \\
+% \mailto{clarkstephen@google.com}
+
+\end{resume}
+\end{document}

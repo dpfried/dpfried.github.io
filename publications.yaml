@@ -1,0 +1,598 @@
+journal-papers:
+  - title: "StarCoder: May the Source Be With You!"
+    url: https://arxiv.org/abs/2305.06161
+    authors: "Raymond Li et al. (68 authors from the BigCode Project)"
+    authors-long: "Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou, Marc Marone, Christopher Akiki, Jia Li, Jenny Chim, Qian Liu, Evgenii Zheltonozhskii, Terry Yue Zhuo, Thomas Wang, Olivier Dehaene, Mishig Davaadorj, Joel Lamy-Poirier, João Monteiro, Oleh Shliazhko, Nicolas Gontier, Nicholas Meade, Armel Zebaze, Ming-Ho Yee, Logesh Kumar Umapathi, Jian Zhu, Benjamin Lipkin, Muhtasham Oblokulov, Zhiruo Wang, Rudra Murthy, Jason Stillerman, Siva Sankalp Patel, Dmitry Abulkhanov, Marco Zocca, Manan Dey, Zhihan Zhang, Nour Fahmy, Urvashi Bhattacharyya, Wenhao Yu, Swayam Singh, Sasha Luccioni, Paulo Villegas, Maxim Kunakov, Fedor Zhdanov, Manuel Romero, Tony Lee, Nadav Timor, Jennifer Ding, Claire Schlesinger, Hailey Schoelkopf, Jan Ebert, Tri Dao, Mayank Mishra, Alex Gu, Jennifer Robinson, Carolyn Jane Anderson, Brendan Dolan-Gavitt, Danish Contractor, Siva Reddy, Daniel Fried, Dzmitry Bahdanau, Yacine Jernite, Carlos Muñoz Ferrandis, Sean Hughes, Thomas Wolf, Arjun Guha, Leandro von Werra, Harm de Vries"
+    venue: "Transactions on Machine Learning Research (TMLR)"
+    year: 2023
+    resources:
+      - "project page": "https://huggingface.co/bigcode"
+      - "models": "https://huggingface.co/bigcode/starcoder"
+      - "demo": "https://huggingface.co/spaces/bigcode/bigcode-editor"
+
+  - title: "Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning"
+    url: https://www.science.org/doi/10.1126/science.ade9097
+    authors: "FAIR Diplomacy Team"
+    venue: Science
+    year: 2022
+    resources:
+      - "site": "https://ai.facebook.com/research/cicero/diplomacy/"
+      - "code": "https://github.com/facebookresearch/diplomacy_cicero"
+      - "blog": "https://ai.facebook.com/blog/cicero-ai-negotiates-persuades-and-cooperates-with-people/"
+      - "article": "https://www.science.org/content/article/ai-learns-art-diplomacy-game"
+
+  - title: "Syntactic Structure Distillation Pretraining for Bidirectional Encoders"
+    url: https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00345
+    authors: "Adhiguna Kuncoro*, Lingpeng Kong*, Daniel Fried*, Dani Yogatama, Laura Rimell, Chris Dyer, and Phil Blunsom"
+    venue: "Transactions of the Association for Computational Linguistics (TACL)"
+    year: 2020
+    resources:
+      - "talk": "https://papertalk.org/papertalks/11621"
+
+  - title: "Higher-Order Lexical Semantic Models for Non-Factoid Answer Reranking"
+    url: "https://people.eecs.berkeley.edu/~dfried/papers/tacl2015-qa.pdf"
+    authors: "Daniel Fried, Peter Jansen, Gustave Hahn-Powell, Mihai Surdeanu, and Peter Clark"
+    venue: "Transactions of the Association for Computational Linguistics (TACL)"
+    year: 2015
+    resources:
+      - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
+
+conference-papers:
+
+  - title: "Improving Model Factuality with Fine-grained Critique-based Evaluator"
+    url: https://arxiv.org/abs/2410.18359
+    authors: "Yiqing Xie, Wenxuan Zhou, Pradyot Prakash, Di Jin, Yuning Mao, Quintin Fettes, Arya Talebzadeh, Sinong Wang, Han Fang, Carolyn Rose, Daniel Fried, and Hejia Zhang"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2025
+
+  - title: "Agent Workflow Memory"
+    url: "https://arxiv.org/abs/2409.07429"
+    authors: "Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, and Graham Neubig"
+    venue: ICML
+    year: 2025
+    resources:
+      - "code": "https://github.com/zorazrw/agent-workflow-memory"
+
+  - title: "Dynamic Coalition Structure Detection in Natural Language-based Interactions"
+    url: https://arxiv.org/abs/2502.16339
+    authors: "Abhishek N. Kulkarni*, Andy Liu*, Jean-Raphael Gaglione, Daniel Fried, and Ufuk Topcu"
+    venue: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+    year: 2025
+
+  - title: "AutoPresent: Designing Structured Visuals from Scratch"
+    url: https://arxiv.org/abs/2501.00912
+    authors: "Jiaxin Ge*, Zora Zhiruo Wang*, Xuhui Zhou, Yi-Hao Peng, Sanjay Subramanian, Qinyue Tan, Maarten Sap, Alane Suhr**, Daniel Fried**, Graham Neubig**, and Trevor Darrell**"
+    venue: "Conference on Computer Vision and Pattern Recognition (CVPR)"
+    year: 2025
+    resources:
+      - "code": "https://github.com/para-lost/AutoPresent"
+
+  - title: "CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells"
+    url: https://arxiv.org/abs/2409.19801
+    authors: "Atharva Naik, Marcus Alenius, Daniel Fried, and Carolyn Rose"
+    venue: "North American Chapter of the Association for Computational Linguistics (NAACL)"
+    year: 2025
+
+  - title: "{CodeRAG-Bench}: Can Retrieval Augment Code Generation?"
+    url: "https://arxiv.org/abs/2406.14497"
+    authors: "Zora Zhiruo Wang*, Akari Asai*, Xinyan Velocity Yu, Frank F. Xu, Yiqing Xie, Graham Neubig, and Daniel Fried"
+    venue: "Findings of NAACL"
+    year: 2025
+    resources:
+      - "project page": "https://code-rag-bench.github.io/"
+      - "code": "https://github.com/code-rag-bench/code-rag-bench"
+
+  - title: "{BigCodeBench}: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions"
+    url: "https://arxiv.org/abs/2406.15877"
+    authors-long: "Terry Yue Zhuo, Vu Minh Chien, Han Hu, Jenny Chim, Wenhao Yu, Ratnadira Widyasari, Imam Nur Bani Yusuf, Haolan Zhan, Junda He, Indraneil Paul, Simon Brunner, Chen Gong, James Hoang, Armel Randy Zebaze, Xiaoheng Hong, Wen-Ding Li, Jean Kaddour, Ming Xu, Zhihan Zhang, Prateek Yadav, Naman Jain, Alex Gu, Zhoujun Cheng, Loubna Ben Allal, Qian Liu, Zijian Wang, David Lo, Binyuan Hui, Niklas Muennighoff, Daniel Fried, Xiaoning Du, Harm de Vries, and Leandro Von Werra"
+    authors: "Terry Yue Zhuo et al. (33 authors from the BigCode project)"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2025
+    resources:
+      - "project page": "https://bigcode-bench.github.io/"
+      - "code": "https://github.com/bigcode-project/bigcodebench"
+
+  - title: "Human-Aligned Chess with a Bit of Search"
+    url: https://arxiv.org/abs/2410.03893
+    authors: "Yiming Zhang, Athul Paul Jacob, Vivian Lai, Daniel Fried, and Daphne Ippolito"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2025
+    resources:
+      - "code and models": "https://github.com/y0mingzhang/allie"
+
+  - title: "Repetition Improves Language Model Embeddings"
+    url: "https://arxiv.org/abs/2402.15449"
+    authors: "Jacob Mitchell Springer, Suhas Kotha, Daniel Fried, Graham Neubig, and Aditi Raghunathan"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2025
+
+  - title: "Dissecting Adversarial Robustness of Multimodal LM Agents"
+    url: "https://arxiv.org/abs/2406.12814"
+    authors: "Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, and Aditi Raghunathan"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2025
+    resources:
+      - "project page": "https://chenwu.io/attack-agent/"
+
+  - title: "Comparative Knowledge Distillation"
+    url: "https://arxiv.org/abs/2311.02253"
+    authors: "Alex Tianyi Xu*, Alex Wilf*, Paul Pu Liang, Alexander Obolenskiy, Daniel Fried, and Louis-Philippe Morency"
+    venue: "Winter Conference on Applications of Computer Vision (WACV)"
+    year: 2024
+
+  - title: "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?"
+    url: "http://arxiv.org/abs/2407.14044"
+    authors: "Siddhant Waghjale*, Vishruth Veerendranath*, Zora Zhiruo Wang, and Daniel Fried"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2024
+    resources:
+      - "code": "https://github.com/CodeEff/ECCO"
+      - "project page": "https://ecco-code-eff.github.io/"
+
+  - title: "What Are Tools Anyway? A Survey from the Language Model Perspective"
+    url: "http://arxiv.org/abs/2403.15452"
+    authors: "Zora Zhiruo Wang, Zhoujun Cheng, Hao Zhu, Daniel Fried, and Graham Neubig"
+    venue: "Conference on Language Modeling (COLM)"
+    year: 2024
+
+  - title: "Human-Agent Cooperation in Games under Incomplete Information through Natual Language Communication "
+    url: "https://arxiv.org/abs/2405.14173"
+    authors: "Shenghui Chen, Daniel Fried, and Ufuk Topcu"
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
+    year: 2024
+
+  - title: "Evaluating Large Language Model Biases in Person-Steered Generation"
+    url: "https://arxiv.org/abs/2405.20253"
+    authors: "Andy Liu, Mona T. Diab, and Daniel Fried"
+    venue: Findings of ACL
+    year: 2024
+
+  - title: "Is the Pope Catholic? Yes, the Pope is Catholic. Generative Evaluation of Intent Resolution in LLMs"
+    url: "https://arxiv.org/abs/2405.08760"
+    authors: "Akhila Yerukola, Saujas Vaduguru, Daniel Fried, and Maarten Sap"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2024
+
+  - title: "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
+    url: "https://arxiv.org/abs/2401.13649"
+    authors: "Jing Yu Koh, Robert Lo*, Lawrence Jang*, Vikram Duvvur*, Ming Chong Lim*, Po-Yu Huang*, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, and Daniel Fried"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2024
+
+  - title: "TroVE: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks"
+    url: "https://arxiv.org/abs/2401.12869"
+    authors: "Zhiruo Wang, Graham Neubig, and Daniel Fried"
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2024
+    resources:
+      - "code": "https://github.com/zorazrw/trove"
+
+  - title: "Amortizing Pragmatic Program Synthesis with Rankings"
+    url: "https://arxiv.org/abs/2407.02499"
+    authors: "Yewen Pu, Saujas Vaduguru, Priyan Vaithilingam, Elena Glassman, and Daniel Fried"
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2024 
+
+  - title: "Asking More Informative Questions for Grounded Retrieval"
+    url: "https://arxiv.org/abs/2311.08584"
+    authors: "Sedrick Keh, Justin T. Chiu, and Daniel Fried"
+    venue: "Findings of NAACL"
+    year: 2024
+
+  - title: "Generating Pragmatic Examples to Train Neural Program Synthesizers"
+    url: "https://arxiv.org/abs/2311.05740"
+    authors: "Saujas Vaduguru, Daniel Fried, and Yewen Pu"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2024
+
+  - title: "Sotopia: Interactive Evaluation for Social Intelligence in Language Agents"
+    url: "http://arxiv.org/abs/2310.11667"
+    authors: "Xuhui Zhou*, Hao Zhu*, Leena Mathur, Ruohong Zhang, Haofei Yu, Zhengyang Qi, Louis-Philippe Morency, Yonatan Bisk, Daniel Fried, Graham Neubig, and Maarten Sap"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2024
+    resources:
+      - "project page": "https://www.sotopia.world/"
+
+  - title: "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+    url: "https://arxiv.org/abs/2307.13854"
+    authors: "Shuyan Zhou*, Frank Xu*, Hao Zhu**, Xuhui Zhou**, Robert Lo**, Abishek Sridhar**, Xianyi Cheng, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham Neubig"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2024
+    resources:
+      - "project page": "https://webarena.dev/"
+
+  - title: "API-Assisted Code Generation for Question Answering on Varied Table Structures"
+    url: "https://arxiv.org/abs/2310.14687"
+    authors: "Yihan Cao*, Shuyi Chen*, Ryan Liu*, Zhiruo Wang, and Daniel Fried"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2023
+
+  - title: "Symbolic Planning and Code Generation for Grounded Dialogue "
+    url: "https://arxiv.org/abs/2310.17140"
+    authors: "Justin Chiu, Wenting Zhao, Derek Chen, Saujas Vaduguru, Alexander Rush, and Daniel Fried"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2023
+
+  - title: "Pragmatics in Language Grounding: Phenomena, Tasks, and Modeling Approaches"
+    url: "https://arxiv.org/abs/2211.08371"
+    authors: "Daniel Fried*, Nicholas Tomlin*, Jennifer Hu, Roma Patel, and Aida Nematzadeh"
+    venue: "Findings of EMNLP"
+    year: 2023
+
+  - title: "Execution-Based Evaluation for Open-Domain Code Generation"
+    url: "https://arxiv.org/abs/2212.10481"
+    authors: "Zhiruo Wang, Shuyan Zhou, Daniel Fried, and Graham Neubig"
+    venue: "Findings of EMNLP"
+    year: 2023
+    resources:
+      - "dataset": "https://github.com/zorazrw/odex"
+
+  - title: "Data Augmentation for Code Translation with Comparable Corpora and Multiple References"
+    url: "https://arxiv.org/abs/2311.00317"
+    authors: "Yiqing Xie, Atharva Naik, Daniel Fried, Carolyn Rose"
+    venue: "Findings of EMNLP"
+    year: 2023
+
+  - title: "AutoReply: Detecting Nonsense in Dialogue Introspectively with Discriminative Replies"
+    url: "https://arxiv.org/abs/2211.12615"
+    authors: "Weiyan Shi, Emily Dinan, Adi Renduchintala, Daniel Fried, Athul Paul Jacob, Zhou Yu, and Mike Lewis"
+    venue: "Findings of EMNLP"
+    year: 2023
+
+  - title: "Generating Images with Multimodal Language Models"
+    url: "https://arxiv.org/abs/2305.17216"
+    authors: "Jing Yu Koh, Daniel Fried, and Ruslan Salakhutdinov"
+    venue: "Neural Information Processing Systems (NeurIPS)"
+    year: 2023
+    resources:
+      - "project page": "https://jykoh.com/gill"
+
+  - title: "Pragmatic Inference with a CLIP Listener for Contrastive Captioning"
+    url: "https://arxiv.org/abs/2306.08818"
+    authors: "Jiefu Ou, Benno Krojer, and Daniel Fried"
+    venue: "Findings of ACL"
+    year: 2023
+
+  - title: "Contrastive Decoding: Open-ended Text Generation as Optimization"
+    url: "https://arxiv.org/abs/2210.15097"
+    authors: "Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, and Mike Lewis"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2023
+    resources:
+      - "code": "https://github.com/XiangLi1999/ContrastiveDecoding"
+
+  - title: "Grounding Language Models to Images for Multimodal Inputs and Outputs"
+    url: "https://arxiv.org/abs/2301.13823"
+    authors: "Jing Yu Koh, Ruslan Salakhutdinov, and Daniel Fried"
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2023
+    resources:
+      - "project page": "https://jykoh.com/fromage"
+
+  - title: "Coder Reviewer Reranking for Code Generation"
+    url: "https://arxiv.org/abs/2211.16490"
+    authors: "Tianyi Zhang, Tao Yu, Tatsunori B. Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, and Sida I. Wang"
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2023
+    resources:
+      - "code": "https://github.com/facebookresearch/coder_reviewer_reranking"
+
+  - title: "DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation"
+    url: "https://arxiv.org/abs/2211.11501"
+    authors: "Yuhang Lai*, Chengxi Li*, Yiming Wang*, Tianyi Zhang*, Ruiqi Zhong*, Luke Zettlemoyer, Scott Wen-tau Yih, Daniel Fried, Sida I. Wang, and Tao Yu"
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2023
+    resources:
+      - "site": "https://ds1000-code-gen.github.io/"
+      - "code": "https://github.com/HKUNLP/DS-1000"
+      - "data": "https://github.com/HKUNLP/DS-1000/tree/main/ds1000_example"
+
+  - title: "InCoder: A Generative Model for Code Infilling and Synthesis"
+    url: "https://arxiv.org/abs/2204.05999"
+    authors: "Daniel Fried*, Armen Aghajanyan*, Jessy Lin, Sida I. Wang, Eric Wallace, Freda Shi, Ruiqi Zhong, Wen-tau Yih, Luke Zettlemoyer, and Mike Lewis"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2023
+    resources:
+      - "site": "https://sites.google.com/view/incoder-code-models/home"
+      - "code and models": "https://github.com/dpfried/incoder"
+      - "demo": "https://huggingface.co/spaces/facebook/incoder-demo"
+
+  - title: "Natural Language to Code Translation with Execution"
+    url: "https://arxiv.org/abs/2204.11454"
+    authors: "Freda Shi, Daniel Fried, Marjan Ghazvininejad, Luke Zettlemoyer, and Sida I. Wang"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2022
+    resources:
+      - "code": "https://github.com/facebookresearch/mbr-exec"
+
+  - title: "Neural Theory-of-Mind? On the Limits of Social Intelligence in Large LMs"
+    url: "https://arxiv.org/abs/2210.13312"
+    authors: "Maarten Sap, Ronan Le Bras, Daniel Fried, and Yejin Choi "
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2022
+
+  - title: "G3: Geolocation via Guidebook Grounding"
+    url: "https://arxiv.org/abs/2211.15521"
+    authors: "Grace Luo*, Giscard Biamby*, Trevor Darrell, Daniel Fried, and Anna Rohrbach"
+    venue: "Findings of EMNLP"
+    year: 2022
+    resources:
+      - "code": "https://github.com/g-luo/geolocation_via_guidebook_grounding"
+
+  - title: "Inferring Rewards from Language in Context"
+    url: "https://arxiv.org/abs/2204.02515"
+    authors: "Jessy Lin, Daniel Fried, Dan Klein, and Anca Dragan"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2022 
+    resources:
+      - "code and data": "https://github.com/jlin816/rewards-from-language"
+
+  - title: "Reference-Centric Models for Grounded Collaborative Dialogue"
+    url: "https://arxiv.org/abs/2109.05042"
+    authors: "Daniel Fried, Justin Chiu, and Dan Klein"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2021 
+    resources:
+      - "talk": "https://www.dropbox.com/s/llvrja5kcps07eh/onecommon-talk-long.mp4?dl=0"
+      - "slides [pdf]": "talks/Fried-Chiu-Klein_onecommon_slides.pdf"
+      - "poster [pdf]": "talks/Fried-Chiu-Klein_onecommon_poster.pdf"
+      - "code": "https://github.com/dpfried/onecommon"
+
+  - title: "Modular Networks for Compositional Instruction Following"
+    url: "https://arxiv.org/abs/2010.12764"
+    authors: "Rodolfo Corona, Daniel Fried, Coline Devin, Dan Klein, and Trevor Darrell"
+    venue: "North American Chapter of the Association for Computational Linguistics (NAACL)"
+    year: 2021 
+
+  - title: "Learning to Segment Actions from Observation and Narration"
+    url: "https://arxiv.org/abs/2005.03684"
+    authors: "Daniel Fried, Jean-Baptiste Alayrac, Phil Blunsom, Chris Dyer, Stephen Clark, Aida Nematzadeh"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2020
+    resources:
+      - "talk": "https://slideslive.com/38929315/learning-to-segment-actions-from-observation-and-narration"
+      - "slides [pdf]": "talks/fabdcn_action_segmentation_slides.pdf"
+      - "code": "https://github.com/dpfried/action-segmentation"
+
+  - title: "Cross-Domain Generalization of Neural Constituency Parsers"
+    url: "https://arxiv.org/abs/1907.04347"
+    authors: "Daniel Fried*, Nikita Kitaev*, and Dan Klein"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2019
+    resources:
+      - "talk": "https://vimeo.com/385244938"
+      - "slides [pdf]": "talks/fkk_parser_generalization_slides.pdf"
+      - "code & models": "http://github.com/dpfried/rnng-bert"
+
+  - title: "Are You Looking? Grounding to Multiple Modalities in Vision-and-Language Navigation"
+    url: "https://arxiv.org/abs/1906.00347"
+    authors: "Ronghang Hu, Daniel Fried, Anna Rohrbach, Dan Klein, Trevor Darrell, and Kate Saenko"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2019
+    resources:
+      - "poster [pdf]": "talks/hu_navigation_grounding_poster.pdf"
+
+  - title: "Pragmatically Informative Text Generation"
+    url: "https://arxiv.org/abs/1904.01301"
+    authors: "Sheng Shen, Daniel Fried, Jacob Andreas, and Dan Klein"
+    venue: "North American Chapter of the Association for Computational Linguistics (NAACL)"
+    year: 2019
+    resources:
+      - "slides [pdf]": "talks/sfak_pragmatic_nlg_slides.pdf"
+
+  - title: "Speaker-Follower Models for Vision-and-Language Navigation"
+    url: "https://arxiv.org/abs/1806.02724"
+    authors: "Daniel Fried*, Ronghang Hu*, Volkan Cirik*, Anna Rohrbach, Jacob Andreas, Louis-Philippe Morency, Taylor Berg-Kirkpatrick, Kate Saenko, Dan Klein**, and Trevor Darrell** "
+    venue: "Neural Information Processing Systems (NeurIPS)"
+    year: 2018
+    resouces:
+      - "project page": "http://ronghanghu.com/speaker_follower/"
+      - "code": "https://github.com/ronghanghu/speaker_follower"
+      - "video": "https://www.youtube.com/watch?v=GZa7G71dxbw"
+      - "poster": "https://people.eecs.berkeley.edu/~ronghang/projects/speaker_follower/poster/nips18_speaker_follower_poster.pdf"
+
+  - title: "Policy Gradient as a Proxy for Dynamic Oracles in Constituency Parsing"
+    url: "https://arxiv.org/abs/1806.03290"
+    authors: "Daniel Fried and Dan Klein"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2018
+    resources:
+      - "talk": "https://vimeo.com/285804205"
+      - "slides [pptx]": "talks/fk_policy_grad_parsing.pptx"
+      - "slides [pdf]": "talks/fk_policy_grad_parsing.pdf"
+      - "code": "http://github.com/dpfried/rnng-bert"
+
+  - title: "Unified Pragmatic Models for Generating and Following Instructions"
+    url: "https://arxiv.org/abs/1711.04987"
+    authors: "Daniel Fried, Jacob Andreas, and Dan Klein"
+    venue: "North American Chapter of the Association for Computational Linguistics (NAACL)"
+    year: 2018
+    resources:
+      - "talk": "https://www.youtube.com/watch?v=kAyMHReoEfc"
+      - "slides [pptx]": "talks/fak_pragmatics_slides.pptx"
+      - "slides [pdf]": "talks/fak_pragmatics_slides.pdf"
+      - "code": "http://github.com/dpfried/pragmatic-instructions"
+
+  - title: "Effective Inference for Generative Neural Parsing"
+    url: "http://arxiv.org/abs/1707.08976"
+    authors: "Mitchell Stern, Daniel Fried, and Dan Klein"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2017
+    resources:
+      - "poster": "talks/sfk_parser_inference_poster.pdf"
+
+  - title: "Improving Neural Parsing by Disentangling Model Combination and Reranking Effects"
+    url: "https://arxiv.org/abs/1707.03058"
+    authors: "Daniel Fried*, Mitchell Stern*, and Dan Klein"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2017
+    resources:
+      - "talk": "https://vimeo.com/234957130"
+      - "slides [pptx]": "talks/fsk_parser_combination_slides.pptx"
+      - "slides [pdf]": "talks/fsk_parser_combination_slides.pdf"
+      - "code": "http://github.com/dpfried/rnng-bert"
+
+  - title: "Towards Using Social Media to Identify Individuals at Risk for Preventable Chronic Illness"
+    url: "http://arxiv.org/abs/1603.03784"
+    authors: "Dane Bell, Daniel Fried, Luwen Huangfu, Mihai Surdeanu, and Stephen Kobourov"
+    venue: "Language Resources and Evaluation Conference (LREC)"
+    year: 2016
+
+  - title: "Low-Rank Tensors for Verbs in Compositional Distributional Semantics"
+    url: "https://people.eecs.berkeley.edu/~dfried/papers/FPC-verb_tensors.pdf"
+    authors: "Daniel Fried, Tamara Polajnar, and Stephen Clark"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year:  2015
+    resources:
+      - "poster [pdf]": "talks/fpc_low_rank_compositional_poster.pdf"
+
+  - title: "Analyzing the Language of Food on Social Media"
+    url: "https://people.eecs.berkeley.edu/~dfried/papers/Fried-bigdata2014.pdf"
+    authors: "Daniel Fried, Mihai Surdeanu, Stephen Kobourov, Melanie Hingle, and Dane Bell"
+    venue: "International Conference on Big Data"
+    year:  2014
+    resources:
+      - "long version [arxiv]": "http://arxiv.org/abs/1409.2195"
+      - "slides [pdf]": "talks/fskhb_food_twitter.pdf"
+      - "demo": "https://sites.google.com/site/twitter4food/"
+
+  - title: "Maps of Computer Science"
+    url: "https://arxiv.org/abs/1304.2681"
+    authors: "Daniel Fried and Stephen Kobourov"
+    venue: "Pacific Visualization Symposium (PacificVis)"
+    year:  2014
+    resources:
+      - slides: "https://dpfried.github.io/talks/fk_mocs_slides.pdf"
+      - poster: "http://mocs.cs.arizona.edu/poster.pdf"
+      - code: "http://github.com/dpfried/mocs"
+      - demo: "http://mocs.cs.arizona.edu/"
+
+  - title: "Predicting Parallelization of Sequential Programs Using Supervised Learning"
+    url: "https://people.eecs.berkeley.edu/~dfried/papers/Fried-ICMLA2013.pdf"
+    authors: "Daniel Fried, Zhen Li, Ali Jannesari, and Felix Wolf"
+    venue: "International Conference on Machine Learning and Applications"
+    year:  2013
+
+  - title: "A Generative Probabilistic Framework for Learning Spatial Language"
+    url: "https://people.eecs.berkeley.edu/~dfried/papers/ICDL2013.pdf"
+    authors: "Colin Dawson, Jeremy Wright, Antons Rebguns, Marco Valenzuela Escarcega, Daniel Fried, and Paul Cohen"
+    venue: "International Conference on Development and Learning"
+    year:  2013
+    awards: "Best Paper Award"
+
+  - title: "Bayesian Geometric Modeling of Indoor Scenes"
+    url: "https://people.eecs.berkeley.edu/~dfried/papers/Del-Pero-CVPR-12.pdf"
+    authors: "Luca Del Pero, Joshua Bowdish, Daniel Fried, Bonnie Kermgard, Emily Hartley, and Kobus Barnard"
+    venue: "Conference on Computer Vision and Pattern Recognition (CVPR)"
+    year:  2012
+
+workshop-papers:
+  - title: "SantaCoder: Don't Reach for the Stars"
+    url: "SantaCoder: Don't Reach for the Stars"
+    authors: "Loubna Ben Allal*, Raymond Li*, Denis Kocetkov*, et al. (41 authors from the BigCode Project)"
+    venue: "Deep Learning for Code Workshop"
+    year:  2023
+    awards: "Best Paper Award"
+    resources:
+      - "models": "https://huggingface.co/bigcode/santacoder"
+
+  - title: "Modeling Perspective-Dependent Ambiguity in Grounded Collaborative Dialogue"
+    url: "https://openreview.net/pdf?id=PkHSHZLig5H"
+    authors: "Justin Chiu, Wenting Zhao, Alexander M. Rush, and Daniel Fried"
+    venue: "Wordplay: When Language Meets Games Workshop"
+    year:  2022
+
+  - title: "Interactive Assignments for Teaching Structured Neural NLP"
+    url: "http://nlp.cs.berkeley.edu/pubs/Gaddy-Fried-Kitaev-Stern-Corona-DeNero-Klein_2021_TeachingNLP_paper.pdf"
+    authors: "David Gaddy, Daniel Fried, Nikita Kitaev, Mitchell Stern, Rodolfo Corona, John DeNero, and Dan Klein"
+    venue: "Teaching NLP Workshop at NAACL"
+    year:  2021
+
+  - title: "Challenges for Using Social Media for Early Detection of Type II Diabetes Mellitus"
+    authors: "Dane Bell, Daniel Fried, Luwen Huangfu, Mihai Surdeanu, and Stephen Kobourov"
+    venue: "International Workshop on Social Media World Sensors"
+    year:  2016
+
+  - title: "Learning Low-Rank Tensors for Transitive Verbs"
+    authors: "Daniel Fried, Tamara Polajnar, and Stephen Clark"
+    venue: "Advances in Distributional Semantics Workshop"
+    year:  2015
+
+  - title: "Incorporating both Distributional and Relational Semantics in Word Representations"
+    url: "http://arxiv.org/abs/1412.5836"
+    authors: "Daniel Fried and Kevin Duh"
+    venue: "International Conference on Learning Representations (ICLR) Workshop"
+    year:  2015
+    resources:
+      - "long version [arxiv]": "http://arxiv.org/abs/1412.4369"
+      - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
+
+preprints:
+  - title: "Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening"
+    url: https://arxiv.org/abs/2506.02355
+    authors: "Andre He, Daniel Fried, and Sean Welleck"
+    venue: arXiv
+    year: 2025
+
+  - title: "mrCAD: Multimodal Refinement of Computer-aided Designs"
+    url: https://arxiv.org/abs/2504.20294
+    authors: "William P. McCarthy, Saujas Vaduguru, Karl D. D. Willis, Justin Matejka, Judith E. Fan, Daniel Fried, and Yewen Pu"
+    venue: arXiv
+    year: 2025
+    resources:
+      - "dataset": "https://github.com/AutodeskAILab/mrCAD"
+
+  - title: "Inducing Programmatic Skills for Agentic Tasks"
+    url: https://arxiv.org/abs/2504.06821
+    authors: "Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried"
+    venue: arXiv
+    year: 2025
+    resources:
+      - "code": "https://github.com/zorazrw/agent-skill-induction"
+
+  - title: "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing"
+    url: https://arxiv.org/abs/2503.07358
+    authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, Carolyn Rose"
+    venue: arXiv
+    year: 2025
+    resources:
+      - "code": "https://github.com/yiqingxyq/RepoST"
+
+  - title: "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution"
+    url: https://arxiv.org/abs/2502.18449
+    authors: "Yuxiang Wei, Olivier Duchenne, Jade Copet, Quentin Carbonneaux, Lingming Zhang, Daniel Fried, Gabriel Synnaeve, Rishabh Singh, and Sida I. Wang"
+    venue: arXiv
+    year: 2025
+    resources:
+      - "code": "https://github.com/facebookresearch/swe-rl"
+
+  - title: "CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks"
+    url: "https://arxiv.org/abs/2404.00566"
+    authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, and Carolyn Rose"
+    venue: arXiv
+    year: 2024
+
+  - title: "Tree Search for Language Model Agents"
+    url: "https://arxiv.org/abs/2407.01476"
+    authors: "Jing Yu Koh, Stephen McAleer, Daniel Fried, and Ruslan Salakhutdinov"
+    venue: arXiv
+    year: 2024
+    resources:
+      - "code": "https://github.com/kohjingyu/search-agents"
+      - "project page": "https://jykoh.com/search-agents"
+
+theses:
+  - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
+    authors: "Daniel Fried"
+    venue: "MPhil thesis"
+    url: "papers/Fried-mphil-thesis.pdf"
+    year: 2015
+
+  - title: "Learning Grounded Pragmatic Communication"
+    authors: "Daniel Fried"
+    url: "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-247.html"
+    venue: "PhD thesis"
+    year: 2021
+    resources:
+      - "job talk slides": "talks/fried_job_talk.pdf"
+      - "video": "https://cmu.box.com/s/of5v67nxaloio5ngnuk31wtxcl5fopoa"
