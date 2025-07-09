@@ -39,6 +39,22 @@ journal-papers:
 
 conference-papers:
 
+  - title: "Inducing Programmatic Skills for Agentic Tasks"
+    url: https://arxiv.org/abs/2504.06821
+    authors: "Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried"
+    venue: "Conference on Language Modeling (COLM)"
+    year: 2025
+    resources:
+      - "code": "https://github.com/zorazrw/agent-skill-induction"
+
+  - title: "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing"
+    url: https://arxiv.org/abs/2503.07358
+    authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, Carolyn Rose"
+    venue: "Conference on Language Modeling (COLM)"
+    year: 2025
+    resources:
+      - "code": "https://github.com/yiqingxyq/RepoST"
+
   - title: "Improving Model Factuality with Fine-grained Critique-based Evaluator"
     url: https://arxiv.org/abs/2410.18359
     authors: "Yiqing Xie, Wenxuan Zhou, Pradyot Prakash, Di Jin, Yuning Mao, Quintin Fettes, Arya Talebzadeh, Sinong Wang, Han Fang, Carolyn Rose, Daniel Fried, and Hejia Zhang"
@@ -547,22 +563,6 @@ preprints:
     year: 2025
     resources:
       - "dataset": "https://github.com/AutodeskAILab/mrCAD"
-
-  - title: "Inducing Programmatic Skills for Agentic Tasks"
-    url: https://arxiv.org/abs/2504.06821
-    authors: "Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried"
-    venue: arXiv
-    year: 2025
-    resources:
-      - "code": "https://github.com/zorazrw/agent-skill-induction"
-
-  - title: "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing"
-    url: https://arxiv.org/abs/2503.07358
-    authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, Carolyn Rose"
-    venue: arXiv
-    year: 2025
-    resources:
-      - "code": "https://github.com/yiqingxyq/RepoST"
 
   - title: "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution"
     url: https://arxiv.org/abs/2502.18449
