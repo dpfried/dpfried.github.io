@@ -47,7 +47,7 @@ def get_author_list(authors: str) -> list[str]:
     authors = [author.strip() for author in authors]
     return authors
 
-def generate_bib(publications_data):
+def generate_bib(publications_data, transform_name=True):
     is_journal = {
         'journal-papers': True,
         'conference-papers': False,
@@ -72,7 +72,7 @@ def generate_bib(publications_data):
                 author = author.strip()
                 if first_author is None:
                     first_author = author.split()[-1].lower()
-                if author in NAME_TRANSFORM:
+                if transform_name and author in NAME_TRANSFORM:
                     new_author = NAME_TRANSFORM[author]
                 else:
                     *given, last = author.split()
@@ -192,6 +192,7 @@ if __name__ == "__main__":
     functions = {
         'cv': generate_cv,
         'bib': generate_bib,
+        'bib_no_underline': lambda data: generate_bib(data, transform_name=False),
         'html': generate_html,
         'r_and_p': generate_r_and_p,
         'collaborators': generate_collaborators,
