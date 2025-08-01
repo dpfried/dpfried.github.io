@@ -544,6 +544,12 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "MetaLint: Generalizable Idiomatic Code Quality Analysis through Instruction-Following and Easy-to-Hard Generalization"
+    url: https://arxiv.org/abs/2507.11687
+    authors: "Atharva Naik, Lawanya Baghel, Dhakshin Govindarajan, Darsh Agrawal, Daniel Fried, Carolyn Rose"
+    venue: arXiv
+    year: 2025
+
   - title: "From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking"
     url: https://arxiv.org/abs/2506.19724
     authors: "Gyeongwon James Kim, Alex Wilf, Louis-Philippe Morency, Daniel Fried"
