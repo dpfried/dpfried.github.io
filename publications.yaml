@@ -38,6 +38,19 @@ journal-papers:
       - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
 
 conference-papers:
+  - title: "Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening"
+    url: https://arxiv.org/abs/2506.02355
+    authors: "Andre He, Daniel Fried, and Sean Welleck"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2025
+
+  - title: "mrCAD: Multimodal Refinement of Computer-aided Designs"
+    url: https://arxiv.org/abs/2504.20294
+    authors: "William P. McCarthy, Saujas Vaduguru, Karl D. D. Willis, Justin Matejka, Judith E. Fan, Daniel Fried, and Yewen Pu"
+    venue: "Findings of EMNLP"
+    year: 2025
+    resources:
+      - "dataset": "https://github.com/AutodeskAILab/mrCAD"
 
   - title: "Inducing Programmatic Skills for Agentic Tasks"
     url: https://arxiv.org/abs/2504.06821
@@ -555,20 +568,6 @@ preprints:
     authors: "Gyeongwon James Kim, Alex Wilf, Louis-Philippe Morency, Daniel Fried"
     venue: arXiv
     year: 2025
-
-  - title: "Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening"
-    url: https://arxiv.org/abs/2506.02355
-    authors: "Andre He, Daniel Fried, and Sean Welleck"
-    venue: arXiv
-    year: 2025
-
-  - title: "mrCAD: Multimodal Refinement of Computer-aided Designs"
-    url: https://arxiv.org/abs/2504.20294
-    authors: "William P. McCarthy, Saujas Vaduguru, Karl D. D. Willis, Justin Matejka, Judith E. Fan, Daniel Fried, and Yewen Pu"
-    venue: arXiv
-    year: 2025
-    resources:
-      - "dataset": "https://github.com/AutodeskAILab/mrCAD"
 
   - title: "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution"
     url: https://arxiv.org/abs/2502.18449
