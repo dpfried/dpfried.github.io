@@ -1,4 +1,13 @@
 journal-papers:
+  - title: "Tree Search for Language Model Agents"
+    url: "https://arxiv.org/abs/2407.01476"
+    authors: "Jing Yu Koh, Stephen McAleer, Daniel Fried, and Ruslan Salakhutdinov"
+    venue: Transactions on Machine Learning Research (TMLR)
+    year: 2025
+    resources:
+      - "code": "https://github.com/kohjingyu/search-agents"
+      - "project page": "https://jykoh.com/search-agents"
+
   - title: "StarCoder: May the Source Be With You!"
     url: https://arxiv.org/abs/2305.06161
     authors: "Raymond Li et al. (68 authors from the BigCode Project)"
@@ -38,6 +47,12 @@ journal-papers:
       - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
 
 conference-papers:
+  - title: "Identifying and Interactively Refining Ambiguous User Goals for Data Visualization Code Generation"
+    url: ""
+    authors: "Mert Inan, Anthony Sicilia, Alex Xie, Saujas Vaduguru, Daniel Fried, and Malihe Alikhani"
+    venue: "Empirical Methods in Natural Language Processing (EMNLP)"
+    year: 2025
+
   - title: "Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening"
     url: https://arxiv.org/abs/2506.02355
     authors: "Andre He, Daniel Fried, and Sean Welleck"
@@ -557,6 +572,12 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "Analyzing Information Sharing and Coordination in Multi-Agent Planning"
+    url: https://arxiv.org/abs/2508.12981
+    authors: "Tianyue Ou, Saujas Vaduguru, Daniel Fried"
+    venue: arXiv
+    year: 2025
+
   - title: "MetaLint: Generalizable Idiomatic Code Quality Analysis through Instruction-Following and Easy-to-Hard Generalization"
     url: https://arxiv.org/abs/2507.11687
     authors: "Atharva Naik, Lawanya Baghel, Dhakshin Govindarajan, Darsh Agrawal, Daniel Fried, Carolyn Rose"
@@ -582,15 +603,6 @@ preprints:
     authors: "Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, and Carolyn Rose"
     venue: arXiv
     year: 2024
-
-  - title: "Tree Search for Language Model Agents"
-    url: "https://arxiv.org/abs/2407.01476"
-    authors: "Jing Yu Koh, Stephen McAleer, Daniel Fried, and Ruslan Salakhutdinov"
-    venue: arXiv
-    year: 2024
-    resources:
-      - "code": "https://github.com/kohjingyu/search-agents"
-      - "project page": "https://jykoh.com/search-agents"
 
 theses:
   - title: "Low-rank Tensor Approximations for Compositional Distributional Semantics"
