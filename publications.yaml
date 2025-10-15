@@ -48,7 +48,7 @@ journal-papers:
 
 conference-papers:
   - title: "Identifying and Interactively Refining Ambiguous User Goals for Data Visualization Code Generation"
-    url: ""
+    url: "https://arxiv.org/abs/2510.09390"
     authors: "Mert Inan, Anthony Sicilia, Alex Xie, Saujas Vaduguru, Daniel Fried, and Malihe Alikhani"
     venue: "Empirical Methods in Natural Language Processing (EMNLP)"
     year: 2025
