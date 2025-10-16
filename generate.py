@@ -2,6 +2,7 @@ import yaml
 import re
 from collections import OrderedDict
 import argparse
+from datetime import datetime
 
 MY_NAME = "Daniel Fried"
 
@@ -110,9 +111,7 @@ def generate_r_and_p(publications_data):
         'preprints': "emph",
     }
 
-    with open('publications.yaml') as f:
-        publications_data = yaml.safe_load(f)
-
+    # Use already-loaded publications_data; derive combined section in-memory
     publications_data['conference-workshop-papers'] = sorted(
         publications_data['conference-papers'] + publications_data['workshop-papers'],
         key=lambda paper: paper['year'],
@@ -187,6 +186,72 @@ def generate_collaborators(publications_data):
             collaborators.update(get_author_list(paper.get('authors-long', paper['authors'])))
     return '\n'.join(sorted(collaborators))
 
+def parse_paper_date(paper):
+    s = str(paper.get('date', '')).strip()
+    if s:
+        parts = s.split('-')
+        try:
+            y = int(parts[0])
+            m = int(parts[1]) if len(parts) > 1 else 1
+            d = int(parts[2]) if len(parts) > 2 else 1
+            return datetime(y, m, d)
+        except Exception:
+            pass
+    try:
+        year = int(paper.get('year', 0))
+        if year:
+            return datetime(year, 1, 1)
+    except Exception:
+        pass
+    return None
+
+def load_affiliations_map(path):
+    with open(path) as f:
+        items = yaml.safe_load(f) or []
+    name_to_affil = {}
+    for it in items:
+        name = it.get('NAME') or it.get('name')
+        if name:
+            name_to_affil[name] = it.get('affiliation', '')
+    return name_to_affil
+
+def generate_coa_collaborators(publications_data, years_back=4, affiliations_path=None):
+    aff_map = load_affiliations_map(affiliations_path) if affiliations_path else {}
+    now = datetime.now()
+    min_date = now.replace(year=now.year - years_back)
+    name_to_dates = {}
+    name_to_affil = {}
+    def name_last_first(name: str) -> str:
+        parts = name.split()
+        if len(parts) <= 1:
+            return name
+        *given, last = parts
+        return f"{last}, {' '.join(given)}"
+    for section, papers in publications_data.items():
+        if not isinstance(papers, list):
+            continue
+        for paper in papers:
+            d = parse_paper_date(paper)
+            if d is None or d < min_date:
+                continue
+            authors_str = paper.get('authors-long', paper['authors'])
+            for author in get_author_list(authors_str):
+                if author == MY_NAME:
+                    continue
+                name_to_dates.setdefault(author, set()).add(d.strftime('%Y-%m-%d'))
+                if author not in name_to_affil:
+                    name_to_affil[author] = aff_map.get(author, '')
+    rows = []
+    for name, dates in name_to_dates.items():
+        ds = sorted(dates)
+        display_name = name_last_first(name)
+        # email column left blank per requirement
+        rows.append((display_name, name_to_affil.get(name, ''), '', ds[-1]))
+    rows.sort(key=lambda r: r[0].lower())
+    out = ['name,affiliation,email,most_recent_date']
+    out += [','.join(r) for r in rows]
+    return '\n'.join(out)
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     functions = {
@@ -196,9 +261,14 @@ if __name__ == "__main__":
         'html': generate_html,
         'r_and_p': generate_r_and_p,
         'collaborators': generate_collaborators,
+        'coa_collaborators': lambda data: generate_coa_collaborators(
+            data, years_back=args.years_back, affiliations_path=args.affiliations_file
+        ),
     }
     parser.add_argument("output_type", choices=functions.keys())
     parser.add_argument("--yaml_file", default="publications.yaml")
+    parser.add_argument("--years_back", type=int, default=4)
+    parser.add_argument("--affiliations_file", default="affiliations.yaml")
     args = parser.parse_args()
 
     with open(args.yaml_file) as f:
