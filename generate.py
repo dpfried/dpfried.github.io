@@ -266,9 +266,9 @@ if __name__ == "__main__":
         ),
     }
     parser.add_argument("output_type", choices=functions.keys())
-    parser.add_argument("--yaml_file", default="publications.yaml")
+    parser.add_argument("--yaml_file", default="yaml/publications.yaml")
     parser.add_argument("--years_back", type=int, default=4)
-    parser.add_argument("--affiliations_file", default="affiliations.yaml")
+    parser.add_argument("--affiliations_file", default="yaml/affiliations.yaml")
     args = parser.parse_args()
 
     with open(args.yaml_file) as f:
