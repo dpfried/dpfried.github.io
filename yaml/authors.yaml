@@ -66,6 +66,8 @@
   affiliation: Hugging Face
 - name: Manan Dey
   affiliation: SAP
+- name: Mona Diab
+  affiliation: Carnegie Mellon University
 - name: Emily Dinan
   affiliation: Meta AI
 - name: Jennifer Ding
@@ -110,6 +112,8 @@
   affiliation: Harvard University
 - name: Apurva Gandhi
   affiliation: Meta AI
+- name: Kshitish Ghate
+  affiliation: University of Washington
 - name: Andrew Goff
   affiliation: Meta AI
 - name: Chen Gong
@@ -158,10 +162,14 @@
   affiliation: Meta AI
 - name: Jean Kaddour
   affiliation: University College London
+- name: Atoosa Kasirzadeh
+  affiliation: Carnegie Mellon University
 - name: Sedrick Keh
   affiliation: Toyota Research Institute
 - name: Nikita Kitaev
   affiliation: UC Berkeley
+- name: MAx Kleinman-Weiner
+  affiliation: University of Washington
 - name: Gyeongwon Kim
   affiliation: Carnegie Mellon University
 - name: Dan Klein
