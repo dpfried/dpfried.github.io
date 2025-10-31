@@ -580,6 +580,12 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "Success and Cost Elicit Convention Formation for Efficient Communication"
+    url: https://arxiv.org/abs/2510.24023
+    authors: "Saujas Vaduguru, Yilun Hua, Yoav Artzi, Daniel Fried"
+    venue: arXiv
+    year: 2025
+
   - title: "Generative Value Conflicts Reveal LLM Priorities"
     url: https://arxiv.org/abs/2509.25369
     authors: "Andy Liu, Kshitish Ghate, Mona Diab, Daniel Fried, Atoosa Kasirzadeh, Max Kleiman-Weiner"
