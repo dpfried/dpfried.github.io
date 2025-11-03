@@ -580,6 +580,12 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across Diverse Occupations"
+    url: https://arxiv.org/abs/2510.22780
+    authors: Zora Zhiruo Wang, Yijia Shao, Omar Shaikh, Daniel Fried, Graham Neubig, Diyi Yang
+    venue: arXiv
+    year: 2025
+
   - title: "Success and Cost Elicit Convention Formation for Efficient Communication"
     url: https://arxiv.org/abs/2510.24023
     authors: "Saujas Vaduguru, Yilun Hua, Yoav Artzi, Daniel Fried"
