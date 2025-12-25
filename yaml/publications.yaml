@@ -586,6 +586,18 @@ preprints:
     venue: arXiv
     year: 2025
 
+  - title: "Toward Training Superintelligent Software Agents through Self-Play SWE-RL"
+    url: https://arxiv.org/abs/2512.18552
+    authors: Yuxiang Wei, Zhiqing Sun, Emily McMilin, Jonas Gehring, David Zhang, Gabriel Synnaeve, Daniel Fried, Lingming Zhang, Sida Wang
+    venue: arXiv
+    year: 2025
+
+  - title: "Measuring Fine-Grained Negotiation Tactics of Humans and LLMs in Diplomacy"
+    url: https://arxiv.org/abs/2512.18292
+    authors: Wenkai Li*, Lynnette Hui Xian Ng*, Andy Liu, Daniel Fried
+    venue: arXiv
+    year: 2025
+
   - title: "How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across Diverse Occupations"
     url: https://arxiv.org/abs/2510.22780
     authors: Zora Zhiruo Wang, Yijia Shao, Omar Shaikh, Daniel Fried, Graham Neubig, Diyi Yang
