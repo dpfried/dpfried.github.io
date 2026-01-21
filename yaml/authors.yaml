@@ -1,25 +1,37 @@
 - name: Dmitry Abulkhanov
   affiliation: Huawei Noah's Ark Lab
+- name: Pranjal Aggarwal
+  affiliation: Carnegie Mellon University
 - name: Armen Aghajanyan
   affiliation: Meta AI
+- name: Darsh Agrawal
+  affiliation: Carnegie Mellon University
 - name: Christopher Akiki
   affiliation: Leipzig University
 - name: Marcus Alenius
   affiliation: Carnegie Mellon University
+- name: Malihe Alikhani
+  affiliation: Northeastern University
+- name: Loubna Ben Allal
+  affiliation: Hugging Face
 - name: Uri Alon
   affiliation: Carnegie Mellon University
+- name: Carolyn Jane Anderson
+  affiliation: Wellesley College
 - name: Jacob Andreas
   affiliation: MIT
 - name: Talita Anthonio
   affiliation: Stuttgart University
+- name: Yoav Artzi
+  affiliation: Cornell Tech
 - name: Akari Asai
+  affiliation: Carnegie Mellon University
+- name: Lawanya Baghel
   affiliation: Carnegie Mellon University
 - name: Dzmitry Bahdanau
   affiliation: ServiceNow
 - name: Anton Bakhtin
   affiliation: Meta AI
-- name: Loubna Ben Allal
-  affiliation: Hugging Face
 - name: Urvashi Bhattacharyya
   affiliation: Discover Dollar Pvt Ltd
 - name: Giscard Biamby
@@ -28,10 +40,14 @@
   affiliation: Carnegie Mellon University
 - name: Shamik Bose
   affiliation: Canopy Software
-- name: Simon Brunner
-  affiliation: Independent
+- name: Ronan Le Bras
+  affiliation: Allen Institute for Artificial Intelligence
 - name: Noam Brown
   affiliation: Meta AI
+- name: Simon Brunner
+  affiliation: Independent
+- name: Yihan Cao
+  affiliation: Carnegie Mellon University
 - name: Quentin Carbonneaux
   affiliation: Meta AI
 - name: Catherine Chen
@@ -40,15 +56,21 @@
   affiliation: Columbia University
 - name: Shenghui Chen
   affiliation: UT Austin
+- name: Shuyi Chen
+  affiliation: Carnegie Mellon University
 - name: Hao Cheng
   affiliation: Microsoft Research
 - name: Xianyi Cheng
   affiliation: Carnegie Mellon University
 - name: Zhoujun Cheng
   affiliation: Shanghai Jiao Tong University
+- name: Vu Minh Chien
+  affiliation: Detomo Inc.
 - name: Jenny Chim
   affiliation: Queen Mary University of London
 - name: Justin Chiu
+  affiliation: Cornell Tech
+- name: Justin T. Chiu
   affiliation: Cornell Tech
 - name: Yejin Choi
   affiliation: University of Washington
@@ -67,6 +89,8 @@
 - name: Manan Dey
   affiliation: SAP
 - name: Mona Diab
+  affiliation: Carnegie Mellon University
+- name: Mona T. Diab
   affiliation: Carnegie Mellon University
 - name: Emily Dinan
   affiliation: Meta AI
@@ -88,6 +112,8 @@
   affiliation: Johns Hopkins University
 - name: Nour Fahmy
   affiliation: Columbia University
+- name: Judith E. Fan
+  affiliation: Stanford University
 - name: Judith Fan
   affiliation: Stanford University
 - name: Han Fang
@@ -96,42 +122,56 @@
   affiliation: Meta AI
 - name: Carlos Ferrandis
   affiliation: Hugging Face
+- name: "Carlos Mu\xF1oz Ferrandis"
+  affiliation: Hugging Face
 - name: Quintin Fettes
   affiliation: Meta AI
 - name: Colin Flaherty
   affiliation: Meta AI
 - name: Jean-Raphael Gaglione
   affiliation: UT Austin
+- name: Apurva Gandhi
+  affiliation: Meta AI
 - name: Jiangfeng Gao
   affiliation: Microsoft Research
 - name: Jiaxin Ge
   affiliation: UC Berkeley
+- name: Jonas Gehring
+  affiliation: Meta FAIR
+- name: Kshitish Ghate
+  affiliation: University of Washington
 - name: Marjan Ghazvininejad
   affiliation: Meta AI
 - name: Elena Glassman
   affiliation: Harvard University
-- name: Apurva Gandhi
-  affiliation: Meta AI
-- name: Kshitish Ghate
-  affiliation: University of Washington
 - name: Andrew Goff
   affiliation: Meta AI
 - name: Chen Gong
   affiliation: University of Virginia
 - name: Nicholas Gontier
   affiliation: ServiceNow
+- name: Nicolas Gontier
+  affiliation: ServiceNow
+- name: Dhakshin Govindarajan
+  affiliation: Carnegie Mellon University
 - name: Jonathan Gray
   affiliation: Meta AI
 - name: Alex Gu
   affiliation: MIT
+- name: Arjun Guha
+  affiliation: Northeastern University
 - name: Suriya Gunasekar
   affiliation: Microsoft Research
+- name: Tatsunori B. Hashimoto
+  affiliation: Stanford University
 - name: Tatsunori Hashimoto
   affiliation: Stanford University
 - name: Andre He
   affiliation: Carnegie Mellon University
 - name: Junda He
   affiliation: Singapore Management University
+- name: James Hoang
+  affiliation: CSIRO's Data61
 - name: Thong Hoang
   affiliation: CSIRO's Data61
 - name: Ari Holtzman
@@ -144,12 +184,18 @@
   affiliation: Meta AI
 - name: Jennifer Hu
   affiliation: MIT
+- name: Yilun Hua
+  affiliation: Cornell University
 - name: Po-Yu Huang
   affiliation: Carnegie Mellon University
 - name: Sean Hughes
   affiliation: ServiceNow
 - name: Binyuan Hui
   affiliation: Independent
+- name: Mert Inan
+  affiliation: Northeastern University
+- name: Daphne Ippolito
+  affiliation: Carnegie Mellon University
 - name: Athul Paul Jacob
   affiliation: MIT
 - name: Naman Jain
@@ -166,14 +212,18 @@
   affiliation: Carnegie Mellon University
 - name: Sedrick Keh
   affiliation: Toyota Research Institute
+- name: Gyeongwon James Kim
+  affiliation: Carnegie Mellon University
+- name: Gyeongwon Kim
+  affiliation: Carnegie Mellon University
 - name: Nikita Kitaev
+  affiliation: UC Berkeley
+- name: Max Kleiman-Weiner
+  affiliation: University of Washington
+- name: Dan Klein
   affiliation: UC Berkeley
 - name: MAx Kleinman-Weiner
   affiliation: University of Washington
-- name: Gyeongwon Kim
-  affiliation: Carnegie Mellon University
-- name: Dan Klein
-  affiliation: UC Berkeley
 - name: Denis Kocetkov
   affiliation: ServiceNow
 - name: Jing Yu Koh
@@ -187,6 +237,8 @@
 - name: Benno Krojer
   affiliation: McGill University
 - name: Abhishek Kulkarni
+  affiliation: UT Austin
+- name: Abhishek N. Kulkarni
   affiliation: UT Austin
 - name: Maxim Kunakov
   affiliation: Toloka
@@ -202,8 +254,6 @@
   affiliation: Independent
 - name: Michael Lappert
   affiliation: Berner Fachhochschule
-- name: Ronan Le Bras
-  affiliation: Allen Institute for Artificial Intelligence
 - name: Tony Lee
   affiliation: Stanford University
 - name: Adam Lerer
@@ -218,6 +268,8 @@
   affiliation: ServiceNow
 - name: Wen-Ding Li
   affiliation: Cornell University
+- name: Wenkai Li
+  affiliation: Carnegie Mellon University
 - name: Xiang Lisa Li
   affiliation: Stanford University
 - name: Paul Pu Liang
@@ -240,6 +292,8 @@
   affiliation: Shanghai Jiao Tong University
 - name: Qian Liu
   affiliation: Sea AI Lab
+- name: Ryan Liu
+  affiliation: Carnegie Mellon University
 - name: Xiaodong Liu
   affiliation: Microsoft Research
 - name: David Lo
@@ -250,30 +304,36 @@
   affiliation: Hugging Face
 - name: Grace Luo
   affiliation: UC Berkeley
-- name: Justin Matejka
-  affiliation: Autodesk Research
 - name: Jiayuan Mao
   affiliation: MIT
 - name: Yuning Mao
   affiliation: Meta AI
 - name: Marc Marone
   affiliation: Johns Hopkins University
+- name: Justin Matejka
+  affiliation: Autodesk Research
 - name: Leena Mathur
   affiliation: Carnegie Mellon University
-- name: Nicholas Meade
-  affiliation: ServiceNow
-- name: Joao Menteiro
-  affiliation: ServiceNow
 - name: Stephen McAleer
   affiliation: Open AI
 - name: William McCarthy
   affiliation: Autodesk Research
+- name: William P. McCarthy
+  affiliation: Autodesk
+- name: Emily McMilin
+  affiliation: Meta FAIR
+- name: Nicholas Meade
+  affiliation: ServiceNow
+- name: Joao Menteiro
+  affiliation: ServiceNow
 - name: Alexander H. Miller
   affiliation: Meta AI
 - name: Mayank Mishra
   affiliation: IBM Research
 - name: Sasha Mitts
   affiliation: Meta AI
+- name: "Jo\xE3o Monteiro"
+  affiliation: Apple
 - name: Louis-Philippe Morency
   affiliation: Carnegie Mellon University
 - name: Chenghao Mou
@@ -288,6 +348,8 @@
   affiliation: Google DeepMind
 - name: Graham Neubig
   affiliation: Carnegie Mellon University
+- name: Lynnette Hui Xian Ng
+  affiliation: Carnegie Mellon University
 - name: Huu Nguyen
   affiliation: Ontocord LLC
 - name: Muhtasham Oblokulov
@@ -298,14 +360,20 @@
   affiliation: Carnegie Mellon University
 - name: Tianyue Ou
   affiliation: Carnegie Mellon University
+- name: Bryan Parno
+  affiliation: Carnegie Mellon University
 - name: Roma Patel
   affiliation: Brown University
+- name: Siva Sankalp Patel
+  affiliation: IBM Research
 - name: Indraneil Paul
   affiliation: TU Darmstadt
 - name: Yi-Hao Peng
   affiliation: Carnegie Mellon University
 - name: Pradyot Prakash
   affiliation: Meta AI
+- name: et al. (41 authors from the BigCode Project)
+  affiliation: Carnegie Mellon University
 - name: Yewen Pu
   affiliation: Autodesk Research
 - name: Valentina Pyatkin
@@ -320,30 +388,38 @@
   affiliation: ServiceNow
 - name: Adi Renduchintala
   affiliation: Meta AI
-- name: Bernardo Río
-  affiliation: Flowrite
 - name: Jennifer Robinson
   affiliation: ServiceNow
 - name: Anna Rohrbach
   affiliation: UC Berkeley
 - name: Stephen Roller
   affiliation: Meta AI
-- name: Carolyn Rose
-  affiliation: Carnegie Mellon University
 - name: Manuel Romero
   affiliation: Independent
+- name: Carolyn Rose
+  affiliation: Carnegie Mellon University
 - name: Dirk Rowe
   affiliation: Meta AI
+- name: Alexander M. Rush
+  affiliation: Cornell Tech
 - name: Alexander Rush
   affiliation: Cornell Tech
+- name: "Bernardo R\xEDo"
+  affiliation: Flowrite
 - name: Ruslan Salakhutdinov
   affiliation: Carnegie Mellon University
 - name: Maarten Sap
   affiliation: Carnegie Mellon University
+- name: Claire Schlesinger
+  affiliation: Northeastern University
 - name: Hailey Schoelkopf
   affiliation: EleutherAI
 - name: Rishi Shah
   affiliation: Carnegie Mellon University
+- name: Omar Shaikh
+  affiliation: Stanford University
+- name: Yijia Shao
+  affiliation: Stanford University
 - name: Divyanshu Sheth
   affiliation: Carnegie Mellon University
 - name: Freda Shi
@@ -352,6 +428,8 @@
   affiliation: Columbia University
 - name: Oleh Shliazhko
   affiliation: ServiceNow
+- name: Anthony Sicilia
+  affiliation: West Virginia University
 - name: Rishabh Singh
   affiliation: Meta AI
 - name: Swayam Singh
@@ -360,6 +438,8 @@
   affiliation: IBM Research
 - name: Joe Spisak
   affiliation: Meta AI
+- name: Jacob Mitchell Springer
+  affiliation: Carnegie Mellon University
 - name: Jacob Springer
   affiliation: Carnegie Mellon University
 - name: Abishek Sridhar
@@ -370,12 +450,16 @@
   affiliation: UC Berkeley
 - name: Alane Suhr
   affiliation: UC Berkeley
+- name: Zhiqing Sun
+  affiliation: Meta
 - name: Gabriel Synnaeve
   affiliation: Meta AI
 - name: Arya Talebzadeh
   affiliation: Meta AI
 - name: Qinyue Tan
   affiliation: Carnegie Mellon University
+- name: FAIR Diplomacy Team
+  affiliation: Meta FAIR
 - name: Nadav Timor
   affiliation: Weizmann Institute of Science
 - name: Nicholas Tomlin
@@ -386,6 +470,8 @@
   affiliation: UT Austin
 - name: Sergey Troshin
   affiliation: University of Amsterdam
+- name: Logesh Kumar Umapathi
+  affiliation: Saama AI Research Lab
 - name: Logesh Umapathi
   affiliation: Saama Technologies
 - name: Saujas Vaduguru
@@ -400,6 +486,8 @@
   affiliation: Telefonica I+D
 - name: Svitlana Volkova
   affiliation: Aptima, Inc.
+- name: Harm de Vries
+  affiliation: Service Now
 - name: Harm Vries
   affiliation: ServiceNow
 - name: Minh Chien Vu
@@ -410,15 +498,19 @@
   affiliation: UC Berkeley
 - name: Sida I. Wang
   affiliation: Meta AI
+- name: Sida Wang
+  affiliation: Meta FAIR
 - name: Sinong Wang
   affiliation: Meta AI
 - name: Thomas Wang
   affiliation: Hugging Face
 - name: Yiming Wang
   affiliation: The University of Hong Kong
+- name: Zhiruo Wang
+  affiliation: Carnegie Mellon University
 - name: Zijian Wang
   affiliation: AWS AI Labs
-- name: Zhiruo Wang
+- name: Zora Zhiruo Wang
   affiliation: Carnegie Mellon University
 - name: Alexander Wei
   affiliation: Meta AI
@@ -426,17 +518,29 @@
   affiliation: UIUC
 - name: Sean Welleck
   affiliation: Carnegie Mellon University
+- name: Leandro Von Werra
+  affiliation: Hugging Face
+- name: Leandro von Werra
+  affiliation: Hugging Face
 - name: Leandro Werra
   affiliation: Hugging Face
 - name: Ratnadira Widyasari
   affiliation: Singapore Management University
 - name: Alex Wilf
   affiliation: Carnegie Mellon University
+- name: Karl D. D. Willis
+  affiliation: Autodesk
 - name: Karl D.D. Willis
   affiliation: Autodesk Research
 - name: Thomas Wolf
   affiliation: Hugging Face
 - name: Anita Woolley
+  affiliation: Carnegie Mellon University
+- name: Chen Henry Wu
+  affiliation: Carnegie Mellon University
+- name: David Wu
+  affiliation: Meta AI
+- name: Tongshuang Sherry Wu
   affiliation: Carnegie Mellon University
 - name: Alex Xie
   affiliation: Carnegie Mellon University
@@ -444,22 +548,22 @@
   affiliation: Carnegie Mellon University
 - name: Alex Tianyi Xu
   affiliation: Carnegie Mellon University
+- name: Frank F. Xu
+  affiliation: Carnegie Mellon University
 - name: Frank Xu
   affiliation: Carnegie Mellon University
 - name: Ming Xu
   affiliation: Uber
-- name: Chen Henry Wu
-  affiliation: Carnegie Mellon University
-- name: Tongshuang Sherry Wu
-  affiliation: Carnegie Mellon University
-- name: David Wu
-  affiliation: Meta AI
-- name: Frank Xu
-  affiliation: Carnegie Mellon University
 - name: Prateek Yadav
   affiliation: UNC Chapel Hill
+- name: Diyi Yang
+  affiliation: Stanford University
+- name: Ming-Ho Yee
+  affiliation: Northeastern University
 - name: Akhila Yerukola
   affiliation: Carnegie Mellon University
+- name: Scott Wen-tau Yih
+  affiliation: Meta FAIR
 - name: Wen-tau Yih
   affiliation: UC Berkeley
 - name: Haofei Yu
@@ -468,20 +572,26 @@
   affiliation: PIISA
 - name: Tao Yu
   affiliation: The University of Hong Kong
-- name: Xinyan Yu
-  affiliation: University of Southern California
 - name: Wenhao Yu
   affiliation: University of Notre Dame
+- name: Xinyan Velocity Yu
+  affiliation: University of Southern California
+- name: Xinyan Yu
+  affiliation: University of Southern California
 - name: Zhou Yu
   affiliation: Columbia University
 - name: Imam Nur Bani Yusuf
   affiliation: Singapore Management University
-- name: Luke Zettlemoyer
-  affiliation: Meta AI / University of Washington
+- name: Armel Randy Zebaze
+  affiliation: INRIA Paris
 - name: Armel Zebaze
   affiliation: Inria
+- name: Luke Zettlemoyer
+  affiliation: Meta AI / University of Washington
 - name: Haolan Zhan
   affiliation: Monash University
+- name: David Zhang
+  affiliation: Meta FAIR
 - name: Hejia Zhang
   affiliation: Meta AI
 - name: Hugh Zhang
@@ -506,16 +616,20 @@
   affiliation: UC Berkeley
 - name: Shuyan Zhou
   affiliation: Carnegie Mellon University
+- name: Wenxuan Zhou
+  affiliation: Meta AI
 - name: Xuhui Zhou
   affiliation: Carnegie Mellon University
 - name: Hao Zhu
   affiliation: Carnegie Mellon University
 - name: Jian Zhu
   affiliation: University of British Columbia
+- name: Terry Yue Zhuo
+  affiliation: Monash University
 - name: Terry Zhuo
   affiliation: Monash University
-- name: Wenxuan Zhou
-  affiliation: Meta AI
+- name: Yangtian Zi
+  affiliation: Northeastern University
 - name: Markus Zijlstra
   affiliation: Meta AI
 - name: Marco Zocca

@@ -187,6 +187,33 @@ def generate_collaborators(publications_data):
     return '\n'.join(sorted(collaborators))
 
 def parse_paper_date(paper):
+    # First, try to parse from arxiv URL
+    url = paper.get('url', '')
+    if 'arxiv.org' in url:
+        # Match patterns like arxiv.org/abs/YYMM.NNNNN or arxiv.org/abs/YYMM.NNNNNVN
+        match = re.search(r'arxiv\.org/abs/(\d{4})\.', url)
+        if match:
+            yymm = match.group(1)
+            try:
+                year = int(yymm[:2])
+                month = int(yymm[2:])
+                # Convert 2-digit year to 4-digit (assume 20xx for now, 19xx if >= 91)
+                full_year = 2000 + year if year < 91 else 1900 + year
+                # Use last day of the month
+                if month in [1, 3, 5, 7, 8, 10, 12]:
+                    day = 31
+                elif month in [4, 6, 9, 11]:
+                    day = 30
+                elif month == 2:
+                    # Simple leap year check
+                    day = 29 if (full_year % 4 == 0 and full_year % 100 != 0) or (full_year % 400 == 0) else 28
+                else:
+                    day = 1
+                return datetime(full_year, month, day)
+            except Exception:
+                pass
+    
+    # Fall back to explicit date field
     s = str(paper.get('date', '')).strip()
     if s:
         parts = s.split('-')
@@ -197,10 +224,12 @@ def parse_paper_date(paper):
             return datetime(y, m, d)
         except Exception:
             pass
+    
+    # Fall back to year field with December 31st
     try:
         year = int(paper.get('year', 0))
         if year:
-            return datetime(year, 1, 1)
+            return datetime(year, 12, 31)
     except Exception:
         pass
     return None
@@ -238,7 +267,7 @@ def generate_coa_collaborators(publications_data, years_back=4, affiliations_pat
             for author in get_author_list(authors_str):
                 if author == MY_NAME:
                     continue
-                name_to_dates.setdefault(author, set()).add(d.strftime('%Y-%m-%d'))
+                name_to_dates.setdefault(author, set()).add(d.strftime('%-m/%-d/%y'))
                 if author not in name_to_affil:
                     name_to_affil[author] = aff_map.get(author, '')
     rows = []
@@ -248,9 +277,94 @@ def generate_coa_collaborators(publications_data, years_back=4, affiliations_pat
         # email column left blank per requirement
         rows.append((display_name, name_to_affil.get(name, ''), '', ds[-1]))
     rows.sort(key=lambda r: r[0].lower())
-    out = ['name,affiliation,email,most_recent_date']
-    out += [','.join(r) for r in rows]
+    import csv
+    import io
+    output = io.StringIO()
+    writer = csv.writer(output)
+    writer.writerow(['name', 'affiliation', 'email', 'most_recent_date'])
+    for r in rows:
+        writer.writerow(r)
+    out = output.getvalue().strip().split('\n')
     return '\n'.join(out)
+
+def update_affiliations(publications_data, affiliations_path='yaml/affiliations.yaml', 
+                       default_affiliation='Carnegie Mellon University', years_back=4):
+    """
+    Update affiliations YAML file with missing collaborators.
+    Prompts user for affiliation of each missing collaborator.
+    Only considers collaborators from papers within the last years_back years.
+    """
+    # Get all collaborators from recent publications
+    now = datetime.now()
+    min_date = now.replace(year=now.year - years_back)
+    
+    all_collaborators = set()
+    for key in publications_data.keys():
+        if not isinstance(publications_data[key], list):
+            continue
+        for paper in publications_data[key]:
+            d = parse_paper_date(paper)
+            if d is None or d < min_date:
+                continue
+            authors_str = paper.get('authors-long', paper['authors'])
+            for author in get_author_list(authors_str):
+                if author != MY_NAME:
+                    all_collaborators.add(author)
+    
+    # Load existing affiliations
+    try:
+        with open(affiliations_path) as f:
+            affiliations_list = yaml.safe_load(f) or []
+    except FileNotFoundError:
+        affiliations_list = []
+
+    # Deduplicate the affiliations list by name (keeping the last occurrence)
+    deduped = {}
+    for item in affiliations_list:
+        # Use lower case for name for better robustness
+        name = item.get('name') or item.get('NAME')
+        if name:
+            deduped[name] = item
+    affiliations_list = list(deduped.values())
+    
+    # Build set of existing names
+    existing_names = set()
+    for item in affiliations_list:
+        name = item.get('NAME') or item.get('name')
+        if name:
+            existing_names.add(name)
+    
+    # Find missing collaborators
+    missing = sorted(all_collaborators - existing_names)
+    
+    if not missing:
+        print(f"All collaborators from the last {years_back} years already have affiliations recorded.")
+    else:
+        print(f"\nFound {len(missing)} collaborator(s) from the last {years_back} years without affiliations.\n")
+        
+        # Prompt for each missing collaborator
+        new_entries = []
+        for name in missing:
+            affiliation = input(f"Affiliation for '{name}' (press Enter for default '{default_affiliation}'): ").strip()
+            if not affiliation:
+                affiliation = default_affiliation
+            new_entries.append({
+                'name': name,
+                'affiliation': affiliation
+            })
+            print(f"  Added: {name} -> {affiliation}")
+        
+        # Append new entries to existing list
+        affiliations_list.extend(new_entries)
+    
+        print(f"\nSuccessfully updated {affiliations_path} with {len(new_entries)} new affiliation(s).")
+    
+    # Sort by "last" name for cleaner YAML
+    affiliations_list.sort(key=lambda x: (x.get('name') or x.get('NAME', '')).lower().split()[-1])
+    
+    # Write updated affiliations back to file
+    with open(affiliations_path, 'w') as f:
+        yaml.dump(affiliations_list, f, default_flow_style=False, sort_keys=False)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -264,11 +378,17 @@ if __name__ == "__main__":
         'coa_collaborators': lambda data: generate_coa_collaborators(
             data, years_back=args.years_back, affiliations_path=args.affiliations_file
         ),
+        'update_affiliations': lambda data: update_affiliations(
+            data, affiliations_path=args.affiliations_file, 
+            default_affiliation=args.default_affiliation,
+            years_back=args.years_back
+        ),
     }
     parser.add_argument("output_type", choices=functions.keys())
     parser.add_argument("--yaml_file", default="yaml/publications.yaml")
     parser.add_argument("--years_back", type=int, default=4)
     parser.add_argument("--affiliations_file", default="yaml/affiliations.yaml")
+    parser.add_argument("--default_affiliation", default="Carnegie Mellon University")
     args = parser.parse_args()
 
     with open(args.yaml_file) as f:
