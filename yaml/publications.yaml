@@ -47,6 +47,22 @@ journal-papers:
       - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
 
 conference-papers:
+  - title: "Generative Value Conflicts Reveal LLM Priorities"
+    url: https://arxiv.org/abs/2509.25369
+    authors: "Andy Liu, Kshitish Ghate, Mona Diab*, Daniel Fried*, Atoosa Kasirzadeh*, Max Kleiman-Weiner*"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2026
+    resources:
+      - "code": "https://github.com/j1mk1m/AutoExperiment"
+
+  - title: "From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking"
+    url: https://arxiv.org/abs/2506.19724
+    authors: "Gyeongwon James Kim, Alex Wilf, Louis-Philippe Morency, Daniel Fried"
+    venue: "International Conference on Learning Representations (ICLR)"
+    year: 2026
+    resources:
+      - "code": "https://github.com/j1mk1m/AutoExperiment"
+
   - title: "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution"
     url: https://arxiv.org/abs/2502.18449
     authors: "Yuxiang Wei, Olivier Duchenne, Jade Copet, Quentin Carbonneaux, Lingming Zhang, Daniel Fried, Gabriel Synnaeve, Rishabh Singh, and Sida I. Wang"
@@ -610,12 +626,6 @@ preprints:
     venue: arXiv
     year: 2025
 
-  - title: "Generative Value Conflicts Reveal LLM Priorities"
-    url: https://arxiv.org/abs/2509.25369
-    authors: "Andy Liu, Kshitish Ghate, Mona Diab, Daniel Fried, Atoosa Kasirzadeh, Max Kleiman-Weiner"
-    venue: arXiv
-    year: 2025
-
   - title: "Analyzing Information Sharing and Coordination in Multi-Agent Planning"
     url: https://arxiv.org/abs/2508.12981
     authors: "Tianyue Ou, Saujas Vaduguru, Daniel Fried"
@@ -625,12 +635,6 @@ preprints:
   - title: "MetaLint: Generalizable Idiomatic Code Quality Analysis through Instruction-Following and Easy-to-Hard Generalization"
     url: https://arxiv.org/abs/2507.11687
     authors: "Atharva Naik, Lawanya Baghel, Dhakshin Govindarajan, Darsh Agrawal, Daniel Fried, Carolyn Rose"
-    venue: arXiv
-    year: 2025
-
-  - title: "From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking"
-    url: https://arxiv.org/abs/2506.19724
-    authors: "Gyeongwon James Kim, Alex Wilf, Louis-Philippe Morency, Daniel Fried"
     venue: arXiv
     year: 2025
 
