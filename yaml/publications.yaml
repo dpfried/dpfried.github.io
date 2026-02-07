@@ -596,6 +596,12 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "Reasoning with Latent Tokens in Diffusion Language Models"
+    url: https://arxiv.org/abs/2602.03769
+    authors: Andre He, Sean Welleck*, Daniel Fried*
+    venue: arXiv
+    year: 2026
+
   - title: "Propose, Solve, Verify: Self-Play Through Formal Verification"
     url: https://arxiv.org/abs/2512.18160
     authors: Alex Wilf, Pranjal Aggarwal, Bryan Parno, Daniel Fried, Louis-Philippe Morency, Paul Pu Liang, Sean Welleck
