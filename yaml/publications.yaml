@@ -596,6 +596,12 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "Position: Humans are Missing from AI Coding Agent Research"
+    url: https://zorazrw.github.io/files/position-haicode.pdf
+    authors: Zora Zhiruo Wang*, John Yang*, Kilian Lieret*, Alexa Tartaglini, Valerie Chen, Yuxiang Wei, Zijian Wang, Lingming Zhang, Karthik Narasimhan, Ludwig Schmidt, Graham Neubig, Daniel Fried, Diyi Yang
+    venue: preprint
+    year: 2026
+
   - title: "Reasoning with Latent Tokens in Diffusion Language Models"
     url: https://arxiv.org/abs/2602.03769
     authors: Andre He, Sean Welleck*, Daniel Fried*
