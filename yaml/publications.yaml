@@ -596,6 +596,14 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "How Well Does Agent Development Reflect Real-World Work?"
+    url: https://arxiv.org/abs/2603.01203
+    authors: Zora Zhiruo Wang, Sanidhya Vijayvargiya, Aspen Chen, Hanmo Zhang, Venu Arvind Arangarajan, Jett Chen, Valerie Chen, Diyi Yang, Daniel Fried, Graham Neubig
+    venue: arXiv
+    year: 2026
+    resources:
+      - "site": https://zorazrw.github.io/ai4work/
+
   - title: "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
     url: https://arxiv.org/abs/2602.16819
     authors: Yiqing Xie, Emmy Liu, Gaokai Zhang, Nachiket Kotalwar, Shubham Gandhi, Sathwik Acharya, Xingyao Wang, Carolyn Rose, Graham Neubig, Daniel Fried
