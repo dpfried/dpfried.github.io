@@ -47,6 +47,13 @@ journal-papers:
       - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
 
 conference-papers:
+
+  - title: "Success and Cost Elicit Convention Formation for Efficient Communication"
+    url: https://arxiv.org/abs/2510.24023
+    authors: "Saujas Vaduguru, Yilun Hua, Yoav Artzi, Daniel Fried"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    year: 2026
+
   - title: "Generative Value Conflicts Reveal LLM Priorities"
     url: https://arxiv.org/abs/2509.25369
     authors: "Andy Liu, Kshitish Ghate, Mona Diab*, Daniel Fried*, Atoosa Kasirzadeh*, Max Kleiman-Weiner*"
@@ -596,6 +603,12 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "Agent Psychometrics: Task-Level Performance Prediction in Agentic Coding Benchmarks"
+    url: https://arxiv.org/abs/2604.00594
+    authors: Chris Ge, Daria Kryvosheieva, Daniel Fried, Uzay Girit, Kaivalya Hariharan
+    venue: arXiv
+    year: 2026
+
   - title: "How Well Does Agent Development Reflect Real-World Work?"
     url: https://arxiv.org/abs/2603.01203
     authors: Zora Zhiruo Wang, Sanidhya Vijayvargiya, Aspen Chen, Hanmo Zhang, Venu Arvind Arangarajan, Jett Chen, Valerie Chen, Diyi Yang, Daniel Fried, Graham Neubig
@@ -645,12 +658,6 @@ preprints:
   - title: "How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across Diverse Occupations"
     url: https://arxiv.org/abs/2510.22780
     authors: Zora Zhiruo Wang, Yijia Shao, Omar Shaikh, Daniel Fried, Graham Neubig, Diyi Yang
-    venue: arXiv
-    year: 2025
-
-  - title: "Success and Cost Elicit Convention Formation for Efficient Communication"
-    url: https://arxiv.org/abs/2510.24023
-    authors: "Saujas Vaduguru, Yilun Hua, Yoav Artzi, Daniel Fried"
     venue: arXiv
     year: 2025
 
