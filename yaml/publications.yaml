@@ -603,6 +603,14 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks"
+    url: https://arxiv.org/abs/2604.24964
+    authors: Lawrence Jang*, Jing Yu Koh*, Daniel Fried, Ruslan Salakhutdinov
+    venue: arXiv
+    year: 2026
+    resources:
+      - "site": https://odysseys-website.pages.dev/
+
   - title: "Scaling Test-Time Compute for Agentic Coding"
     url: https://arxiv.org/abs/2604.16529
     authors: Joongwon Kim, Wannan Yang, Kelvin Niu, Hongming Zhang, Yun Zhu, Eryk Helenowski, Ruan Silva, Zhengxing Chen, Srinivasan Iyer, Manzil Zaheer, Daniel Fried, Hannaneh Hajishirzi, Sanjeev Arora, Gabriel Synnaeve, Ruslan Salakhutdinov, Anirudh Goyal
