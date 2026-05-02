@@ -48,6 +48,26 @@ journal-papers:
 
 conference-papers:
 
+  - title: "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
+    url: https://arxiv.org/abs/2602.16819
+    authors: Yiqing Xie, Emmy Liu, Gaokai Zhang, Nachiket Kotalwar, Shubham Gandhi, Sathwik Acharya, Xingyao Wang, Carolyn Rose, Graham Neubig, Daniel Fried
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2026
+    resources:
+      - "code": https://github.com/yiqingxyq/Hybrid-Gym
+
+  - title: "Propose, Solve, Verify: Self-Play Through Formal Verification"
+    url: https://arxiv.org/abs/2512.18160
+    authors: Alex Wilf, Pranjal Aggarwal, Bryan Parno, Daniel Fried, Louis-Philippe Morency, Paul Pu Liang, Sean Welleck
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2026
+
+  - title: "Toward Training Superintelligent Software Agents through Self-Play SWE-RL"
+    url: https://arxiv.org/abs/2512.18552
+    authors: Yuxiang Wei, Zhiqing Sun, Emily McMilin, Jonas Gehring, David Zhang, Gabriel Synnaeve, Daniel Fried, Lingming Zhang, Sida Wang
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2026
+
   - title: "Success and Cost Elicit Convention Formation for Efficient Communication"
     url: https://arxiv.org/abs/2510.24023
     authors: "Saujas Vaduguru, Yilun Hua, Yoav Artzi, Daniel Fried"
@@ -631,14 +651,6 @@ preprints:
     resources:
       - "site": https://zorazrw.github.io/ai4work/
 
-  - title: "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
-    url: https://arxiv.org/abs/2602.16819
-    authors: Yiqing Xie, Emmy Liu, Gaokai Zhang, Nachiket Kotalwar, Shubham Gandhi, Sathwik Acharya, Xingyao Wang, Carolyn Rose, Graham Neubig, Daniel Fried
-    venue: arXiv
-    year: 2026
-    resources:
-      - "code": https://github.com/yiqingxyq/Hybrid-Gym
-
   - title: "Position: Humans are Missing from AI Coding Agent Research"
     url: https://zorazrw.github.io/files/position-haicode.pdf
     authors: Zora Zhiruo Wang*, John Yang*, Kilian Lieret*, Alexa Tartaglini, Valerie Chen, Yuxiang Wei, Zijian Wang, Lingming Zhang, Karthik Narasimhan, Ludwig Schmidt, Graham Neubig, Daniel Fried, Diyi Yang
@@ -650,18 +662,6 @@ preprints:
     authors: Andre He, Sean Welleck*, Daniel Fried*
     venue: arXiv
     year: 2026
-
-  - title: "Propose, Solve, Verify: Self-Play Through Formal Verification"
-    url: https://arxiv.org/abs/2512.18160
-    authors: Alex Wilf, Pranjal Aggarwal, Bryan Parno, Daniel Fried, Louis-Philippe Morency, Paul Pu Liang, Sean Welleck
-    venue: arXiv
-    year: 2025
-
-  - title: "Toward Training Superintelligent Software Agents through Self-Play SWE-RL"
-    url: https://arxiv.org/abs/2512.18552
-    authors: Yuxiang Wei, Zhiqing Sun, Emily McMilin, Jonas Gehring, David Zhang, Gabriel Synnaeve, Daniel Fried, Lingming Zhang, Sida Wang
-    venue: arXiv
-    year: 2025
 
   - title: "Measuring Fine-Grained Negotiation Tactics of Humans and LLMs in Diplomacy"
     url: https://arxiv.org/abs/2512.18292
