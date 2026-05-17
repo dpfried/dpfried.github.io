@@ -1,0 +1,47 @@
+%______________________________________________________________________________________________________________________
+\documentclass[11pt,resmargin,line]{resume}
+\newcommand{\poss}[3] {
+    \textbf{#1}, #2 \hfill #3 \\
+}
+\newcommand{\pos}[2] {
+    \textbf{#1} \hfill #2 \\
+}
+\newcommand{\award}[2] {
+    #1 \hfill #2 \\
+}
+\newcommand{\mailto}[1]{
+  \href{mailto:#1}{#1}
+}
+\newcommand{\pro}[2] {
+    \textsl{#1} \hfill #2\\
+}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=false,
+  allbordercolors=[rgb]{1.0,1.0,1.0},
+}
+\usepackage{verbatim}
+\usepackage{tabularx}
+\usepackage{palatino}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{etaremune}
+\usepackage[top=0.7in,bottom=0.7in,left=0.6in,right=1.95in]{geometry}
+\usepackage{longtable}
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Daniel Fried}
+\begin{resume}
+
+%__________________________________________________________________________________________________________________
+% Contact Information
+\section{Contact\\Information}
+\mailto{dfried@cs.cmu.edu} \\
+{\small \url{dpfried.github.io}}
+
+\input{content-2pg.tex}
+
+\end{resume}
+\end{document}
