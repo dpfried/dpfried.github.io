@@ -47,6 +47,31 @@ journal-papers:
       - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
 
 conference-papers:
+  - title: "Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks"
+    url: https://arxiv.org/abs/2604.24964
+    authors: Lawrence Jang*, Jing Yu Koh*, Daniel Fried, Ruslan Salakhutdinov
+    venue: "Conference on Language Modeling (COLM)"
+    year: 2026
+    resources:
+      - "site": https://odysseys-website.pages.dev/
+
+  - title: "MetaLint: Generalizable Idiomatic Code Quality Analysis through Instruction-Following and Easy-to-Hard Generalization"
+    url: https://arxiv.org/abs/2507.11687
+    authors: "Atharva Naik, Lawanya Baghel, Dhakshin Govindarajan, Darsh Agrawal, Yiqing Xie, Daniel Fried, Carolyn Rose"
+    venue: "Conference on Language Modeling (COLM)"
+    year: 2026
+
+  - title: "Agent Psychometrics: Task-Level Performance Prediction in Agentic Coding Benchmarks"
+    url: https://arxiv.org/abs/2604.00594
+    authors: Chris Ge, Daria Kryvosheieva, Daniel Fried, Uzay Girit, Kaivalya Hariharan
+    venue: "Conference on Language Modeling (COLM)"
+    year: 2026
+
+  - title: "Scaling Test-Time Compute for Agentic Coding"
+    url: https://arxiv.org/abs/2604.16529
+    authors: Joongwon Kim, Wannan Yang, Kelvin Niu, Hongming Zhang, Yun Zhu, Eryk Helenowski, Ruan Silva, Zhengxing Chen, Srinivasan Iyer, Manzil Zaheer, Daniel Fried, Hannaneh Hajishirzi, Sanjeev Arora, Gabriel Synnaeve, Ruslan Salakhutdinov, Anirudh Goyal
+    venue: "Conference on Language Modeling (COLM)"
+    year: 2026
 
   - title: "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
     url: https://arxiv.org/abs/2602.16819
@@ -623,25 +648,6 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
-  - title: "Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks"
-    url: https://arxiv.org/abs/2604.24964
-    authors: Lawrence Jang*, Jing Yu Koh*, Daniel Fried, Ruslan Salakhutdinov
-    venue: arXiv
-    year: 2026
-    resources:
-      - "site": https://odysseys-website.pages.dev/
-
-  - title: "Scaling Test-Time Compute for Agentic Coding"
-    url: https://arxiv.org/abs/2604.16529
-    authors: Joongwon Kim, Wannan Yang, Kelvin Niu, Hongming Zhang, Yun Zhu, Eryk Helenowski, Ruan Silva, Zhengxing Chen, Srinivasan Iyer, Manzil Zaheer, Daniel Fried, Hannaneh Hajishirzi, Sanjeev Arora, Gabriel Synnaeve, Ruslan Salakhutdinov, Anirudh Goyal
-    venue: arXiv
-    year: 2026
-
-  - title: "Agent Psychometrics: Task-Level Performance Prediction in Agentic Coding Benchmarks"
-    url: https://arxiv.org/abs/2604.00594
-    authors: Chris Ge, Daria Kryvosheieva, Daniel Fried, Uzay Girit, Kaivalya Hariharan
-    venue: arXiv
-    year: 2026
 
   - title: "How Well Does Agent Development Reflect Real-World Work?"
     url: https://arxiv.org/abs/2603.01203
@@ -678,12 +684,6 @@ preprints:
   - title: "Analyzing Information Sharing and Coordination in Multi-Agent Planning"
     url: https://arxiv.org/abs/2508.12981
     authors: "Tianyue Ou, Saujas Vaduguru, Daniel Fried"
-    venue: arXiv
-    year: 2025
-
-  - title: "MetaLint: Generalizable Idiomatic Code Quality Analysis through Instruction-Following and Easy-to-Hard Generalization"
-    url: https://arxiv.org/abs/2507.11687
-    authors: "Atharva Naik, Lawanya Baghel, Dhakshin Govindarajan, Darsh Agrawal, Daniel Fried, Carolyn Rose"
     venue: arXiv
     year: 2025
 
