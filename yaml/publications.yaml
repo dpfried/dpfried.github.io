@@ -104,8 +104,6 @@ conference-papers:
     authors: "Andy Liu, Kshitish Ghate, Mona Diab*, Daniel Fried*, Atoosa Kasirzadeh*, Max Kleiman-Weiner*"
     venue: "International Conference on Learning Representations (ICLR)"
     year: 2026
-    resources:
-      - "code": "https://github.com/j1mk1m/AutoExperiment"
 
   - title: "From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking"
     url: https://arxiv.org/abs/2506.19724
@@ -505,7 +503,7 @@ conference-papers:
     authors: "Daniel Fried*, Ronghang Hu*, Volkan Cirik*, Anna Rohrbach, Jacob Andreas, Louis-Philippe Morency, Taylor Berg-Kirkpatrick, Kate Saenko, Dan Klein**, and Trevor Darrell** "
     venue: "Neural Information Processing Systems (NeurIPS)"
     year: 2018
-    resouces:
+    resources:
       - "project page": "http://ronghanghu.com/speaker_follower/"
       - "code": "https://github.com/ronghanghu/speaker_follower"
       - "video": "https://www.youtube.com/watch?v=GZa7G71dxbw"
