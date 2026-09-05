@@ -646,6 +646,15 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "Efficient Test-Time Adaptation through Human-AI Interaction"
+    url: https://arxiv.org/abs/2609.04141
+    authors: Zora Zhiruo Wang, Apurva Gandhi, Rulin Shao, Aspen Chen, Jonas Mueller, Zhiqi Liang, Jett Chen, Michael Ryan, Qianou Ma, Luxi He, Zhoujun Cheng, Andre He, Seungone Kim, Jiayi Geng, Mingqian Zheng, Weiwei Sun, Zheyuan Zhang, Xinran Zhao, Yike Wang, Abe Hou, Liwei Jiang, Pang Wei Koh, Diyi Yang, Graham Neubig, Daniel Fried
+    venue: arXiv
+    year: 2026
+    resources:
+      - "code": https://github.com/zorazrw/tahi-agent-adaptation
+
+
   - title: "Multi-Agent Computer Use"
     url: https://arxiv.org/abs/2606.01533
     authors: Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried
