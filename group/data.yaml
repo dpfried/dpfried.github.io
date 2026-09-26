@@ -1,0 +1,138 @@
+group:
+  name: "LAIR"
+  tagline: "Language Agents, Interaction, Reasoning"
+  affiliation: "Language Technologies Institute, Carnegie Mellon University"
+  description: >
+    Our group works on language, reasoning, and interaction for AI systems that
+    act in the world — writing code, navigating computers, and collaborating with
+    people. Our research spans three connected threads: agents that reason, search,
+    and learn from experience; pragmatic interaction between models and people;
+    and multi-agent dynamics such as negotiation, value alignment, and coalition
+    formation.
+  group_photo: "../images/group-2026.jpg"
+  pi:
+    name: "Daniel Fried"
+    title: "Assistant Professor"
+    url: "https://dpfried.github.io"
+    photo: "../daniel.jpg"
+    email: "dfried@cs.cmu.edu"
+  founded: 2022
+
+people:
+  current:
+    - name: "Andre He"
+      url: "https://andrehe02.github.io/"
+      photo: "photos/andre-he.jpg"
+      role: "PhD Student"
+      note: "co-advised with Sean Welleck"
+
+    - name: "JY Koh"
+      url: "https://jykoh.com/"
+      photo: "photos/jy-koh.jpg"
+      role: "PhD Student"
+      note: "co-advised with Russ Salakhutdinov"
+
+    - name: "Andy Liu"
+      url: "https://andyjliu.github.io/"
+      photo: "photos/andy-liu.jpg"
+      role: "PhD Student"
+      note: "co-advised with Mona Diab"
+
+    - name: "Saujas Vaduguru"
+      url: "https://saujasv.github.io/"
+      photo: "photos/saujas-vaduguru.jpg"
+      role: "PhD Student"
+
+    - name: "Zora Wang"
+      url: "https://zorazrw.github.io/"
+      photo: "photos/zora-wang.jpg"
+      role: "PhD Student"
+      note: "co-advised with Graham Neubig"
+
+  collaborators:
+    - name: "Yiqing Xie"
+      url: "https://yiqingxyq.github.io/"
+      photo: "photos/yiqing-xie.jpg"
+      role: "PhD Student"
+      note: "advised by Carolyn Rose"
+
+    - name: "Atharva Naik"
+      url: "https://atharva-naik.github.io/"
+      photo: "photos/atharva-naik.jpg"
+      role: "PhD Student"
+      note: "advised by Carolyn Rose"
+
+    - name: "Alex Wilf"
+      url: "https://abwilf.github.io/"
+      photo: "photos/alex-wilf.jpg"
+      role: "PhD Student"
+      note: "advised by Louis-Philippe Morency"
+
+  alumni:
+    - name: "Alex Xie"
+      url: "https://axie66.github.io/"
+      photo: "photos/alex-xie.jpg"
+      role: "MLT"
+      now: "Cartesia"
+      note: "co-advised with Matt Gormley"
+
+research:
+  - title: "Language model agents"
+    image: "../images/vwa.png"
+    text: "Benchmarks and methods for agents that carry out long-horizon tasks on the web and computers, and improve from experience."
+    papers:
+      - "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
+      - "Inducing Programmatic Skills for Agentic Tasks"
+      - "Agent Workflow Memory"
+  - title: "Code generation and software engineering"
+    image: "../images/hybridgym.png"
+    text: "Environments and training methods for coding agents that generalize across tasks and repositories."
+    papers:
+      - "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
+      - "Toward Training Superintelligent Software Agents through Self-Play SWE-RL"
+      - "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing"
+  - title: "Pragmatics and human-AI interaction"
+    image: "../images/convention.png"
+    text: "How can models infer what people mean, not just what they say, and communicate with them efficiently?"
+    papers:
+      - "Success and Cost Elicit Convention Formation for Efficient Communication"
+      - "Generating Pragmatic Examples to Train Neural Program Synthesizers"
+      - "mrCAD: Multimodal Refinement of Computer-aided Designs"
+  - title: "Multi-agent dynamics"
+    image: "../images/diplomacy.png"
+    text: "How do language models negotiate, form coalitions, and handle conflicting values, with each other and with people?"
+    papers:
+      - "Generative Value Conflicts Reveal LLM Priorities"
+      - "Measuring Fine-Grained Negotiation Tactics of Humans and LLMs in Diplomacy"
+      - "Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning"
+  - title: "Reasoning"
+    image: "../images/latent-tokens.png"
+    text: "Training and inference methods for reasoning in language models."
+    papers:
+      - "Reasoning with Latent Tokens in Diffusion Language Models"
+      - "Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening"
+      - "Propose, Solve, Verify: Self-Play Through Formal Verification"
+
+join:
+  - 'We recruit PhD and MLT students through the <a href="https://lti.cs.cmu.edu/">Language Technologies Institute</a> at Carnegie Mellon University. Applications go through LTI graduate admissions, with deadlines in early December.'
+  - 'See <a href="https://dpfried.github.io/prospective.html">the page for prospective students</a> for whether we are recruiting this cycle and how to apply.'
+
+news:
+  - date: "September 2026"
+    text: '<a href="https://andrehe02.github.io/">Andre</a>''s <a href="https://arxiv.org/abs/2602.03769">Reasoning with Latent Tokens in Diffusion Language Models</a> selected as a <b>Spotlight</b> (top 1% of submissions) at NeurIPS 2026.'
+  - date: "April 2026"
+    text: "Daniel awarded the <b>NSF CAREER Award</b>."
+  - date: "April 2026"
+    text: 'Daniel awarded the <b><a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-research-faculty-fellowship/">Microsoft Research Faculty Fellowship</a></b>.'
+  - date: "April 2026"
+    text: '<a href="https://saujasv.github.io/">Saujas</a> awarded the <b><a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/">Microsoft Research PhD Fellowship</a></b>.'
+  - date: "October 2025"
+    text: '<a href="https://zorazrw.github.io/">Zora</a> awarded the <b><a href="https://research.google/programs-and-events/phd-fellowship/">Google PhD Fellowship</a></b>.'
+  - date: "June 2025"
+    text: '<a href="https://andyjliu.github.io/">Andy</a> awarded the <b><a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a></b>.'
+  - date: "February 2024"
+    text: '<a href="https://jykoh.com/">JY</a> awarded the <b><a href="https://www.janestreet.com/join-jane-street/programs-and-events/graduate-research-fellowship/">Jane Street Graduate Research Fellowship</a></b>.'
+  - date: "September 2023"
+    text: 'Received an <a href="http://www.okawa-foundation.or.jp/en/activities/research_grant/list.html">Okawa Research Grant</a> for our work on pragmatics and language interfaces.'
+  - date: "August 2022"
+    text: "Group founded! Daniel joins CMU."

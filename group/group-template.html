@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ group.name }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <h1>{{ group.name }}</h1>
+    {% if group.tagline %}<p class="tagline">{{ group.tagline }}</p>{% endif %}
+    <p class="affiliation">{{ group.affiliation }}</p>
+  </div>
+</header>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#people">People</a>
+    <a href="#news">News</a>
+    <a href="#join">Join</a>
+    <a href="#publications">Publications</a>
+  </div>
+</nav>
+
+<section id="about">
+  <div class="container">
+    <div class="about-photo">
+      <img src="{{ group.group_photo }}" alt="Group photo">
+    </div>
+    <div class="about-text">
+      <p>{{ group.description }}</p>
+      <p><strong>PI:</strong> <a href="{{ group.pi.url }}">{{ group.pi.name }}</a>{% if group.pi.email %} &middot; <a href="mailto:{{ group.pi.email }}">{{ group.pi.email }}</a> (<a href="{{ group.pi.url }}/prospective.html">note for prospective students</a>){% endif %}</p>
+    </div>
+  </div>
+</section>
+
+<section id="research" class="alt-bg">
+  <div class="container">
+    <h2>Research</h2>
+    <div class="research-grid">
+      {% for area in research %}
+      <div class="research-card">
+        {% if area.image %}
+        <div class="research-image"><img src="{{ area.image }}" alt=""></div>
+        {% endif %}
+        <div class="research-body">
+        <h3>{{ area.title }}</h3>
+        <p>{{ area.text }}</p>
+        {% if area.papers %}
+        <details class="research-papers">
+          <summary>Selected papers</summary>
+          <ul>
+            {% for paper in area.papers %}
+            <li><a href="{{ paper.url }}">{{ paper.title }}</a>
+              <span class="venue">{{ paper.venue }}{% if paper.venue != 'preprint' %} {{ paper.year }}{% endif %}</span></li>
+            {% endfor %}
+          </ul>
+        </details>
+        {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="people">
+  <div class="container">
+    <h2>People</h2>
+
+    <h3>Faculty</h3>
+    <div class="people-grid">
+      <div class="person-card">
+        <a href="{{ group.pi.url }}">
+          <div class="photo-container">
+            <img src="{{ group.pi.photo }}" alt="{{ group.pi.name }}">
+          </div>
+          <div class="person-info">
+            <h4>{{ group.pi.name }}</h4>
+            <p class="role">{{ group.pi.title }}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <h3>PhD Advisees</h3>
+    <div class="people-grid">
+      {% for person in people.current %}
+      <div class="person-card">
+        <a href="{{ person.url }}">
+          <div class="photo-container">
+            <img src="{{ person.photo }}" alt="{{ person.name }}"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">{{ person.name.split()[0][0] }}{{ person.name.split()[-1][0] }}</div>
+          </div>
+          <div class="person-info">
+            <h4>{{ person.name }}</h4>
+            {% if person.note %}<p class="note">{{ person.note }}</p>{% endif %}
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% if people.collaborators %}
+    <h3>Collaborators</h3>
+    <div class="people-grid">
+      {% for person in people.collaborators %}
+      <div class="person-card">
+        <a href="{{ person.url }}">
+          <div class="photo-container">
+            <img src="{{ person.photo }}" alt="{{ person.name }}"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">{{ person.name.split()[0][0] }}{{ person.name.split()[-1][0] }}</div>
+          </div>
+          <div class="person-info">
+            <h4>{{ person.name }}</h4>
+            {% if person.note %}<p class="note">{{ person.note }}</p>{% endif %}
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if people.alumni %}
+    <h3>Alumni</h3>
+    <div class="people-grid">
+      {% for person in people.alumni %}
+      <div class="person-card">
+        <a href="{{ person.url }}">
+          <div class="photo-container">
+            <img src="{{ person.photo }}" alt="{{ person.name }}"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">{{ person.name.split()[0][0] }}{{ person.name.split()[-1][0] }}</div>
+          </div>
+          <div class="person-info">
+            <h4>{{ person.name }}</h4>
+            {% if person.role %}<p class="role">{{ person.role }}{% if person.now %}, now at {{ person.now }}{% endif %}</p>
+            {% elif person.now %}<p class="role">Now at {{ person.now }}</p>{% endif %}
+            {% if person.note %}<p class="note">{{ person.note }}</p>{% endif %}
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section id="news" class="alt-bg">
+  <div class="container">
+    <h2>News</h2>
+    {% for item in news %}
+    <div class="news-item">
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-text">{{ item.text }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="join">
+  <div class="container">
+    <h2>Join Us</h2>
+    <div class="join-text">
+      {% for paragraph in join %}
+      <p>{{ paragraph }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="alt-bg">
+  <div class="container">
+    <h2>Publications</h2>
+    <p class="pub-meta">
+      Papers since the group was founded in {{ group.founded }}.
+      <a href="{{ group.pi.url }}#papers_place">Full list</a> &middot;
+      <a href="https://scholar.google.com/citations?hl=en&user=sJDqACEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+    </p>
+    <ul class="publication-list">
+      {% for year, papers in papers_by_year.items() %}
+      <h3>{{ year }}</h3>
+      {% for paper in papers %}
+      <li><a href="{{ paper.url }}">{{ paper.title }}</a><br>
+      {{ paper.authors }}<br>
+      {{ paper.venue }}, {{ paper.year }}.
+      {%- if paper.resources -%}
+        {%- for resource in paper.resources -%}
+          {% set outer_loop = loop %}
+          {% for key in resource -%}
+          <a href="{{ resource[key] }}">{{ key }}</a>{{ ", " if not outer_loop.last else "" -}}
+          {% endfor -%}
+        {% endfor -%}
+      {% endif -%}
+      {% if paper.awards %}
+        <strong>{{ paper.awards }}</strong>
+      {% endif -%}
+      </li>
+      {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    {{ group.name }} &middot; {{ group.affiliation }}
+  </div>
+</footer>
+
+</body>
+</html>

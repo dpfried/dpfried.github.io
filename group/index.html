@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LAIR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <h1>LAIR</h1>
+    <p class="tagline">Language Agents, Interaction, Reasoning</p>
+    <p class="affiliation">Language Technologies Institute, Carnegie Mellon University</p>
+  </div>
+</header>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#people">People</a>
+    <a href="#news">News</a>
+    <a href="#join">Join</a>
+    <a href="#publications">Publications</a>
+  </div>
+</nav>
+
+<section id="about">
+  <div class="container">
+    <div class="about-photo">
+      <img src="../images/group-2026.jpg" alt="Group photo">
+    </div>
+    <div class="about-text">
+      <p>Our group works on language, reasoning, and interaction for AI systems that act in the world — writing code, navigating computers, and collaborating with people. Our research spans three connected threads: agents that reason, search, and learn from experience; pragmatic interaction between models and people; and multi-agent dynamics such as negotiation, value alignment, and coalition formation.
+</p>
+      <p><strong>PI:</strong> <a href="https://dpfried.github.io">Daniel Fried</a> &middot; <a href="mailto:dfried@cs.cmu.edu">dfried@cs.cmu.edu</a> (<a href="https://dpfried.github.io/prospective.html">note for prospective students</a>)</p>
+    </div>
+  </div>
+</section>
+
+<section id="research" class="alt-bg">
+  <div class="container">
+    <h2>Research</h2>
+    <div class="research-grid">
+      
+      <div class="research-card">
+        
+        <div class="research-image"><img src="../images/vwa.png" alt=""></div>
+        
+        <div class="research-body">
+        <h3>Language model agents</h3>
+        <p>Benchmarks and methods for agents that carry out long-horizon tasks on the web and computers, and improve from experience.</p>
+        
+        <details class="research-papers">
+          <summary>Selected papers</summary>
+          <ul>
+            
+            <li><a href="https://arxiv.org/abs/2401.13649">VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks</a>
+              <span class="venue">ACL 2024</span></li>
+            
+            <li><a href="https://arxiv.org/abs/2504.06821">Inducing Programmatic Skills for Agentic Tasks</a>
+              <span class="venue">COLM 2025</span></li>
+            
+            <li><a href="https://arxiv.org/abs/2409.07429">Agent Workflow Memory</a>
+              <span class="venue">ICML 2025</span></li>
+            
+          </ul>
+        </details>
+        
+        </div>
+      </div>
+      
+      <div class="research-card">
+        
+        <div class="research-image"><img src="../images/hybridgym.png" alt=""></div>
+        
+        <div class="research-body">
+        <h3>Code generation and software engineering</h3>
+        <p>Environments and training methods for coding agents that generalize across tasks and repositories.</p>
+        
+        <details class="research-papers">
+          <summary>Selected papers</summary>
+          <ul>
+            
+            <li><a href="https://arxiv.org/abs/2602.16819">Hybrid-Gym: Training Coding Agents to Generalize Across Tasks</a>
+              <span class="venue">ICML 2026</span></li>
+            
+            <li><a href="https://arxiv.org/abs/2512.18552">Toward Training Superintelligent Software Agents through Self-Play SWE-RL</a>
+              <span class="venue">ICML 2026</span></li>
+            
+            <li><a href="https://arxiv.org/abs/2503.07358">RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing</a>
+              <span class="venue">COLM 2025</span></li>
+            
+          </ul>
+        </details>
+        
+        </div>
+      </div>
+      
+      <div class="research-card">
+        
+        <div class="research-image"><img src="../images/convention.png" alt=""></div>
+        
+        <div class="research-body">
+        <h3>Pragmatics and human-AI interaction</h3>
+        <p>How can models infer what people mean, not just what they say, and communicate with them efficiently?</p>
+        
+        <details class="research-papers">
+          <summary>Selected papers</summary>
+          <ul>
+            
+            <li><a href="https://arxiv.org/abs/2510.24023">Success and Cost Elicit Convention Formation for Efficient Communication</a>
+              <span class="venue">ACL 2026</span></li>
+            
+            <li><a href="https://arxiv.org/abs/2311.05740">Generating Pragmatic Examples to Train Neural Program Synthesizers</a>
+              <span class="venue">ICLR 2024</span></li>
+            
+            <li><a href="https://arxiv.org/abs/2504.20294">mrCAD: Multimodal Refinement of Computer-aided Designs</a>
+              <span class="venue">Findings of EMNLP 2025</span></li>
+            
+          </ul>
+        </details>
+        
+        </div>
+      </div>
+      
+      <div class="research-card">
+        
+        <div class="research-image"><img src="../images/diplomacy.png" alt=""></div>
+        
+        <div class="research-body">
+        <h3>Multi-agent dynamics</h3>
+        <p>How do language models negotiate, form coalitions, and handle conflicting values, with each other and with people?</p>
+        
+        <details class="research-papers">
+          <summary>Selected papers</summary>
+          <ul>
+            
+            <li><a href="https://arxiv.org/abs/2509.25369">Generative Value Conflicts Reveal LLM Priorities</a>
+              <span class="venue">ICLR 2026</span></li>
+            
+            <li><a href="https://arxiv.org/abs/2512.18292">Measuring Fine-Grained Negotiation Tactics of Humans and LLMs in Diplomacy</a>
+              <span class="venue">arXiv 2025</span></li>
+            
+            <li><a href="https://www.science.org/doi/10.1126/science.ade9097">Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning</a>
+              <span class="venue">Science 2022</span></li>
+            
+          </ul>
+        </details>
+        
+        </div>
+      </div>
+      
+      <div class="research-card">
+        
+        <div class="research-image"><img src="../images/latent-tokens.png" alt=""></div>
+        
+        <div class="research-body">
+        <h3>Reasoning</h3>
+        <p>Training and inference methods for reasoning in language models.</p>
+        
+        <details class="research-papers">
+          <summary>Selected papers</summary>
+          <ul>
+            
+            <li><a href="https://arxiv.org/abs/2602.03769">Reasoning with Latent Tokens in Diffusion Language Models</a>
+              <span class="venue">NeurIPS 2026</span></li>
+            
+            <li><a href="https://arxiv.org/abs/2506.02355">Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening</a>
+              <span class="venue">EMNLP 2025</span></li>
+            
+            <li><a href="https://arxiv.org/abs/2512.18160">Propose, Solve, Verify: Self-Play Through Formal Verification</a>
+              <span class="venue">ICML 2026</span></li>
+            
+          </ul>
+        </details>
+        
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section id="people">
+  <div class="container">
+    <h2>People</h2>
+
+    <h3>Faculty</h3>
+    <div class="people-grid">
+      <div class="person-card">
+        <a href="https://dpfried.github.io">
+          <div class="photo-container">
+            <img src="../daniel.jpg" alt="Daniel Fried">
+          </div>
+          <div class="person-info">
+            <h4>Daniel Fried</h4>
+            <p class="role">Assistant Professor</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <h3>PhD Advisees</h3>
+    <div class="people-grid">
+      
+      <div class="person-card">
+        <a href="https://andrehe02.github.io/">
+          <div class="photo-container">
+            <img src="photos/andre-he.jpg" alt="Andre He"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">AH</div>
+          </div>
+          <div class="person-info">
+            <h4>Andre He</h4>
+            <p class="note">co-advised with Sean Welleck</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="person-card">
+        <a href="https://jykoh.com/">
+          <div class="photo-container">
+            <img src="photos/jy-koh.jpg" alt="JY Koh"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">JK</div>
+          </div>
+          <div class="person-info">
+            <h4>JY Koh</h4>
+            <p class="note">co-advised with Russ Salakhutdinov</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="person-card">
+        <a href="https://andyjliu.github.io/">
+          <div class="photo-container">
+            <img src="photos/andy-liu.jpg" alt="Andy Liu"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">AL</div>
+          </div>
+          <div class="person-info">
+            <h4>Andy Liu</h4>
+            <p class="note">co-advised with Mona Diab</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="person-card">
+        <a href="https://saujasv.github.io/">
+          <div class="photo-container">
+            <img src="photos/saujas-vaduguru.jpg" alt="Saujas Vaduguru"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">SV</div>
+          </div>
+          <div class="person-info">
+            <h4>Saujas Vaduguru</h4>
+            
+          </div>
+        </a>
+      </div>
+      
+      <div class="person-card">
+        <a href="https://zorazrw.github.io/">
+          <div class="photo-container">
+            <img src="photos/zora-wang.jpg" alt="Zora Wang"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">ZW</div>
+          </div>
+          <div class="person-info">
+            <h4>Zora Wang</h4>
+            <p class="note">co-advised with Graham Neubig</p>
+          </div>
+        </a>
+      </div>
+      
+    </div>
+
+    
+    <h3>Collaborators</h3>
+    <div class="people-grid">
+      
+      <div class="person-card">
+        <a href="https://yiqingxyq.github.io/">
+          <div class="photo-container">
+            <img src="photos/yiqing-xie.jpg" alt="Yiqing Xie"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">YX</div>
+          </div>
+          <div class="person-info">
+            <h4>Yiqing Xie</h4>
+            <p class="note">advised by Carolyn Rose</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="person-card">
+        <a href="https://atharva-naik.github.io/">
+          <div class="photo-container">
+            <img src="photos/atharva-naik.jpg" alt="Atharva Naik"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">AN</div>
+          </div>
+          <div class="person-info">
+            <h4>Atharva Naik</h4>
+            <p class="note">advised by Carolyn Rose</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="person-card">
+        <a href="https://abwilf.github.io/">
+          <div class="photo-container">
+            <img src="photos/alex-wilf.jpg" alt="Alex Wilf"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">AW</div>
+          </div>
+          <div class="person-info">
+            <h4>Alex Wilf</h4>
+            <p class="note">advised by Louis-Philippe Morency</p>
+          </div>
+        </a>
+      </div>
+      
+    </div>
+    
+
+    
+    <h3>Alumni</h3>
+    <div class="people-grid">
+      
+      <div class="person-card">
+        <a href="https://axie66.github.io/">
+          <div class="photo-container">
+            <img src="photos/alex-xie.jpg" alt="Alex Xie"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="photo-placeholder">AX</div>
+          </div>
+          <div class="person-info">
+            <h4>Alex Xie</h4>
+            <p class="role">MLT, now at Cartesia</p>
+            
+            <p class="note">co-advised with Matt Gormley</p>
+          </div>
+        </a>
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+<section id="news" class="alt-bg">
+  <div class="container">
+    <h2>News</h2>
+    
+    <div class="news-item">
+      <span class="news-date">September 2026</span>
+      <span class="news-text"><a href="https://andrehe02.github.io/">Andre</a>'s <a href="https://arxiv.org/abs/2602.03769">Reasoning with Latent Tokens in Diffusion Language Models</a> selected as a <b>Spotlight</b> (top 1% of submissions) at NeurIPS 2026.</span>
+    </div>
+    
+    <div class="news-item">
+      <span class="news-date">April 2026</span>
+      <span class="news-text">Daniel awarded the <b>NSF CAREER Award</b>.</span>
+    </div>
+    
+    <div class="news-item">
+      <span class="news-date">April 2026</span>
+      <span class="news-text">Daniel awarded the <b><a href="https://www.microsoft.com/en-us/research/academic-program/microsoft-research-faculty-fellowship/">Microsoft Research Faculty Fellowship</a></b>.</span>
+    </div>
+    
+    <div class="news-item">
+      <span class="news-date">April 2026</span>
+      <span class="news-text"><a href="https://saujasv.github.io/">Saujas</a> awarded the <b><a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/">Microsoft Research PhD Fellowship</a></b>.</span>
+    </div>
+    
+    <div class="news-item">
+      <span class="news-date">October 2025</span>
+      <span class="news-text"><a href="https://zorazrw.github.io/">Zora</a> awarded the <b><a href="https://research.google/programs-and-events/phd-fellowship/">Google PhD Fellowship</a></b>.</span>
+    </div>
+    
+    <div class="news-item">
+      <span class="news-date">June 2025</span>
+      <span class="news-text"><a href="https://andyjliu.github.io/">Andy</a> awarded the <b><a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a></b>.</span>
+    </div>
+    
+    <div class="news-item">
+      <span class="news-date">February 2024</span>
+      <span class="news-text"><a href="https://jykoh.com/">JY</a> awarded the <b><a href="https://www.janestreet.com/join-jane-street/programs-and-events/graduate-research-fellowship/">Jane Street Graduate Research Fellowship</a></b>.</span>
+    </div>
+    
+    <div class="news-item">
+      <span class="news-date">September 2023</span>
+      <span class="news-text">Received an <a href="http://www.okawa-foundation.or.jp/en/activities/research_grant/list.html">Okawa Research Grant</a> for our work on pragmatics and language interfaces.</span>
+    </div>
+    
+    <div class="news-item">
+      <span class="news-date">August 2022</span>
+      <span class="news-text">Group founded! Daniel joins CMU.</span>
+    </div>
+    
+  </div>
+</section>
+
+<section id="join">
+  <div class="container">
+    <h2>Join Us</h2>
+    <div class="join-text">
+      
+      <p>We recruit PhD and MLT students through the <a href="https://lti.cs.cmu.edu/">Language Technologies Institute</a> at Carnegie Mellon University. Applications go through LTI graduate admissions, with deadlines in early December.</p>
+      
+      <p>See <a href="https://dpfried.github.io/prospective.html">the page for prospective students</a> for whether we are recruiting this cycle and how to apply.</p>
+      
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="alt-bg">
+  <div class="container">
+    <h2>Publications</h2>
+    <p class="pub-meta">
+      Papers since the group was founded in 2022.
+      <a href="https://dpfried.github.io#papers_place">Full list</a> &middot;
+      <a href="https://scholar.google.com/citations?hl=en&user=sJDqACEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+    </p>
+    <ul class="publication-list">
+      
+      <h3>Preprints</h3>
+      
+      <li><a href="https://arxiv.org/abs/2609.04141">Efficient Test-Time Adaptation through Human-AI Interaction</a><br>
+      Zora Zhiruo Wang, Apurva Gandhi, Rulin Shao, Aspen Chen, Jonas Mueller, Zhiqi Liang, Jett Chen, Michael Ryan, Qianou Ma, Luxi He, Zhoujun Cheng, Andre He, Seungone Kim, Jiayi Geng, Mingqian Zheng, Weiwei Sun, Zheyuan Zhang, Xinran Zhao, Yike Wang, Abe Hou, Liwei Jiang, Pang Wei Koh, Diyi Yang, Graham Neubig, Daniel Fried<br>
+      arXiv, 2026.
+          <a href="https://github.com/zorazrw/tahi-agent-adaptation">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2606.01533">Multi-Agent Computer Use</a><br>
+      Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried<br>
+      arXiv, 2026.
+          <a href="https://jykoh.com/multi-agent-computer-use">site</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2603.01203">How Well Does Agent Development Reflect Real-World Work?</a><br>
+      Zora Zhiruo Wang, Sanidhya Vijayvargiya, Aspen Chen, Hanmo Zhang, Venu Arvind Arangarajan, Jett Chen, Valerie Chen, Diyi Yang, Daniel Fried, Graham Neubig<br>
+      arXiv, 2026.
+          <a href="https://zorazrw.github.io/ai4work/">site</a></li>
+      
+      <li><a href="https://zorazrw.github.io/files/position-haicode.pdf">Position: Humans are Missing from AI Coding Agent Research</a><br>
+      Zora Zhiruo Wang*, John Yang*, Kilian Lieret*, Alexa Tartaglini, Valerie Chen, Yuxiang Wei, Zijian Wang, Lingming Zhang, Karthik Narasimhan, Ludwig Schmidt, Graham Neubig, Daniel Fried, Diyi Yang<br>
+      preprint, 2026.</li>
+      
+      <li><a href="https://arxiv.org/abs/2512.18292">Measuring Fine-Grained Negotiation Tactics of Humans and LLMs in Diplomacy</a><br>
+      Wenkai Li*, Lynnette Hui Xian Ng*, Andy Liu, Daniel Fried<br>
+      arXiv, 2025.</li>
+      
+      <li><a href="https://arxiv.org/abs/2510.22780">How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across Diverse Occupations</a><br>
+      Zora Zhiruo Wang, Yijia Shao, Omar Shaikh, Daniel Fried, Graham Neubig, Diyi Yang<br>
+      arXiv, 2025.</li>
+      
+      <li><a href="https://arxiv.org/abs/2508.12981">Analyzing Information Sharing and Coordination in Multi-Agent Planning</a><br>
+      Tianyue Ou, Saujas Vaduguru, Daniel Fried<br>
+      arXiv, 2025.</li>
+      
+      <li><a href="https://arxiv.org/abs/2404.00566">CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks</a><br>
+      Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, and Carolyn Rose<br>
+      arXiv, 2024.</li>
+      
+      
+      <h3>2026</h3>
+      
+      <li><a href="https://arxiv.org/abs/2602.03769">Reasoning with Latent Tokens in Diffusion Language Models</a><br>
+      Andre He, Sean Welleck*, Daniel Fried*<br>
+      NeurIPS, 2026.
+        <strong>Spotlight (top 1% of submissions)</strong>
+      </li>
+      
+      <li><a href="https://arxiv.org/abs/2604.24964">Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks</a><br>
+      Lawrence Jang*, Jing Yu Koh*, Daniel Fried, Ruslan Salakhutdinov<br>
+      COLM, 2026.
+          <a href="https://odysseys-website.pages.dev/">site</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2507.11687">MetaLint: Generalizable Idiomatic Code Quality Analysis through Instruction-Following and Easy-to-Hard Generalization</a><br>
+      Atharva Naik, Lawanya Baghel, Dhakshin Govindarajan, Darsh Agrawal, Yiqing Xie, Daniel Fried, Carolyn Rose<br>
+      COLM, 2026.</li>
+      
+      <li><a href="https://arxiv.org/abs/2604.00594">Agent Psychometrics: Task-Level Performance Prediction in Agentic Coding Benchmarks</a><br>
+      Chris Ge, Daria Kryvosheieva, Daniel Fried, Uzay Girit, Kaivalya Hariharan<br>
+      COLM, 2026.</li>
+      
+      <li><a href="https://arxiv.org/abs/2604.16529">Scaling Test-Time Compute for Agentic Coding</a><br>
+      Joongwon Kim, Wannan Yang, Kelvin Niu, Hongming Zhang, Yun Zhu, Eryk Helenowski, Ruan Silva, Zhengxing Chen, Srinivasan Iyer, Manzil Zaheer, Daniel Fried, Hannaneh Hajishirzi, Sanjeev Arora, Gabriel Synnaeve, Ruslan Salakhutdinov, Anirudh Goyal<br>
+      COLM, 2026.</li>
+      
+      <li><a href="https://arxiv.org/abs/2602.16819">Hybrid-Gym: Training Coding Agents to Generalize Across Tasks</a><br>
+      Yiqing Xie, Emmy Liu, Gaokai Zhang, Nachiket Kotalwar, Shubham Gandhi, Sathwik Acharya, Xingyao Wang, Carolyn Rose, Graham Neubig, Daniel Fried<br>
+      ICML, 2026.
+          <a href="https://github.com/yiqingxyq/Hybrid-Gym">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2512.18160">Propose, Solve, Verify: Self-Play Through Formal Verification</a><br>
+      Alex Wilf, Pranjal Aggarwal, Bryan Parno, Daniel Fried, Louis-Philippe Morency, Paul Pu Liang, Sean Welleck<br>
+      ICML, 2026.</li>
+      
+      <li><a href="https://arxiv.org/abs/2512.18552">Toward Training Superintelligent Software Agents through Self-Play SWE-RL</a><br>
+      Yuxiang Wei, Zhiqing Sun, Emily McMilin, Jonas Gehring, David Zhang, Gabriel Synnaeve, Daniel Fried, Lingming Zhang, Sida Wang<br>
+      ICML, 2026.</li>
+      
+      <li><a href="https://arxiv.org/abs/2510.24023">Success and Cost Elicit Convention Formation for Efficient Communication</a><br>
+      Saujas Vaduguru, Yilun Hua, Yoav Artzi, Daniel Fried<br>
+      ACL, 2026.</li>
+      
+      <li><a href="https://arxiv.org/abs/2509.25369">Generative Value Conflicts Reveal LLM Priorities</a><br>
+      Andy Liu, Kshitish Ghate, Mona Diab*, Daniel Fried*, Atoosa Kasirzadeh*, Max Kleiman-Weiner*<br>
+      ICLR, 2026.</li>
+      
+      <li><a href="https://arxiv.org/abs/2506.19724">From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking</a><br>
+      Gyeongwon James Kim, Alex Wilf, Louis-Philippe Morency, Daniel Fried<br>
+      ICLR, 2026.
+          <a href="https://github.com/j1mk1m/AutoExperiment">code</a></li>
+      
+      
+      <h3>2025</h3>
+      
+      <li><a href="https://arxiv.org/abs/2502.18449">SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution</a><br>
+      Yuxiang Wei, Olivier Duchenne, Jade Copet, Quentin Carbonneaux, Lingming Zhang, Daniel Fried, Gabriel Synnaeve, Rishabh Singh, and Sida I. Wang<br>
+      NeurIPS, 2025.
+          <a href="https://github.com/facebookresearch/swe-rl">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2510.09390">Identifying and Interactively Refining Ambiguous User Goals for Data Visualization Code Generation</a><br>
+      Mert Inan, Anthony Sicilia, Alex Xie, Saujas Vaduguru, Daniel Fried, and Malihe Alikhani<br>
+      EMNLP, 2025.</li>
+      
+      <li><a href="https://arxiv.org/abs/2506.02355">Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening</a><br>
+      Andre He, Daniel Fried, and Sean Welleck<br>
+      EMNLP, 2025.</li>
+      
+      <li><a href="https://arxiv.org/abs/2504.20294">mrCAD: Multimodal Refinement of Computer-aided Designs</a><br>
+      William P. McCarthy, Saujas Vaduguru, Karl D. D. Willis, Justin Matejka, Judith E. Fan, Daniel Fried, and Yewen Pu<br>
+      Findings of EMNLP, 2025.
+          <a href="https://github.com/AutodeskAILab/mrCAD">dataset</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2504.06821">Inducing Programmatic Skills for Agentic Tasks</a><br>
+      Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried<br>
+      COLM, 2025.
+          <a href="https://github.com/zorazrw/agent-skill-induction">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2503.07358">RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing</a><br>
+      Yiqing Xie, Alex Xie, Divyanshu Sheth, Pengfei Liu, Daniel Fried, Carolyn Rose<br>
+      COLM, 2025.
+          <a href="https://github.com/yiqingxyq/RepoST">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2410.18359">Improving Model Factuality with Fine-grained Critique-based Evaluator</a><br>
+      Yiqing Xie, Wenxuan Zhou, Pradyot Prakash, Di Jin, Yuning Mao, Quintin Fettes, Arya Talebzadeh, Sinong Wang, Han Fang, Carolyn Rose, Daniel Fried, and Hejia Zhang<br>
+      ACL, 2025.</li>
+      
+      <li><a href="https://arxiv.org/abs/2409.07429">Agent Workflow Memory</a><br>
+      Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, and Graham Neubig<br>
+      ICML, 2025.
+          <a href="https://github.com/zorazrw/agent-workflow-memory">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2502.16339">Dynamic Coalition Structure Detection in Natural Language-based Interactions</a><br>
+      Abhishek N. Kulkarni*, Andy Liu*, Jean-Raphael Gaglione, Daniel Fried, and Ufuk Topcu<br>
+      AAMAS, 2025.</li>
+      
+      <li><a href="https://arxiv.org/abs/2501.00912">AutoPresent: Designing Structured Visuals from Scratch</a><br>
+      Jiaxin Ge*, Zora Zhiruo Wang*, Xuhui Zhou, Yi-Hao Peng, Sanjay Subramanian, Qinyue Tan, Maarten Sap, Alane Suhr**, Daniel Fried**, Graham Neubig**, and Trevor Darrell**<br>
+      CVPR, 2025.
+          <a href="https://github.com/para-lost/AutoPresent">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2409.19801">CRScore: Grounding Automated Evaluation of Code Review Comments in Code Claims and Smells</a><br>
+      Atharva Naik, Marcus Alenius, Daniel Fried, and Carolyn Rose<br>
+      NAACL, 2025.</li>
+      
+      <li><a href="https://arxiv.org/abs/2406.14497">CodeRAG-Bench: Can Retrieval Augment Code Generation?</a><br>
+      Zora Zhiruo Wang*, Akari Asai*, Xinyan Velocity Yu, Frank F. Xu, Yiqing Xie, Graham Neubig, and Daniel Fried<br>
+      Findings of NAACL, 2025.
+          <a href="https://code-rag-bench.github.io/">project page</a>, 
+          <a href="https://github.com/code-rag-bench/code-rag-bench">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2406.15877">BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions</a><br>
+      Terry Yue Zhuo et al. (33 authors from the BigCode project)<br>
+      ICLR, 2025.
+          <a href="https://bigcode-bench.github.io/">project page</a>, 
+          <a href="https://github.com/bigcode-project/bigcodebench">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2410.03893">Human-Aligned Chess with a Bit of Search</a><br>
+      Yiming Zhang, Athul Paul Jacob, Vivian Lai, Daniel Fried, and Daphne Ippolito<br>
+      ICLR, 2025.
+          <a href="https://github.com/y0mingzhang/allie">code and models</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2402.15449">Repetition Improves Language Model Embeddings</a><br>
+      Jacob Mitchell Springer, Suhas Kotha, Daniel Fried, Graham Neubig, and Aditi Raghunathan<br>
+      ICLR, 2025.</li>
+      
+      <li><a href="https://arxiv.org/abs/2406.12814">Dissecting Adversarial Robustness of Multimodal LM Agents</a><br>
+      Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, and Aditi Raghunathan<br>
+      ICLR, 2025.
+          <a href="https://chenwu.io/attack-agent/">project page</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2407.01476">Tree Search for Language Model Agents</a><br>
+      Jing Yu Koh, Stephen McAleer, Daniel Fried, and Ruslan Salakhutdinov<br>
+      TMLR, 2025.
+          <a href="https://github.com/kohjingyu/search-agents">code</a>, 
+          <a href="https://jykoh.com/search-agents">project page</a></li>
+      
+      
+      <h3>2024</h3>
+      
+      <li><a href="https://arxiv.org/abs/2311.02253">Comparative Knowledge Distillation</a><br>
+      Alex Tianyi Xu*, Alex Wilf*, Paul Pu Liang, Alexander Obolenskiy, Daniel Fried, and Louis-Philippe Morency<br>
+      WACV, 2024.</li>
+      
+      <li><a href="http://arxiv.org/abs/2407.14044">ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?</a><br>
+      Siddhant Waghjale*, Vishruth Veerendranath*, Zora Zhiruo Wang, and Daniel Fried<br>
+      EMNLP, 2024.
+          <a href="https://github.com/CodeEff/ECCO">code</a>, 
+          <a href="https://ecco-code-eff.github.io/">project page</a></li>
+      
+      <li><a href="http://arxiv.org/abs/2403.15452">What Are Tools Anyway? A Survey from the Language Model Perspective</a><br>
+      Zora Zhiruo Wang, Zhoujun Cheng, Hao Zhu, Daniel Fried, and Graham Neubig<br>
+      COLM, 2024.</li>
+      
+      <li><a href="https://arxiv.org/abs/2405.14173">Human-Agent Cooperation in Games under Incomplete Information through Natual Language Communication</a><br>
+      Shenghui Chen, Daniel Fried, and Ufuk Topcu<br>
+      IJCAI, 2024.</li>
+      
+      <li><a href="https://arxiv.org/abs/2405.20253">Evaluating Large Language Model Biases in Person-Steered Generation</a><br>
+      Andy Liu, Mona T. Diab, and Daniel Fried<br>
+      Findings of ACL, 2024.</li>
+      
+      <li><a href="https://arxiv.org/abs/2405.08760">Is the Pope Catholic? Yes, the Pope is Catholic. Generative Evaluation of Intent Resolution in LLMs</a><br>
+      Akhila Yerukola, Saujas Vaduguru, Daniel Fried, and Maarten Sap<br>
+      ACL, 2024.</li>
+      
+      <li><a href="https://arxiv.org/abs/2401.13649">VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks</a><br>
+      Jing Yu Koh, Robert Lo*, Lawrence Jang*, Vikram Duvvur*, Ming Chong Lim*, Po-Yu Huang*, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, and Daniel Fried<br>
+      ACL, 2024.</li>
+      
+      <li><a href="https://arxiv.org/abs/2401.12869">TroVE: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks</a><br>
+      Zhiruo Wang, Graham Neubig, and Daniel Fried<br>
+      ICML, 2024.
+          <a href="https://github.com/zorazrw/trove">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2407.02499">Amortizing Pragmatic Program Synthesis with Rankings</a><br>
+      Yewen Pu, Saujas Vaduguru, Priyan Vaithilingam, Elena Glassman, and Daniel Fried<br>
+      ICML, 2024.</li>
+      
+      <li><a href="https://arxiv.org/abs/2311.08584">Asking More Informative Questions for Grounded Retrieval</a><br>
+      Sedrick Keh, Justin T. Chiu, and Daniel Fried<br>
+      Findings of NAACL, 2024.</li>
+      
+      <li><a href="https://arxiv.org/abs/2311.05740">Generating Pragmatic Examples to Train Neural Program Synthesizers</a><br>
+      Saujas Vaduguru, Daniel Fried, and Yewen Pu<br>
+      ICLR, 2024.</li>
+      
+      <li><a href="http://arxiv.org/abs/2310.11667">Sotopia: Interactive Evaluation for Social Intelligence in Language Agents</a><br>
+      Xuhui Zhou*, Hao Zhu*, Leena Mathur, Ruohong Zhang, Haofei Yu, Zhengyang Qi, Louis-Philippe Morency, Yonatan Bisk, Daniel Fried, Graham Neubig, and Maarten Sap<br>
+      ICLR, 2024.
+          <a href="https://www.sotopia.world/">project page</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2307.13854">WebArena: A Realistic Web Environment for Building Autonomous Agents</a><br>
+      Shuyan Zhou*, Frank Xu*, Hao Zhu**, Xuhui Zhou**, Robert Lo**, Abishek Sridhar**, Xianyi Cheng, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham Neubig<br>
+      ICLR, 2024.
+          <a href="https://webarena.dev/">project page</a></li>
+      
+      
+      <h3>2023</h3>
+      
+      <li><a href="https://arxiv.org/abs/2310.14687">API-Assisted Code Generation for Question Answering on Varied Table Structures</a><br>
+      Yihan Cao*, Shuyi Chen*, Ryan Liu*, Zhiruo Wang, and Daniel Fried<br>
+      EMNLP, 2023.</li>
+      
+      <li><a href="https://arxiv.org/abs/2310.17140">Symbolic Planning and Code Generation for Grounded Dialogue</a><br>
+      Justin Chiu, Wenting Zhao, Derek Chen, Saujas Vaduguru, Alexander Rush, and Daniel Fried<br>
+      EMNLP, 2023.</li>
+      
+      <li><a href="https://arxiv.org/abs/2211.08371">Pragmatics in Language Grounding: Phenomena, Tasks, and Modeling Approaches</a><br>
+      Daniel Fried*, Nicholas Tomlin*, Jennifer Hu, Roma Patel, and Aida Nematzadeh<br>
+      Findings of EMNLP, 2023.</li>
+      
+      <li><a href="https://arxiv.org/abs/2212.10481">Execution-Based Evaluation for Open-Domain Code Generation</a><br>
+      Zhiruo Wang, Shuyan Zhou, Daniel Fried, and Graham Neubig<br>
+      Findings of EMNLP, 2023.
+          <a href="https://github.com/zorazrw/odex">dataset</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2311.00317">Data Augmentation for Code Translation with Comparable Corpora and Multiple References</a><br>
+      Yiqing Xie, Atharva Naik, Daniel Fried, Carolyn Rose<br>
+      Findings of EMNLP, 2023.</li>
+      
+      <li><a href="https://arxiv.org/abs/2211.12615">AutoReply: Detecting Nonsense in Dialogue Introspectively with Discriminative Replies</a><br>
+      Weiyan Shi, Emily Dinan, Adi Renduchintala, Daniel Fried, Athul Paul Jacob, Zhou Yu, and Mike Lewis<br>
+      Findings of EMNLP, 2023.</li>
+      
+      <li><a href="https://arxiv.org/abs/2305.17216">Generating Images with Multimodal Language Models</a><br>
+      Jing Yu Koh, Daniel Fried, and Ruslan Salakhutdinov<br>
+      NeurIPS, 2023.
+          <a href="https://jykoh.com/gill">project page</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2306.08818">Pragmatic Inference with a CLIP Listener for Contrastive Captioning</a><br>
+      Jiefu Ou, Benno Krojer, and Daniel Fried<br>
+      Findings of ACL, 2023.</li>
+      
+      <li><a href="https://arxiv.org/abs/2210.15097">Contrastive Decoding: Open-ended Text Generation as Optimization</a><br>
+      Xiang Lisa Li, Ari Holtzman, Daniel Fried, Percy Liang, Jason Eisner, Tatsunori Hashimoto, Luke Zettlemoyer, and Mike Lewis<br>
+      ACL, 2023.
+          <a href="https://github.com/XiangLi1999/ContrastiveDecoding">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2301.13823">Grounding Language Models to Images for Multimodal Inputs and Outputs</a><br>
+      Jing Yu Koh, Ruslan Salakhutdinov, and Daniel Fried<br>
+      ICML, 2023.
+          <a href="https://jykoh.com/fromage">project page</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2211.16490">Coder Reviewer Reranking for Code Generation</a><br>
+      Tianyi Zhang, Tao Yu, Tatsunori B. Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, and Sida I. Wang<br>
+      ICML, 2023.
+          <a href="https://github.com/facebookresearch/coder_reviewer_reranking">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2211.11501">DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation</a><br>
+      Yuhang Lai*, Chengxi Li*, Yiming Wang*, Tianyi Zhang*, Ruiqi Zhong*, Luke Zettlemoyer, Scott Wen-tau Yih, Daniel Fried, Sida I. Wang, and Tao Yu<br>
+      ICML, 2023.
+          <a href="https://ds1000-code-gen.github.io/">site</a>, 
+          <a href="https://github.com/HKUNLP/DS-1000">code</a>, 
+          <a href="https://github.com/HKUNLP/DS-1000/tree/main/ds1000_example">data</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2204.05999">InCoder: A Generative Model for Code Infilling and Synthesis</a><br>
+      Daniel Fried*, Armen Aghajanyan*, Jessy Lin, Sida I. Wang, Eric Wallace, Freda Shi, Ruiqi Zhong, Wen-tau Yih, Luke Zettlemoyer, and Mike Lewis<br>
+      ICLR, 2023.
+          <a href="https://sites.google.com/view/incoder-code-models/home">site</a>, 
+          <a href="https://github.com/dpfried/incoder">code and models</a>, 
+          <a href="https://huggingface.co/spaces/facebook/incoder-demo">demo</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2305.06161">StarCoder: May the Source Be With You!</a><br>
+      Raymond Li et al. (68 authors from the BigCode Project)<br>
+      TMLR, 2023.
+          <a href="https://huggingface.co/bigcode">project page</a>, 
+          <a href="https://huggingface.co/bigcode/starcoder">models</a>, 
+          <a href="https://huggingface.co/spaces/bigcode/bigcode-editor">demo</a></li>
+      
+      <li><a href="SantaCoder: Don't Reach for the Stars">SantaCoder: Don't Reach for the Stars</a><br>
+      Loubna Ben Allal*, Raymond Li*, Denis Kocetkov*, et al. (41 authors from the BigCode Project)<br>
+      Deep Learning for Code Workshop, 2023.
+          <a href="https://huggingface.co/bigcode/santacoder">models</a>
+        <strong>Best Paper Award</strong>
+      </li>
+      
+      
+      <h3>2022</h3>
+      
+      <li><a href="https://arxiv.org/abs/2204.11454">Natural Language to Code Translation with Execution</a><br>
+      Freda Shi, Daniel Fried, Marjan Ghazvininejad, Luke Zettlemoyer, and Sida I. Wang<br>
+      EMNLP, 2022.
+          <a href="https://github.com/facebookresearch/mbr-exec">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2210.13312">Neural Theory-of-Mind? On the Limits of Social Intelligence in Large LMs</a><br>
+      Maarten Sap, Ronan Le Bras, Daniel Fried, and Yejin Choi <br>
+      EMNLP, 2022.</li>
+      
+      <li><a href="https://arxiv.org/abs/2211.15521">G3: Geolocation via Guidebook Grounding</a><br>
+      Grace Luo*, Giscard Biamby*, Trevor Darrell, Daniel Fried, and Anna Rohrbach<br>
+      Findings of EMNLP, 2022.
+          <a href="https://github.com/g-luo/geolocation_via_guidebook_grounding">code</a></li>
+      
+      <li><a href="https://arxiv.org/abs/2204.02515">Inferring Rewards from Language in Context</a><br>
+      Jessy Lin, Daniel Fried, Dan Klein, and Anca Dragan<br>
+      ACL, 2022.
+          <a href="https://github.com/jlin816/rewards-from-language">code and data</a></li>
+      
+      <li><a href="https://www.science.org/doi/10.1126/science.ade9097">Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning</a><br>
+      FAIR Diplomacy Team<br>
+      Science, 2022.
+          <a href="https://ai.facebook.com/research/cicero/diplomacy/">site</a>, 
+          <a href="https://github.com/facebookresearch/diplomacy_cicero">code</a>, 
+          <a href="https://ai.facebook.com/blog/cicero-ai-negotiates-persuades-and-cooperates-with-people/">blog</a>, 
+          <a href="https://www.science.org/content/article/ai-learns-art-diplomacy-game">article</a></li>
+      
+      <li><a href="https://openreview.net/pdf?id=PkHSHZLig5H">Modeling Perspective-Dependent Ambiguity in Grounded Collaborative Dialogue</a><br>
+      Justin Chiu, Wenting Zhao, Alexander M. Rush, and Daniel Fried<br>
+      Wordplay: When Language Meets Games Workshop, 2022.</li>
+      
+      
+    </ul>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    LAIR &middot; Language Technologies Institute, Carnegie Mellon University
+  </div>
+</footer>
+
+</body>
+</html>

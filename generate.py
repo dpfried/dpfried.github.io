@@ -149,6 +149,8 @@ def generate_html(publications_data, template_file='paper-template.html', group_
 
         # remove {} from the title
         paper['title'] = paper['title'].replace('{', '').replace('}', '')
+        if 'awards' in paper:
+            paper['awards'] = paper['awards'].replace('\\%', '%')
         return paper
 
     for key in publications_data.keys():
@@ -287,7 +289,91 @@ def generate_coa_collaborators(publications_data, years_back=4, affiliations_pat
     out = output.getvalue().strip().split('\n')
     return '\n'.join(out)
 
-def update_affiliations(publications_data, affiliations_path='yaml/affiliations.yaml', 
+def generate_group(publications_data, group_data_file='group/data.yaml',
+                   template_file='group/group-template.html'):
+    import copy
+    with open(group_data_file) as f:
+        group_data = yaml.safe_load(f)
+
+    group_start_year = group_data['group'].get('founded', 2022)
+    pubs = copy.deepcopy(publications_data)
+
+    def process_paper(paper):
+        short_venue = re.search(r'\((.*)\)', paper['venue'])
+        if short_venue is not None:
+            paper['venue'] = short_venue.group(1)
+        paper['title'] = paper['title'].replace('{', '').replace('}', '').strip()
+        if 'awards' in paper:
+            paper['awards'] = paper['awards'].replace('\\%', '%')
+        # the group page lives in a subdirectory, so site-relative resource
+        # links (talks/..., papers/...) need to go up one level
+        if 'resources' in paper:
+            paper['resources'] = [
+                {k: (v if re.match(r'^(https?:)?//', v) else '../' + v) for k, v in r.items()}
+                for r in paper['resources']
+            ]
+        return paper
+
+    for key in pubs.keys():
+        pubs[key] = [process_paper(p) for p in pubs[key]]
+
+    # research areas reference papers by title; resolve them against the
+    # publications list so url/venue/year stay in one place
+    def normalize(title):
+        return re.sub(r'\s+', ' ', title.replace('{', '').replace('}', '')).strip().lower()
+
+    papers_by_title = {}
+    for key in pubs:
+        for paper in pubs[key]:
+            papers_by_title[normalize(paper['title'])] = paper
+
+    research = []
+    for area in group_data.get('research', []):
+        area = dict(area)
+        resolved = []
+        for title in area.get('papers', []):
+            if normalize(title) not in papers_by_title:
+                raise KeyError(f"research paper not found in {group_data_file}: {title!r}")
+            resolved.append(papers_by_title[normalize(title)])
+        area['papers'] = resolved
+        research.append(area)
+
+    # only papers from the group era
+    papers_by_year = {'Preprints': [
+        p for p in pubs.get('preprints', []) if p['year'] >= group_start_year
+    ]}
+    non_preprints = []
+    for key in ['conference-papers', 'journal-papers', 'theses', 'workshop-papers']:
+        if key in pubs:
+            non_preprints += [p for p in pubs[key] if p['year'] >= group_start_year]
+
+    for paper in sorted(non_preprints, key=lambda p: p['year'], reverse=True):
+        papers_by_year.setdefault(paper['year'], []).append(paper)
+
+    from jinja2 import Environment, FileSystemLoader
+    env = Environment(loader=FileSystemLoader('.'))
+    template = env.get_template(template_file)
+
+    # a tagline may mark acronym letters with brackets, e.g. "[G]rounding and [R]easoning";
+    # if it does, render it as HTML with those letters highlighted
+    group = dict(group_data['group'])
+    tagline = group.get('tagline', '')
+    if '[' in tagline:
+        from html import escape
+        group['tagline_html'] = re.sub(
+            r'\[(.)\]', r'<span class="initial">\1</span>', escape(tagline, quote=False)
+            .replace('&amp;', '&'))
+
+    return template.render(
+        group=group,
+        people=group_data['people'],
+        news=group_data['news'],
+        research=research,
+        join=group_data.get('join', []),
+        papers_by_year=papers_by_year,
+    )
+
+def update_affiliations(publications_data, affiliations_path='yaml/affiliations.yaml',
                        default_affiliation='Carnegie Mellon University', years_back=4):
     """
     Update affiliations YAML file with missing collaborators.
@@ -373,6 +459,7 @@ if __name__ == "__main__":
         'bib': generate_bib,
         'bib_no_underline': lambda data: generate_bib(data, transform_name=False),
         'html': generate_html,
+        'group': generate_group,
         'r_and_p': generate_r_and_p,
         'collaborators': generate_collaborators,
         'coa_collaborators': lambda data: generate_coa_collaborators(
