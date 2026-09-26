@@ -47,6 +47,13 @@ journal-papers:
       - "slides [pdf]": "talks/fjhsc_higher_order_qa_slides.pdf"
 
 conference-papers:
+  - title: "Reasoning with Latent Tokens in Diffusion Language Models"
+    url: https://arxiv.org/abs/2602.03769
+    authors: Andre He, Sean Welleck*, Daniel Fried*
+    venue: NeurIPS
+    year: 2026
+    awards: 'Spotlight (top 1\% of submissions)'
+
   - title: "Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks"
     url: https://arxiv.org/abs/2604.24964
     authors: Lawrence Jang*, Jing Yu Koh*, Daniel Fried, Ruslan Salakhutdinov
@@ -675,12 +682,6 @@ preprints:
     url: https://zorazrw.github.io/files/position-haicode.pdf
     authors: Zora Zhiruo Wang*, John Yang*, Kilian Lieret*, Alexa Tartaglini, Valerie Chen, Yuxiang Wei, Zijian Wang, Lingming Zhang, Karthik Narasimhan, Ludwig Schmidt, Graham Neubig, Daniel Fried, Diyi Yang
     venue: preprint
-    year: 2026
-
-  - title: "Reasoning with Latent Tokens in Diffusion Language Models"
-    url: https://arxiv.org/abs/2602.03769
-    authors: Andre He, Sean Welleck*, Daniel Fried*
-    venue: arXiv
     year: 2026
 
   - title: "Measuring Fine-Grained Negotiation Tactics of Humans and LLMs in Diplomacy"
