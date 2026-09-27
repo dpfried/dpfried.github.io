@@ -3,12 +3,7 @@ group:
   tagline: "Language Agents, Interaction, Reasoning"
   affiliation: "Language Technologies Institute, Carnegie Mellon University"
   description: >
-    Our group works on language, reasoning, and interaction for AI systems that
-    act in the world — writing code, navigating computers, and collaborating with
-    people. Our research spans three connected threads: agents that reason, search,
-    and learn from experience; pragmatic interaction between models and people;
-    and multi-agent dynamics such as negotiation, value alignment, and coalition
-    formation.
+    Our group works on enabling people and AI systems to communicate and collaborate on real-world tasks: writing code, using computers and the web, and solving reasoning problems. We develop methods that allow agents to learn from interactions with people, environments, and each other; communicate effectively and efficiently; and plan and reason about the world.
   group_photo: "../images/group-2026.jpg"
   pi:
     name: "Daniel Fried"
@@ -105,7 +100,7 @@ research:
       - "mrCAD: Multimodal Refinement of Computer-aided Designs"
       - "Pragmatics in Language Grounding: Phenomena, Tasks, and Modeling Approaches"
   - title: "Multi-agent dynamics"
-    image: "../images/diplomacy.png"
+    image: "../images/coalition.png"
     text: "How do language models negotiate, form coalitions, and handle conflicting values, with each other and with people?"
     papers:
       - "Generative Value Conflicts Reveal LLM Priorities"
@@ -113,7 +108,7 @@ research:
       - "Evaluating Large Language Model Biases in Persona-Steered Generation"
       - "Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning"
   - title: "Reasoning"
-    image: "../images/latent-tokens.png"
+    image: "../images/grpo-unlikeliness.png"
     text: "Training and inference methods for reasoning in language models."
     papers:
       - "Reasoning with Latent Tokens in Diffusion Language Models"
@@ -140,6 +135,6 @@ news:
   - date: "February 2024"
     text: '<a href="https://jykoh.com/">JY</a> awarded the <b><a href="https://www.janestreet.com/join-jane-street/programs-and-events/graduate-research-fellowship/">Jane Street Graduate Research Fellowship</a></b>.'
   - date: "September 2023"
-    text: 'Received an <a href="http://www.okawa-foundation.or.jp/en/activities/research_grant/list.html">Okawa Research Grant</a> for our work on pragmatics and language interfaces.'
+    text: 'Received an <a href="http://www.okawa-foundation.or.jp/en/activities/research_grant/list.html">Okawa Research Grant</a> for our work on <i>Pragmatic Language Interfaces</i>'
   - date: "August 2022"
     text: "Group founded! Daniel joins CMU."
