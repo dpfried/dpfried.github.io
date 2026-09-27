@@ -266,7 +266,7 @@ conference-papers:
     venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
     year: 2024
 
-  - title: "Evaluating Large Language Model Biases in Person-Steered Generation"
+  - title: "Evaluating Large Language Model Biases in Persona-Steered Generation"
     url: "https://arxiv.org/abs/2405.20253"
     authors: "Andy Liu, Mona T. Diab, and Daniel Fried"
     venue: Findings of ACL
