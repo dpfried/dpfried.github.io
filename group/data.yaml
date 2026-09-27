@@ -87,6 +87,7 @@ research:
     text: "Environments and training methods for coding agents that generalize across tasks and repositories."
     papers:
       - "Hybrid-Gym: Training Coding Agents to Generalize Across Tasks"
+      - "MetaLint: Generalizable Idiomatic Code Quality Analysis through Instruction-Following and Easy-to-Hard Generalization"
       - "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution"
       - "RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing"
       - "TroVE: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks"
