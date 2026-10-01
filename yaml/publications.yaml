@@ -613,7 +613,7 @@ conference-papers:
 
 workshop-papers:
   - title: "SantaCoder: Don't Reach for the Stars"
-    url: "SantaCoder: Don't Reach for the Stars"
+    url: https://arxiv.org/abs/2301.03988
     authors: "Loubna Ben Allal*, Raymond Li*, Denis Kocetkov*, et al. (41 authors from the BigCode Project)"
     venue: "Deep Learning for Code Workshop"
     year:  2023
