@@ -1,8 +1,8 @@
 group:
   name: "LARC"
   logo:
-    light: "../images/larc-logo-light.png"
-    dark: "../images/larc-logo-dark.png"
+    light: "../images/larc-windup-light.png"
+    dark: "../images/larc-windup-dark.png"
   tagline: "Language Agents, Reasoning, and Communication"
   affiliation: "Language Technologies Institute, Carnegie Mellon University"
   description: >
