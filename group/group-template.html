@@ -13,7 +13,7 @@
 
 <header class="site-header">
   <div class="container">
-    <h1>{{ group.name }}</h1>
+    <h1>{% if group.logo %}<img class="logo logo-light" src="{{ group.logo.light }}" alt="{{ group.name }}"><img class="logo logo-dark" src="{{ group.logo.dark }}" alt="{{ group.name }}">{% else %}{{ group.name }}{% endif %}</h1>
     {% if group.tagline %}<p class="tagline">{{ group.tagline }}</p>{% endif %}
     <p class="affiliation">{{ group.affiliation }}</p>
   </div>
@@ -32,12 +32,12 @@
 
 <section id="about">
   <div class="container">
-    <div class="about-photo">
-      <img src="{{ group.group_photo }}" alt="Group photo">
-    </div>
     <div class="about-text">
       <p>{{ group.description }}</p>
       <p><strong>PI:</strong> <a href="{{ group.pi.url }}">{{ group.pi.name }}</a>{% if group.pi.email %} &middot; <a href="mailto:{{ group.pi.email }}">{{ group.pi.email }}</a> (<a href="{{ group.pi.url }}/prospective.html">note for prospective students and postdocs</a>){% endif %}</p>
+    </div>
+    <div class="about-photo">
+      <img src="{{ group.group_photo }}" alt="Group photo">
     </div>
   </div>
 </section>

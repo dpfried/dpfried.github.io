@@ -93,6 +93,25 @@ img {
   margin-bottom: 0.3rem;
 }
 
+.site-header .logo {
+  display: block;
+  height: 4.2rem;
+  width: auto;
+  max-width: 100%;
+}
+
+.site-header .logo-dark {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .site-header .logo-light { display: none; }
+  :root:not([data-theme="light"]) .site-header .logo-dark { display: block; }
+}
+
+:root[data-theme="dark"] .site-header .logo-light { display: none; }
+:root[data-theme="dark"] .site-header .logo-dark { display: block; }
+
 .site-header .tagline {
   font-size: 1.15rem;
   margin-bottom: 0.2rem;
@@ -157,6 +176,14 @@ section h3:first-child {
 /* === About === */
 .about-photo {
   margin-bottom: 1.6rem;
+}
+
+.about-text + .about-photo {
+  margin-top: 0.8rem;
+}
+
+.about-photo:last-child {
+  margin-bottom: 0;
 }
 
 .about-photo img {

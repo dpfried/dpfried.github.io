@@ -653,6 +653,14 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "CUA-Speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents"
+    url: https://cuaspeedrun.com
+    authors: Pranjal Aggarwal*, Lawrence Keunho Jang*, Sean Welleck, Daniel Fried, Ruslan Salakhutdinov, Jing Yu Koh*
+    venue: preprint
+    year: 2026
+    resources:
+      - "code": https://github.com/Pranjal2041/cua-speed-run
+
   - title: "Efficient Test-Time Adaptation through Human-AI Interaction"
     url: https://arxiv.org/abs/2609.04141
     authors: Zora Zhiruo Wang, Apurva Gandhi, Rulin Shao, Aspen Chen, Jonas Mueller, Zhiqi Liang, Jett Chen, Michael Ryan, Qianou Ma, Luxi He, Zhoujun Cheng, Andre He, Seungone Kim, Jiayi Geng, Mingqian Zheng, Weiwei Sun, Zheyuan Zhang, Xinran Zhao, Yike Wang, Abe Hou, Liwei Jiang, Pang Wei Koh, Diyi Yang, Graham Neubig, Daniel Fried
