@@ -15,9 +15,9 @@
     I'm an assistant professor at the <a href="https://www.lti.cs.cmu.edu/">Language Technologies Institute</a> in the <a href="https://www.cs.cmu.edu/">School of Computer Science</a> at Carnegie Mellon University, working on natural language processing.
     </p>
     <p>
-    I'm interested in how people and AI agents can communicate and collaborate.
-    My group, <a href="https://cmu-larc.github.io/"><b>LARC</b></a> (Language Agents, Reasoning, and Communication), builds agents for writing code, using computers and the web, and reasoning.
-    A recurring theme in my work is <i>pragmatics</i>: language as action taken in context to affect a listener (see our <a href="https://arxiv.org/abs/2211.08371">survey and position paper</a>).
+    I'm interested in how people and AI agents communicate and collaborate.
+    My group, <a href="group/"><b>LARC</b></a> (Language Agents, Reasoning, and Communication), studies language model agents for tasks including coding and computer use, human-AI interaction, multi-agent dynamics and values, and reasoning.
+    A recurring theme is <i>pragmatics</i>: how language works in context (see our <a href="https://arxiv.org/abs/2211.08371">survey</a>).
     </p>
     <p>
     Previously, I was a postdoc at FAIR Seattle and the University of Washington. I completed a PhD at UC Berkeley in the <a href="http://nlp.cs.berkeley.edu/">NLP Group</a> and the <a href="http://bair.berkeley.edu/">Berkeley AI Research Lab</a>, an M.Phil. at the <a href="https://www.cl.cam.ac.uk">Cambridge Computer Laboratory</a> and a B.S. at the <a href="http://www.arizona.edu/">University of Arizona</a>. <!--I've also interned with <a href="https://deepmind.com">DeepMind</a>, <a href="http://hanover.azurewebsites.net/">Microsoft Research</a>, <a href="http://www.naist.jp/en/">NAIST</a>, and <a href="https://www.rwth-aachen.de/">RWTH Aachen</a>.-->
@@ -32,9 +32,12 @@
     </ul>
     <p>
     <b>Links:</b>
+    <a href="group/">Group</a> &bull;
+    <a href="bio.html">Bio</a> &bull;
     <a href="cv/Fried-CV-web.pdf">CV</a> &bull;  
     <a href="https://scholar.google.com/citations?hl=en&user=sJDqACEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> &bull;
-    <a href="https://twitter.com/dan_fried">Twitter</a>
+    <a href="https://twitter.com/dan_fried">Twitter</a> &bull;
+    <a href="statements/Fried-career-goals-2024.pdf">Research Statement (2024)</a>
     </p>
 
   </div>
@@ -47,31 +50,17 @@
 <hr>
 <div class="navigation_list">
   <h2>
-    <a class="external" href="https://cmu-larc.github.io/">Group&nbsp;&#8599;</a> &bull;
-    <a href="#research_place">Research Topics</a> &bull;
     <a href="#news_place">News</a> &bull;
+    <a href="group/">Group</a> &bull;
     <a href="#papers_place">Papers</a> &bull;
     <a href="#talks_place">Talks</a> &bull;
-    <a href="#teaching_place">Teaching</a> 
+    <a href="#teaching_place">Teaching</a>
     <!-- &bull;<a href="#contact">Contact</a> -->
   </h2>
 </div>
 
 <div id="places">
 <hr>
-
-<div id="research_place">
-  <h2>Research Highlights</h2>
-  <p>
-    Our group works on language model agents, code generation and software engineering, pragmatics and human-AI interaction, multi-agent dynamics, and reasoning.
-    See the <a href="https://cmu-larc.github.io/#research">research overview on the group site</a> for each direction and representative papers.
-  </p>
-  <p>
-    <a href="https://docs.google.com/presentation/d/1cjZKTngjcjevW73br4MiXCmdyUqjNElvOS9HuDDZA6E/">Overview Slides (2023)</a> &bull;
-    <a href="statements/Fried-career-goals-2024.pdf">Research Statement (2024)</a>
-  </p>
-</div>
-
 
 <div id="news_place">
 <h2>News</h2>
@@ -204,7 +193,7 @@
 
     var tabIndex = 0;
 
-    var sections = ["research", "news", "papers", "talks", "teaching"];
+    var sections = ["news", "papers", "talks", "teaching"];
 
     for(i=0; i<sections.length; i++) {
         $j("#"+sections[i]+"_place").hide();
@@ -215,14 +204,14 @@
 
 
     ChooseList = function(node, changeCallback, place) {
-        loadIndex = sections.indexOf(place) == -1 ? 0 : sections.indexOf(place);
+        loadIndex = sections.indexOf(place) == -1 ? sections.indexOf("news") : sections.indexOf(place);
 
         this.container = $j(node);
         this.selectedNode = null;
         this.currentIndex = null;
         this.onChange = changeCallback;
-        // links marked .external (e.g. the group site) navigate normally instead of switching tabs
-        this.elements = this.container.find('a').not('.external');
+        // Only section links switch tabs; page links navigate normally.
+        this.elements = this.container.find('a[href^="#"]').not('.external');
         this.elements.removeAttr('target');
         this.elements.on('click', $j.proxy(this.onClickHandler, this));
         this.selectByIndex(loadIndex);

@@ -103,10 +103,11 @@ research:
       - "Generating Pragmatic Examples to Train Neural Program Synthesizers"
       - "mrCAD: Multimodal Refinement of Computer-aided Designs"
       - "Pragmatics in Language Grounding: Phenomena, Tasks, and Modeling Approaches"
-  - title: "Multi-agent dynamics"
+  - title: "Multi-agent dynamics and values"
     image: "../images/alignment-generalization.png"
-    text: "How do language models negotiate, form coalitions, and handle conflicting values, with each other and with people?"
+    text: "How do language models negotiate, form coalitions, and handle conflicting values? How does alignment training generalize across values and contexts?"
     papers:
+      - "Predicting Alignment Generalization with Value Representations"
       - "Generative Value Conflicts Reveal LLM Priorities"
       - "Dynamic Coalition Structure Detection in Natural Language-based Interactions"
       - "Evaluating Large Language Model Biases in Persona-Steered Generation"
