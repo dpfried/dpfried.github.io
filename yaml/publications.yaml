@@ -653,6 +653,12 @@ workshop-papers:
       - "poster [pdf]": "talks/fd_vector_semantics_poster.pdf"
 
 preprints:
+  - title: "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science"
+    url: https://arxiv.org/abs/2610.33245
+    authors: "Atharva Naik, Vivek Chari, Pol Llado, Daniel Fried, Carolyn Rosé, Benjamin Van Durme, Sam Thomson, and Justin Svegliato"
+    venue: arXiv
+    year: 2026
+
   - title: "Predicting Alignment Generalization with Value Representations"
     url: https://arxiv.org/abs/2610.12410
     authors: "Andy Liu, Mehar Bhatia, Karolina Stanczak, Mona Diab, Vered Shwartz, and Daniel Fried"
